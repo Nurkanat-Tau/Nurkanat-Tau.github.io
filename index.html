@@ -228,6 +228,19 @@ blockquote .mark{font-size:3rem;color:var(--gold);line-height:0;display:block;he
 .price-card::before{content:"";position:absolute;top:0;left:0;width:100%;height:3px;
   background:linear-gradient(90deg,var(--gold-dp),var(--gold-lt),var(--gold-dp))}
 .price-amt{font-family:var(--serif);font-size:clamp(3.4rem,7vw,4.8rem);color:var(--gold-lt);line-height:1}
+/* ---- offer strip ---- */
+.offer-strip{background:var(--ink-2);border-top:1px solid var(--hair-dark);border-bottom:1px solid var(--hair-dark);
+  padding:26px 0;position:relative;z-index:3}
+.offer-inner{display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap}
+.offer-facts{display:grid;grid-template-columns:repeat(4,auto);gap:clamp(20px,3.5vw,52px);flex:1}
+.offer-facts b{display:block;font-family:var(--serif);font-size:clamp(1.25rem,2.2vw,1.7rem);color:var(--gold-lt);
+  font-weight:600;line-height:1.15;letter-spacing:.01em}
+.offer-facts span{display:block;font-size:.76rem;color:var(--on-dark-mut);margin-top:3px;letter-spacing:.02em}
+.offer-cta{flex:0 0 auto;white-space:nowrap}
+@media(max-width:820px){
+  .offer-facts{grid-template-columns:repeat(2,1fr);gap:18px 20px;width:100%}
+  .offer-cta{width:100%;justify-content:center}
+}
 /* ---- levels ---- */
 .lv-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:clamp(20px,2.6vw,32px);margin-top:3rem}
 .lv-card{border:1px solid var(--hair-light);border-radius:4px;padding:28px 26px;background:#fff}
@@ -424,6 +437,19 @@ footer{background:var(--ink-2);border-top:1px solid var(--hair-dark);padding:54p
   </div>
 </section>
 
+<!-- OFFER STRIP -->
+<section class="offer-strip" id="offer">
+  <div class="wrap offer-inner">
+    <div class="offer-facts">
+      <div><b data-i="os.1v">1 сентября</b><span data-i="os.1l">старт потока</span></div>
+      <div><b data-i="os.2v">18 недель</b><span data-i="os.2l">до нового уровня</span></div>
+      <div><b data-i="os.3v">5 человек</b><span data-i="os.3l">максимум в группе</span></div>
+      <div><b data-i="os.4v">35 000 ₸</b><span data-i="os.4l">в месяц · вместо 50 000</span></div>
+    </div>
+    <a class="btn btn--gold offer-cta" href="test.html" data-i="os.cta">Узнать свой уровень</a>
+  </div>
+</section>
+
 <!-- VIDEO -->
 <section class="sec sec--ink2" id="video">
   <div class="wrap video-grid">
@@ -572,6 +598,29 @@ footer{background:var(--ink-2);border-top:1px solid var(--hair-dark);padding:54p
   </div>
 </section>
 
+<!-- INCLUDED + PROGRAM -->
+<section class="sec sec--light" id="included">
+  <div class="wrap">
+    <div style="text-align:center;max-width:680px;margin:0 auto">
+      <span class="eyebrow" style="justify-content:center" data-i="inc.eyebrow">Что входит в курс</span>
+      <h2 class="h-sec reveal" style="max-width:none;margin:0 auto" data-i="inc.title">18 недель, 54 урока, один уровень вверх.</h2>
+    </div>
+    <div class="inc-grid reveal d1">
+      <div class="inc-item"><b>54</b><span data-i="inc.1">урока за курс — по 3 в неделю, каждый по 60 минут</span></div>
+      <div class="inc-item"><b>5</b><span data-i="inc.2">человек в группе максимум — говорит каждый, на каждом уроке</span></div>
+      <div class="inc-item"><b>WhatsApp</b><span data-i="inc.3">группа уровня: материалы, домашние задания, голосовые разборы</span></div>
+      <div class="inc-item"><b>1×</b><span data-i="inc.4">в день проверяю домашние задания — с личной обратной связью</span></div>
+      <div class="inc-item"><b>0 ₸</b><span data-i="inc.5">за все материалы: конспекты, задания и записи остаются у вас</span></div>
+      <div class="inc-item"><b>🎓</b><span data-i="inc.6">сертификат об окончании курса с указанием уровня</span></div>
+    </div>
+    <div class="prog-grid reveal d1">
+      <div class="prog-item"><span class="prog-w" data-i="prog.w1">Недели 1–6</span><p data-i="prog.d1">Снимаем страх говорить. База грамматики уровня, первые уверенные диалоги, произношение.</p></div>
+      <div class="prog-item"><span class="prog-w" data-i="prog.w2">Недели 7–12</span><p data-i="prog.d2">Расширяем словарный запас и времена. Говорим дольше, о более сложных вещах, с меньшим количеством пауз.</p></div>
+      <div class="prog-item"><span class="prog-w" data-i="prog.w3">Недели 13–18</span><p data-i="prog.d3">Беглость и свобода: спонтанная речь, обсуждения, разбор реальных ситуаций — работа, учёба, поездки.</p></div>
+    </div>
+  </div>
+</section>
+
 <!-- ABOUT VIDEO -->
 <section class="sec sec--ink2" id="meet">
   <div class="wrap video-grid">
@@ -609,29 +658,6 @@ footer{background:var(--ink-2);border-top:1px solid var(--hair-dark);padding:54p
         <p data-i="solo.desc">Если нужен только ваш темп и ваши задачи — например, подготовка к IELTS или НИШ. График согласуем лично.</p>
         <span class="solo-price" data-i="solo.price">8 000 ₸ за урок 60 минут</span>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- INCLUDED + PROGRAM -->
-<section class="sec sec--light" id="included">
-  <div class="wrap">
-    <div style="text-align:center;max-width:680px;margin:0 auto">
-      <span class="eyebrow" style="justify-content:center" data-i="inc.eyebrow">Что входит в курс</span>
-      <h2 class="h-sec reveal" style="max-width:none;margin:0 auto" data-i="inc.title">18 недель, 54 урока, один уровень вверх.</h2>
-    </div>
-    <div class="inc-grid reveal d1">
-      <div class="inc-item"><b>54</b><span data-i="inc.1">урока за курс — по 3 в неделю, каждый по 60 минут</span></div>
-      <div class="inc-item"><b>5</b><span data-i="inc.2">человек в группе максимум — говорит каждый, на каждом уроке</span></div>
-      <div class="inc-item"><b>WhatsApp</b><span data-i="inc.3">группа уровня: материалы, домашние задания, голосовые разборы</span></div>
-      <div class="inc-item"><b>1×</b><span data-i="inc.4">в день проверяю домашние задания — с личной обратной связью</span></div>
-      <div class="inc-item"><b>0 ₸</b><span data-i="inc.5">за все материалы: конспекты, задания и записи остаются у вас</span></div>
-      <div class="inc-item"><b>🎓</b><span data-i="inc.6">сертификат об окончании курса с указанием уровня</span></div>
-    </div>
-    <div class="prog-grid reveal d1">
-      <div class="prog-item"><span class="prog-w" data-i="prog.w1">Недели 1–6</span><p data-i="prog.d1">Снимаем страх говорить. База грамматики уровня, первые уверенные диалоги, произношение.</p></div>
-      <div class="prog-item"><span class="prog-w" data-i="prog.w2">Недели 7–12</span><p data-i="prog.d2">Расширяем словарный запас и времена. Говорим дольше, о более сложных вещах, с меньшим количеством пауз.</p></div>
-      <div class="prog-item"><span class="prog-w" data-i="prog.w3">Недели 13–18</span><p data-i="prog.d3">Беглость и свобода: спонтанная речь, обсуждения, разбор реальных ситуаций — работа, учёба, поездки.</p></div>
     </div>
   </div>
 </section>
@@ -791,6 +817,9 @@ const I18N={
   "video2.sub":"Два месяца вы будете заниматься с одним человеком — логично сначала посмотреть, кто это. Здесь я рассказываю о себе, о курсе и о том, как проходят уроки.",
   "video2.cap":"Видео о себе · 1 минута 33 секунды",
   "nav.levels":"Уровни","nav.schedule":"Расписание","nav.course":"Курс","nav.faq":"Вопросы",
+  "os.1v":"1 сентября","os.1l":"старт потока","os.2v":"18 недель","os.2l":"до нового уровня",
+  "os.3v":"5 человек","os.3l":"максимум в группе","os.4v":"35 000 ₸","os.4l":"в месяц · вместо 50 000",
+  "os.cta":"Узнать свой уровень",
   "lv.eyebrow":"Три уровня","lv.title":"Найдите свой уровень — и группу к нему.",
   "lv.sub":"Каждый уровень — отдельный 18-недельный интенсив. За курс вы проходите один полный уровень: с того места, где стоите сейчас, на следующий.",
   "lv1.for":"Для тех, кто знает отдельные слова, но не может составить фразу. Или учил в школе и всё забыл.",
@@ -900,6 +929,9 @@ const I18N={
   "video2.sub":"Екі ай бойы бір адаммен айналысасыз — алдымен оның кім екенін көрген дұрыс. Мұнда өзім туралы, курс туралы және сабақтардың қалай өтетіні туралы айтамын.",
   "video2.cap":"Өзім туралы видео · 1 минут 33 секунд",
   "nav.levels":"Деңгейлер","nav.schedule":"Кесте","nav.course":"Курс","nav.faq":"Сұрақтар",
+  "os.1v":"1 қыркүйек","os.1l":"лек басталады","os.2v":"18 апта","os.2l":"жаңа деңгейге дейін",
+  "os.3v":"5 адам","os.3l":"топта ең көбі","os.4v":"35 000 ₸","os.4l":"айына · 50 000 орнына",
+  "os.cta":"Деңгейімді білу",
   "lv.eyebrow":"Үш деңгей","lv.title":"Өз деңгейіңізді — және тобыңызды табыңыз.",
   "lv.sub":"Әр деңгей — бөлек 18 апталық интенсив. Курс барысында бір толық деңгейден өтесіз: қазір тұрған жеріңізден келесісіне.",
   "lv1.for":"Жеке сөздерді біледі, бірақ сөйлем құрай алмайтындарға. Немесе мектепте оқып, бәрін ұмытқандарға.",
@@ -1009,6 +1041,9 @@ const I18N={
   "video2.sub":"You'll spend two months learning from one person — it makes sense to see who that is first. Here I talk about myself, the course, and how the lessons actually run.",
   "video2.cap":"About me · 1 minute 33 seconds",
   "nav.levels":"Levels","nav.schedule":"Schedule","nav.course":"Course","nav.faq":"FAQ",
+  "os.1v":"September 1","os.1l":"cohort starts","os.2v":"18 weeks","os.2l":"to a new level",
+  "os.3v":"5 people","os.3l":"maximum per group","os.4v":"35,000₸","os.4l":"a month · instead of 50,000",
+  "os.cta":"Find my level",
   "lv.eyebrow":"Three levels","lv.title":"Find your level — and the group for it.",
   "lv.sub":"Each level is its own 18-week intensive. Over the course you move one full level: from exactly where you stand now to the next one.",
   "lv1.for":"For those who know isolated words but can't build a sentence. Or studied at school and forgot it all.",
