@@ -62,6 +62,36 @@ h1 em{font-style:italic;color:var(--gold-lt)}
 .sched{font-size:14.5px;color:var(--on-dark-mut);margin-top:14px;line-height:1.7}
 .sched b{color:var(--gold-lt)}
 .note{font-size:12.5px;color:var(--on-dark-mut);margin-top:18px;line-height:1.6}
+
+/* price box */
+.pricebox{margin-top:16px;border-top:1px solid var(--hair-dark);padding-top:16px}
+.pb-main{display:flex;align-items:baseline;gap:8px}
+.pb-main b{font-family:var(--serif);font-size:2.1rem;color:var(--gold-lt);line-height:1}
+.pb-main span{font-size:14.5px;color:var(--on-dark)}
+.pb-sub{font-size:13.5px;color:var(--on-dark-mut);margin-top:7px;line-height:1.6}
+.pb-sub b{color:var(--gold-lt)}
+.pb-total{font-size:12.5px;color:var(--on-dark-mut);margin-top:9px;padding-top:9px;border-top:1px solid var(--hair-dark);line-height:1.6}
+.pb-total b{color:var(--on-dark)}
+/* payment card */
+.pay-lead{font-size:14px;color:var(--on-dark-mut);line-height:1.65;margin-bottom:16px}
+.pay-opts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:18px}
+.pay-opt{border:1px solid var(--hair-dark);border-radius:2px;padding:13px}
+.pay-opt b{display:block;font-family:var(--serif);font-size:1.45rem;color:var(--gold-lt);line-height:1.1}
+.pay-opt span{display:block;font-size:12.5px;color:var(--on-dark);margin-top:2px}
+.pay-opt small{display:block;font-size:11.5px;color:var(--on-dark-mut);margin-top:7px;line-height:1.5}
+.qr-row{display:flex;gap:16px;align-items:center;margin-bottom:16px}
+.qr-row .qr{width:118px;height:118px;background:#fff;border-radius:3px;padding:7px;flex:0 0 auto}
+.qr-txt p{font-size:12.5px;color:var(--on-dark-mut);line-height:1.6}
+.qr-txt p b{color:var(--on-dark)}
+.qr-txt .warn{margin-top:8px;border-left:2px solid var(--gold);padding-left:10px;color:var(--on-dark)}
+.qr-txt .warn b{color:var(--gold-lt)}
+#kaspibtn,#receiptbtn{display:block;width:100%;text-align:center;margin-bottom:9px}
+.steps-after{font-size:12.5px;color:var(--on-dark-mut);line-height:1.6;margin:12px 0 14px}
+@media(max-width:520px){
+  .pay-opts{grid-template-columns:1fr}
+  .qr-row{flex-direction:column;align-items:flex-start}
+  .qr-row .qr{width:150px;height:150px}
+}
 footer{text-align:center;padding:18px;font-size:12px;color:var(--on-dark-mut);border-top:1px solid var(--hair-dark)}
 </style>
 </head>
@@ -107,18 +137,39 @@ footer{text-align:center;padding:18px;font-size:12px;color:var(--on-dark-mut);bo
         <li>Сертификат об окончании курса</li>
       </ul>
       <p class="sched" id="sched"></p>
-      <p class="price"><b>35 000 ₸/мес</b> · цена первого потока <s>50 000 ₸</s></p>
+      <div class="pricebox">
+        <div class="pb-main"><b>35 000 ₸</b><span>в месяц</span></div>
+        <div class="pb-sub">Цена первого потока вместо <s>50 000 ₸</s>. Оплата <b>каждый месяц</b>, пока идёт курс.</div>
+        <div class="pb-total">Весь курс — 18 недель: 4 месяца по 35 000 ₸ + последние 2 недели 17 500 ₸ = <b>157 500 ₸</b></div>
+      </div>
     </div>
     <a class="btn" id="wabtn" target="_blank" rel="noopener">Записаться в WhatsApp</a>
     <button class="btn ghost" style="margin-left:10px" onclick="location.reload()">Пройти ещё раз</button>
-    <div class="card">
-      <h3>Как забронировать место</h3>
-      <ul>
-        <li>Бесплатный пробный урок в вашей группе — сначала пробуете</li>
-        <li>Оплата 5 000 ₸ (бронь) или 35 000 ₸ сразу — бронь входит в оплату</li>
-        <li>Чек отправляете лично в WhatsApp</li>
-        <li>Я подтверждаю и добавляю в группу вашего уровня</li>
-      </ul>
+    <div class="card pay-card">
+      <h3>Забронировать место сейчас</h3>
+      <p class="pay-lead">Сначала — бесплатный пробный урок, платить необязательно. Но если уже решили: бронь закрепляет место, а мест в первом потоке всего 30.</p>
+      <div class="pay-opts">
+        <div class="pay-opt">
+          <b>5 000 ₸</b>
+          <span>бронь места</span>
+          <small>Входит в оплату первого месяца. Остаток 30 000 ₸ — до 29 августа.</small>
+        </div>
+        <div class="pay-opt">
+          <b>35 000 ₸</b>
+          <span>первый месяц</span>
+          <small>Место закреплено сразу. Следующий платёж — 1 октября.</small>
+        </div>
+      </div>
+      <div class="qr-row">
+        <img class="qr" src="kaspi-qr.png" alt="Kaspi QR — ИП ДАЙРАШ">
+        <div class="qr-txt">
+          <p><b>С телефона</b> — нажмите кнопку «Оплатить в Kaspi».<br><b>С компьютера</b> — наведите камеру Kaspi на QR.</p>
+          <p class="warn">Сумму вводите сами: <b>5 000 ₸</b> или <b>35 000 ₸</b>. В комментарии обязательно напишите <b>имя и уровень</b>.</p>
+        </div>
+      </div>
+      <a class="btn" id="kaspibtn" href="https://qr.kaspi.kz/13277762425841835346300980059835809824352" target="_blank" rel="noopener">Оплатить в Kaspi</a>
+      <a class="btn ghost" id="receiptbtn" target="_blank" rel="noopener">Отправить чек в WhatsApp</a>
+      <p class="steps-after">После оплаты пришлите чек мне в WhatsApp — я подтверждаю и добавляю вас в группу вашего уровня.</p>
       <p class="price"><b>Поток 1 — 1 сентября</b> · оплата до 29 августа · 30 мест</p>
       <p class="price" style="margin-top:6px"><b>Поток 2 — 8 сентября</b> · 10 мест</p>
     </div>
@@ -193,6 +244,8 @@ function finish(){
     "Ваше расписание: <b>" + SCHED[lvl.name] + "</b> — группа А (Пн · Ср · Пт) или группа Б (Вт · Чт · Сб), время астанинское.";
   const msg = encodeURIComponent("Здравствуйте! Я прошёл(ла) тест на сайте — мой уровень: " + lvl.name + " (" + score + "/20). Хочу записаться на курс (старт 1 сентября).");
   document.getElementById("wabtn").href = "https://wa.me/77085501378?text=" + msg;
+  const rmsg = encodeURIComponent("Здравствуйте, Нұрқанат! Отправляю чек об оплате. Мой уровень: " + lvl.name + ". Бронирую место в потоке 1 сентября.");
+  document.getElementById("receiptbtn").href = "https://wa.me/77085501378?text=" + rmsg;
   show("result");
 }
 </script>

@@ -306,6 +306,7 @@ table.sch td span{display:block;color:var(--on-dark-mut);font-size:.87rem;margin
 .faq-item p{color:var(--on-light-mut);line-height:1.7;font-size:.97rem}
 .price-old{color:var(--on-dark-mut);font-size:.95rem;margin-top:.5rem}
 .price-old s{color:var(--on-dark-mut)}
+.price-total{font-size:.8rem;color:var(--on-dark-mut);line-height:1.6;margin-top:.9rem;padding-top:.9rem;border-top:1px solid var(--hair-dark)}
 .price-unit{color:var(--on-dark-mut);font-size:.95rem;margin-top:.4rem;margin-bottom:2rem}
 .feat{list-style:none;display:grid;gap:1rem;margin-bottom:2.3rem}
 .feat li{display:flex;gap:.8em;align-items:flex-start;font-size:.98rem;color:var(--on-dark)}
@@ -649,6 +650,7 @@ footer{background:var(--ink-2);border-top:1px solid var(--hair-dark);padding:54p
     <div class="price-card reveal d1">
       <div class="price-amt">35 000 ₸</div>
       <div class="price-old"><s>50 000 ₸</s> · <span data-i="pricing.old">обычная цена</span></div>
+      <div class="price-total" data-i="pricing.total">Оплата помесячно, пока идёт курс. Все 18 недель: 4 месяца × 35 000 ₸ + последние 2 недели 17 500 ₸ = 157 500 ₸.</div>
       <div class="price-unit" data-i="pricing.unit">в месяц · мини-группа до 5 человек</div>
       <ul class="feat" id="feat"></ul>
       <div class="trial" data-i="pricing.trial">Первый пробный урок — бесплатно. Мест в потоке — 30.</div>
@@ -806,6 +808,7 @@ const I18N={
   "pricing.sub":"Мини-группы по уровню: Elementary, Pre-Intermediate, Intermediate. Интенсив 18 недель, старт — 1 сентября. Цена первого потока — 35 000 ₸ вместо 50 000 ₸.",
   "pricing.unit":"в месяц · мини-группа до 5 человек",
   "pricing.old":"обычная цена",
+  "pricing.total":"Оплата помесячно, пока идёт курс. Все 18 недель: 4 месяца × 35 000 ₸ + последние 2 недели 17 500 ₸ = 157 500 ₸.",
   "feat":["3 урока в неделю по 60 минут","Группа строго вашего уровня — по тесту","18 недель — выход на следующий уровень","Домашние задания и разбор в WhatsApp","Индивидуально — 8 000 ₸ за урок"],
   "pricing.trial":"Первый пробный урок — бесплатно. Мест в потоке — 30.","pricing.cta":"Пройти тест — 5 минут",
   "pricing.payNote":"Бронь места — 5 000 ₸, полностью входит в оплату первого месяца. Остаток — до 29 августа. Оплата через Kaspi.",
@@ -918,6 +921,7 @@ const I18N={
   "pricing.sub":"Деңгей бойынша шағын топтар: Elementary, Pre-Intermediate, Intermediate. 18 апталық интенсив, старт — 1 қыркүйек. Бірінші легтің бағасы — 50 000 ₸ орнына 35 000 ₸.",
   "pricing.unit":"айына · шағын топ — 5 адамға дейін",
   "pricing.old":"әдеттегі баға",
+  "pricing.total":"Төлем ай сайын, курс жүріп жатқанда. Барлық 18 апта: 4 ай × 35 000 ₸ + соңғы 2 апта 17 500 ₸ = 157 500 ₸.",
   "feat":["Аптасына 3 сабақ, 60 минуттан","Тест бойынша дәл өз деңгейіңіздегі топ","18 апта — келесі деңгейге шығу","WhatsApp-та үй тапсырмалары мен талдау","Жеке сабақ — 8 000 ₸"],
   "pricing.trial":"Алғашқы сынақ сабақ — тегін. Легтегі орын — 30.","pricing.cta":"Тесттен өту — 5 минут",
   "pricing.payNote":"Орынды брондау — 5 000 ₸, бірінші айдың төлеміне толық кіреді. Қалғаны — 29 тамызға дейін. Төлем — Kaspi арқылы.",
@@ -1030,6 +1034,7 @@ const I18N={
   "pricing.sub":"Level-based mini-groups: Elementary, Pre-Intermediate, Intermediate. An 18-week intensive starting September 1. First-cohort price — 35,000₸ instead of 50,000₸.",
   "pricing.unit":"per month · mini-group of up to 5",
   "pricing.old":"regular price",
+  "pricing.total":"Billed monthly while the course runs. All 18 weeks: 4 months × 35,000₸ + final 2 weeks 17,500₸ = 157,500₸.",
   "feat":["3 lessons per week, 60 minutes each","A group strictly at your level — placed by test","18 weeks — move up a full level","Homework & feedback in WhatsApp","1-on-1 available — 8,000₸ per lesson"],
   "pricing.trial":"Your first trial lesson is free. 30 seats per cohort.","pricing.cta":"Take the 5-minute test",
   "pricing.payNote":"Reserve your seat for 5,000₸ — it counts fully toward month one. The rest is due by August 29. Payment via Kaspi.",
