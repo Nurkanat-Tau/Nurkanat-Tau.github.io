@@ -4,7 +4,21 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Нұрқанат Дайраш — преподаватель английского · Астана</title>
-<meta name="description" content="Индивидуальные онлайн-уроки английского с Нұрқанатом Дайрашем. IELTS 7.5, подготовка к НИШ и школьной программе. Астана, Назарбаев Университет.">
+<meta name="description" content="18-недельный интенсив английского в мини-группах по 5 человек с Нұрқанатом Дайрашем (IELTS 7.5). Тест на уровень за 5 минут, бесплатный пробный урок. Старт — 1 сентября.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nurkanat-tau.github.io/">
+<meta property="og:site_name" content="Нұрқанат Дайраш — английский онлайн">
+<meta property="og:title" content="Английский в мини-группах по 5 человек · старт 1 сентября">
+<meta property="og:description" content="18-недельный интенсив: с вашего уровня — на следующий. 3 урока в неделю, 35 000 ₸/мес, 30 мест. Пройдите тест на уровень за 5 минут.">
+<meta property="og:image" content="https://nurkanat-tau.github.io/about-poster.jpg">
+<meta property="og:image:width" content="720">
+<meta property="og:image:height" content="1280">
+<meta property="og:locale" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Английский в мини-группах по 5 человек · старт 1 сентября">
+<meta name="twitter:description" content="18-недельный интенсив с Нұрқанатом Дайрашем (IELTS 7.5). Тест на уровень за 5 минут.">
+<meta name="twitter:image" content="https://nurkanat-tau.github.io/about-poster.jpg">
+<meta name="theme-color" content="#16130f">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -214,6 +228,71 @@ blockquote .mark{font-size:3rem;color:var(--gold);line-height:0;display:block;he
 .price-card::before{content:"";position:absolute;top:0;left:0;width:100%;height:3px;
   background:linear-gradient(90deg,var(--gold-dp),var(--gold-lt),var(--gold-dp))}
 .price-amt{font-family:var(--serif);font-size:clamp(3.4rem,7vw,4.8rem);color:var(--gold-lt);line-height:1}
+/* ---- levels ---- */
+.lv-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:clamp(20px,2.6vw,32px);margin-top:3rem}
+.lv-card{border:1px solid var(--hair-light);border-radius:4px;padding:28px 26px;background:#fff}
+.lv-card .lv-tag{display:inline-block;border:1px solid var(--gold-dp);color:var(--gold-dp);border-radius:2px;
+  padding:4px 10px;font-size:.66rem;letter-spacing:.18em;font-weight:600;margin-bottom:14px}
+.lv-card h3{font-family:var(--serif);font-size:1.75rem;font-weight:600;margin-bottom:.7rem;color:var(--on-light)}
+.lv-for{color:var(--on-light);font-size:.97rem;line-height:1.65;margin-bottom:.9rem}
+.lv-after{color:var(--on-light-mut);font-size:.93rem;line-height:1.7;padding-top:.9rem;border-top:1px solid var(--hair-light)}
+.lv-note{text-align:center;margin-top:2.4rem;color:var(--on-light-mut);font-size:.95rem}
+/* ---- schedule ---- */
+.sch-wrap{margin-top:3rem;overflow-x:auto}
+table.sch{width:100%;border-collapse:collapse;min-width:520px}
+table.sch th{text-align:left;font-family:var(--sans);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--gold-lt);font-weight:600;padding:0 0 14px;border-bottom:1px solid var(--hair-dark)}
+table.sch td{padding:18px 0;border-bottom:1px solid var(--hair-dark);font-size:1rem;vertical-align:top}
+table.sch td:first-child{font-family:var(--serif);font-size:1.3rem;color:var(--on-dark);padding-right:20px}
+table.sch td b{display:block;color:var(--gold-lt);font-size:1.15rem;font-weight:600;letter-spacing:.02em}
+table.sch td span{display:block;color:var(--on-dark-mut);font-size:.87rem;margin-top:3px}
+.sch-tz{color:var(--on-dark-mut);font-size:.87rem;margin-top:1.1rem}
+.wave-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;margin-top:3rem}
+.wave-card{border:1px solid var(--hair-dark);border-radius:4px;padding:26px}
+.wave-card.wave-1{border-color:var(--gold);background:rgba(194,164,90,.05)}
+.wave-lbl{display:block;font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-lt);font-weight:600;margin-bottom:10px}
+.wave-card h3{font-family:var(--serif);font-size:1.6rem;font-weight:600;margin-bottom:.6rem;color:var(--on-dark)}
+.wave-card p{color:var(--on-dark-mut);font-size:.95rem;line-height:1.65}
+.sch-seats{text-align:center;margin-top:2.4rem;color:var(--on-dark-mut);font-size:.95rem}
+/* ---- included + program ---- */
+.inc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:clamp(22px,3vw,38px);margin-top:3rem}
+.inc-item b{display:block;font-family:var(--serif);font-size:2.4rem;color:var(--gold-dp);line-height:1;margin-bottom:.5rem}
+.inc-item span{color:var(--on-light-mut);font-size:.95rem;line-height:1.6}
+.prog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:clamp(22px,3vw,38px);
+  margin-top:3.4rem;padding-top:2.6rem;border-top:1px solid var(--hair-light)}
+.prog-w{display:block;font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-dp);font-weight:600;margin-bottom:.7rem}
+.prog-item p{color:var(--on-light-mut);font-size:.95rem;line-height:1.7}
+/* ---- payment ---- */
+.pay-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(40px,6vw,80px);align-items:start}
+.pay-steps{list-style:none;margin-top:2.2rem;display:grid;gap:18px}
+.pay-steps li{display:flex;gap:16px;align-items:flex-start}
+.pay-steps b{flex:0 0 30px;height:30px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;
+  color:var(--gold-lt);font-size:.85rem;font-weight:600}
+.pay-steps span{color:var(--on-dark-mut);font-size:.97rem;line-height:1.6;padding-top:4px}
+.guarantee{margin-top:2.2rem;border-left:2px solid var(--gold);padding:12px 0 12px 18px;color:var(--on-dark);font-size:.97rem;line-height:1.6}
+.pay-card{border:1px solid var(--hair-dark);border-radius:4px;padding:28px;text-align:center;background:var(--ink-3)}
+.qr-box{width:200px;height:200px;margin:0 auto 16px;background:#fff;border-radius:4px;padding:10px}
+.qr-box img{width:100%;height:100%;object-fit:contain;display:block}
+.qr-ph{width:100%;height:100%;place-items:center;border:1px dashed rgba(0,0,0,.25);border-radius:2px;color:#8a8271;font-size:.8rem;text-align:center;padding:10px}
+.qr-cap{color:var(--on-dark-mut);font-size:.87rem;margin-bottom:1.4rem}
+.pay-amounts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:1.4rem}
+.pay-amounts div{border:1px solid var(--hair-dark);border-radius:2px;padding:12px 8px}
+.pay-amounts b{display:block;color:var(--gold-lt);font-size:1.15rem;font-family:var(--serif)}
+.pay-amounts span{display:block;color:var(--on-dark-mut);font-size:.78rem;margin-top:3px}
+.pay-warn{border:1px solid var(--gold-dp);border-radius:2px;background:rgba(194,164,90,.07);
+  color:var(--on-dark);font-size:.84rem;line-height:1.55;padding:11px 13px;margin-bottom:1.2rem;text-align:left}
+.pay-warn b{color:var(--gold-lt)}
+.pay-note-sm{color:var(--on-dark-mut);font-size:.82rem;line-height:1.6;margin-top:1.2rem}
+.solo-card{margin-top:2.2rem;border:1px solid var(--hair-dark);border-radius:2px;padding:20px 22px}
+.solo-card h4{font-family:var(--serif);font-size:1.3rem;font-weight:600;margin-bottom:.4rem;color:var(--on-dark)}
+.solo-card p{color:var(--on-dark-mut);font-size:.92rem;line-height:1.6}
+.solo-card .solo-price{color:var(--gold-lt);font-weight:600;margin-top:.5rem;display:block}
+.ip-line{font-size:.78rem;color:var(--on-dark-mut);margin-top:.6rem}
+.faq-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:clamp(28px,4vw,52px);margin-top:2.6rem}
+.faq-item h3{font-family:var(--serif);font-weight:600;font-size:1.35rem;margin-bottom:.55rem;color:var(--on-light)}
+.faq-item p{color:var(--on-light-mut);line-height:1.7;font-size:.97rem}
+.price-old{color:var(--on-dark-mut);font-size:.95rem;margin-top:.5rem}
+.price-old s{color:var(--on-dark-mut)}
 .price-unit{color:var(--on-dark-mut);font-size:.95rem;margin-top:.4rem;margin-bottom:2rem}
 .feat{list-style:none;display:grid;gap:1rem;margin-bottom:2.3rem}
 .feat li{display:flex;gap:.8em;align-items:flex-start;font-size:.98rem;color:var(--on-dark)}
@@ -259,7 +338,7 @@ footer{background:var(--ink-2);border-top:1px solid var(--hair-dark);padding:54p
 @media(max-width:980px){
   nav.links,.head-cta{display:none}
   .burger{display:flex}
-  .hero-grid,.video-grid,.about-grid,.proof-grid,.price-grid{grid-template-columns:1fr}
+  .hero-grid,.video-grid,.about-grid,.proof-grid,.price-grid,.pay-grid{grid-template-columns:1fr}
   .hero{min-height:auto}
   .portrait,.about-portrait{order:-1;max-width:300px}
   .cards,.steps{grid-template-columns:1fr 1fr}
@@ -295,9 +374,11 @@ footer{background:var(--ink-2);border-top:1px solid var(--hair-dark);padding:54p
     </a>
     <nav class="links">
       <a href="#about" data-i="nav.about">Обо мне</a>
-      <a href="#results" data-i="nav.results">Результаты</a>
-      <a href="#lessons" data-i="nav.lessons">Уроки</a>
+      <a href="#levels" data-i="nav.levels">Уровни</a>
+      <a href="#schedule" data-i="nav.schedule">Расписание</a>
+      <a href="#included" data-i="nav.course">Курс</a>
       <a href="#pricing" data-i="nav.pricing">Цена</a>
+      <a href="#faq" data-i="nav.faq">Вопросы</a>
     </nav>
     <div class="head-right">
       <div class="lang" id="lang">
@@ -314,9 +395,11 @@ footer{background:var(--ink-2);border-top:1px solid var(--hair-dark);padding:54p
 <div class="mnav" id="mnav">
   <button class="close" id="mclose" aria-label="Close">×</button>
   <a href="#about" data-i="nav.about">Обо мне</a>
-  <a href="#results" data-i="nav.results">Результаты</a>
-  <a href="#lessons" data-i="nav.lessons">Уроки</a>
+  <a href="#levels" data-i="nav.levels">Уровни</a>
+  <a href="#schedule" data-i="nav.schedule">Расписание</a>
+  <a href="#included" data-i="nav.course">Курс</a>
   <a href="#pricing" data-i="nav.pricing">Цена</a>
+  <a href="#faq" data-i="nav.faq">Вопросы</a>
   <a href="#contact" class="it" data-i="nav.cta">Написать в WhatsApp</a>
 </div>
 
@@ -328,7 +411,8 @@ footer{background:var(--ink-2);border-top:1px solid var(--hair-dark);padding:54p
       <h1 class="h-display reveal d1" data-i="hero.title">Заговорите по-английски — <em>свободно</em> и без страха.</h1>
       <p class="lead reveal d2" data-i="hero.sub">Индивидуальные онлайн-уроки с Нұрқанатом Дайрашем.</p>
       <div class="hero-actions reveal d3">
-        <a class="btn btn--gold" id="wa-hero" target="_blank" rel="noopener" data-i="hero.cta1">Бесплатный пробный урок</a>
+        <a class="btn btn--gold" href="test.html" data-i="hero.ctaTest">Тест на уровень — 5 минут</a>
+        <a class="btn btn--ghost" id="wa-hero" target="_blank" rel="noopener" data-i="hero.cta1">Бесплатный пробный урок</a>
         <a class="btn btn--ghost" href="#video" data-i="hero.cta2">Смотреть видео</a>
       </div>
       <div class="chips reveal d4" id="chips"></div>
@@ -417,6 +501,93 @@ footer{background:var(--ink-2);border-top:1px solid var(--hair-dark);padding:54p
   </div>
 </section>
 
+<!-- LEVELS -->
+<section class="sec sec--paper" id="levels">
+  <div class="wrap">
+    <div style="text-align:center;max-width:680px;margin:0 auto">
+      <span class="eyebrow" style="justify-content:center" data-i="lv.eyebrow">Три уровня</span>
+      <h2 class="h-sec reveal" style="max-width:none;margin:0 auto" data-i="lv.title">Найдите свой уровень — и группу к нему.</h2>
+      <p class="lead reveal d1" style="margin:1.2rem auto 0" data-i="lv.sub">Каждый уровень — отдельный 18-недельный интенсив. За курс вы проходите один полный уровень: с того места, где стоите сейчас, на следующий.</p>
+    </div>
+    <div class="lv-grid reveal d1">
+      <div class="lv-card">
+        <div class="lv-tag">A1 → A2</div>
+        <h3>Elementary</h3>
+        <p class="lv-for" data-i="lv1.for">Для тех, кто знает отдельные слова, но не может составить фразу. Или учил в школе и всё забыл.</p>
+        <p class="lv-after" data-i="lv1.after">К концу курса: рассказываете о себе, семье и работе, задаёте вопросы, понимаете простую речь и справляетесь в поездке.</p>
+      </div>
+      <div class="lv-card">
+        <div class="lv-tag">A2 → B1</div>
+        <h3>Pre-Intermediate</h3>
+        <p class="lv-for" data-i="lv2.for">Для тех, кто понимает, но говорит с долгими паузами и боится ошибиться.</p>
+        <p class="lv-after" data-i="lv2.after">К концу курса: свободно говорите на бытовые и рабочие темы, рассказываете о прошлом и планах, ведёте переписку.</p>
+      </div>
+      <div class="lv-card">
+        <div class="lv-tag">B1 → B2</div>
+        <h3>Intermediate</h3>
+        <p class="lv-for" data-i="lv3.for">Для тех, кто уверенно владеет основами и хочет беглости, а не новых правил.</p>
+        <p class="lv-after" data-i="lv3.after">К концу курса: спорите и аргументируете, понимаете фильмы и подкасты, готовы к собеседованию и подготовке к IELTS.</p>
+      </div>
+    </div>
+    <p class="lv-note reveal d1" data-i="lv.note">Не знаете свой уровень? Тест на 5 минут определит его — и покажет вашу группу.</p>
+  </div>
+</section>
+
+<!-- SCHEDULE -->
+<section class="sec sec--dark" id="schedule">
+  <div class="wrap">
+    <div style="text-align:center;max-width:680px;margin:0 auto">
+      <span class="eyebrow" style="justify-content:center" data-i="sch.eyebrow">Расписание и потоки</span>
+      <h2 class="h-sec reveal" style="max-width:none;margin:0 auto" data-i="sch.title">Выберите удобные дни.</h2>
+      <p class="lead reveal d1" style="margin:1.2rem auto 0" data-i="sch.sub">Два варианта дней на каждом уровне — выбираете тот, что подходит под работу или учёбу. Все занятия онлайн, по 60 минут.</p>
+    </div>
+    <div class="sch-wrap reveal d1">
+      <table class="sch">
+        <thead><tr>
+          <th data-i="sch.colLevel">Уровень</th>
+          <th data-i="sch.colA">Группа А</th>
+          <th data-i="sch.colB">Группа Б</th>
+        </tr></thead>
+        <tbody>
+          <tr><td>Elementary</td><td><b>18:00</b><span data-i="sch.daysA">Пн · Ср · Пт</span></td><td><b>18:00</b><span data-i="sch.daysB">Вт · Чт · Сб</span></td></tr>
+          <tr><td>Pre-Intermediate</td><td><b>19:15</b><span data-i="sch.daysA2">Пн · Ср · Пт</span></td><td><b>19:15</b><span data-i="sch.daysB2">Вт · Чт · Сб</span></td></tr>
+          <tr><td>Intermediate</td><td><b>20:30</b><span data-i="sch.daysA3">Пн · Ср · Пт</span></td><td><b>20:30</b><span data-i="sch.daysB3">Вт · Чт · Сб</span></td></tr>
+        </tbody>
+      </table>
+      <p class="sch-tz" data-i="sch.tz">Время астанинское. В каждой группе — максимум 5 человек.</p>
+    </div>
+    <div class="wave-grid reveal d1">
+      <div class="wave-card wave-1">
+        <span class="wave-lbl" data-i="sch.w1lbl">Поток 1</span>
+        <h3 data-i="sch.w1date">Старт 1 сентября</h3>
+        <p data-i="sch.w1desc">30 мест — по 10 на каждый уровень. Оплата до 29 августа. Курс идёт до 11 января, с каникулами 28 декабря — 3 января.</p>
+      </div>
+      <div class="wave-card">
+        <span class="wave-lbl" data-i="sch.w2lbl">Поток 2</span>
+        <h3 data-i="sch.w2date">Старт 8 сентября</h3>
+        <p data-i="sch.w2desc">10 мест для тех, кто не успел в первый поток. Та же программа и та же цена — просто начинается неделей позже.</p>
+      </div>
+    </div>
+    <p class="sch-seats reveal d1" data-i="sch.seats">Места закрепляются по факту оплаты: кто оплатил раньше — тот в потоке 1. Никакого отбора, только очередь.</p>
+  </div>
+</section>
+
+<!-- ABOUT VIDEO -->
+<section class="sec sec--ink2" id="meet">
+  <div class="wrap video-grid">
+    <div class="reveal">
+      <span class="eyebrow" data-i="video2.eyebrow">Кто будет вас учить</span>
+      <h2 class="h-sec" data-i="video2.title">Познакомьтесь со мной до того, как решите.</h2>
+      <p class="lead" style="margin-top:1.2rem" data-i="video2.sub">Два месяца вы будете заниматься с одним человеком — логично сначала посмотреть, кто это. Здесь я рассказываю о себе, о курсе и о том, как проходят уроки.</p>
+      <p class="vcap" style="margin-top:1.4rem" data-i="video2.cap">Видео о себе · 1 минута 33 секунды</p>
+    </div>
+    <div class="video-shell reveal d1">
+      <video id="vid2" src="about.mp4" poster="about-poster.jpg" preload="metadata" playsinline controls></video>
+      <div class="play" id="playbtn2"><div class="ring"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div></div>
+    </div>
+  </div>
+</section>
+
 <!-- PRICING -->
 <section class="sec sec--dark" id="pricing">
   <div class="wrap price-grid">
@@ -427,11 +598,88 @@ footer{background:var(--ink-2);border-top:1px solid var(--hair-dark);padding:54p
       <p class="pay-note reveal d1" style="text-align:left;margin-top:1.6rem" data-i="pricing.payNote">Детали оплаты обсудим в WhatsApp.</p>
     </div>
     <div class="price-card reveal d1">
-      <div class="price-amt">6 000 ₸</div>
-      <div class="price-unit" data-i="pricing.unit">за урок 60 минут</div>
+      <div class="price-amt">35 000 ₸</div>
+      <div class="price-old"><s>50 000 ₸</s> · <span data-i="pricing.old">обычная цена</span></div>
+      <div class="price-unit" data-i="pricing.unit">в месяц · мини-группа до 5 человек</div>
       <ul class="feat" id="feat"></ul>
-      <div class="trial" data-i="pricing.trial">Первый пробный урок — бесплатно.</div>
-      <a class="btn btn--gold" id="wa-price" target="_blank" rel="noopener" style="width:100%;justify-content:center" data-i="pricing.cta">Записаться на пробный урок</a>
+      <div class="trial" data-i="pricing.trial">Первый пробный урок — бесплатно. Мест в потоке — 30.</div>
+      <a class="btn btn--gold" href="test.html" style="width:100%;justify-content:center" data-i="pricing.cta">Пройти тест — 5 минут</a>
+      <div class="solo-card">
+        <h4 data-i="solo.title">Индивидуально</h4>
+        <p data-i="solo.desc">Если нужен только ваш темп и ваши задачи — например, подготовка к IELTS или НИШ. График согласуем лично.</p>
+        <span class="solo-price" data-i="solo.price">8 000 ₸ за урок 60 минут</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INCLUDED + PROGRAM -->
+<section class="sec sec--light" id="included">
+  <div class="wrap">
+    <div style="text-align:center;max-width:680px;margin:0 auto">
+      <span class="eyebrow" style="justify-content:center" data-i="inc.eyebrow">Что входит в курс</span>
+      <h2 class="h-sec reveal" style="max-width:none;margin:0 auto" data-i="inc.title">18 недель, 54 урока, один уровень вверх.</h2>
+    </div>
+    <div class="inc-grid reveal d1">
+      <div class="inc-item"><b>54</b><span data-i="inc.1">урока за курс — по 3 в неделю, каждый по 60 минут</span></div>
+      <div class="inc-item"><b>5</b><span data-i="inc.2">человек в группе максимум — говорит каждый, на каждом уроке</span></div>
+      <div class="inc-item"><b>WhatsApp</b><span data-i="inc.3">группа уровня: материалы, домашние задания, голосовые разборы</span></div>
+      <div class="inc-item"><b>1×</b><span data-i="inc.4">в день проверяю домашние задания — с личной обратной связью</span></div>
+      <div class="inc-item"><b>0 ₸</b><span data-i="inc.5">за все материалы: конспекты, задания и записи остаются у вас</span></div>
+      <div class="inc-item"><b>🎓</b><span data-i="inc.6">сертификат об окончании курса с указанием уровня</span></div>
+    </div>
+    <div class="prog-grid reveal d1">
+      <div class="prog-item"><span class="prog-w" data-i="prog.w1">Недели 1–6</span><p data-i="prog.d1">Снимаем страх говорить. База грамматики уровня, первые уверенные диалоги, произношение.</p></div>
+      <div class="prog-item"><span class="prog-w" data-i="prog.w2">Недели 7–12</span><p data-i="prog.d2">Расширяем словарный запас и времена. Говорим дольше, о более сложных вещах, с меньшим количеством пауз.</p></div>
+      <div class="prog-item"><span class="prog-w" data-i="prog.w3">Недели 13–18</span><p data-i="prog.d3">Беглость и свобода: спонтанная речь, обсуждения, разбор реальных ситуаций — работа, учёба, поездки.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PAYMENT -->
+<section class="sec sec--ink2" id="pay">
+  <div class="wrap pay-grid">
+    <div class="reveal">
+      <span class="eyebrow" data-i="pay.eyebrow">Как забронировать место</span>
+      <h2 class="h-sec" data-i="pay.title">Четыре шага — и место ваше.</h2>
+      <ol class="pay-steps">
+        <li><b>1</b><span data-i="pay.s1">Проходите тест и приходите на бесплатный пробный урок своей группы.</span></li>
+        <li><b>2</b><span data-i="pay.s2">Понравилось — оплачиваете 5 000 ₸ (бронь) или сразу 35 000 ₸ за первый месяц. Бронь полностью входит в оплату.</span></li>
+        <li><b>3</b><span data-i="pay.s3">Отправляете чек мне в WhatsApp — лично, никуда больше.</span></li>
+        <li><b>4</b><span data-i="pay.s4">Я подтверждаю оплату и добавляю вас в WhatsApp-группу вашего уровня. Остаток 30 000 ₸ — до 29 августа.</span></li>
+      </ol>
+      <div class="guarantee" data-i="pay.guarantee">Гарантия первой недели: если после первой недели занятий поймёте, что курс не ваш — вернём деньги полностью.</div>
+    </div>
+    <div class="pay-card reveal d1">
+      <div class="qr-box">
+        <img src="kaspi-qr.png" alt="Kaspi QR" id="qrimg" onerror="this.style.display='none';document.getElementById('qrph').style.display='grid'">
+        <div class="qr-ph" id="qrph" style="display:none"><span data-i="pay.qrSoon">QR появится здесь</span></div>
+      </div>
+      <p class="qr-cap" data-i="pay.qrCap">С компьютера — наведите камеру Kaspi на QR. С телефона — просто нажмите кнопку ниже.</p>
+      <div class="pay-amounts">
+        <div><b>5 000 ₸</b><span data-i="pay.a1">бронь места</span></div>
+        <div><b>35 000 ₸</b><span data-i="pay.a2">первый месяц целиком</span></div>
+      </div>
+      <p class="pay-warn" data-i="pay.amountWarn">Сумму вы вводите сами — введите 5 000 ₸ или 35 000 ₸ и в комментарии напишите <b>имя и уровень</b>.</p>
+      <a class="btn btn--gold" id="paylink" href="#" target="_blank" rel="noopener" style="width:100%;justify-content:center" data-i="pay.btn">Оплатить в Kaspi</a>
+      <a class="btn btn--ghost" id="wa-receipt" target="_blank" rel="noopener" style="width:100%;justify-content:center;margin-top:10px" data-i="pay.receiptBtn">Отправить чек в WhatsApp</a>
+      <p class="pay-note-sm" data-i="pay.note">Оплата на ИП. После оплаты обязательно отправьте чек — без него я не смогу подтвердить место.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec sec--paper" id="faq">
+  <div class="wrap">
+    <div style="text-align:center;max-width:640px;margin:0 auto 1rem">
+      <span class="eyebrow" style="justify-content:center" data-i="faq.eyebrow">Частые вопросы</span>
+      <h2 class="h-sec reveal" style="max-width:none;margin:0 auto" data-i="faq.title">Спокойно — вот ответы.</h2>
+    </div>
+    <div class="faq-grid reveal d1">
+      <div class="faq-item"><h3 data-i="faq.q1">«Я не знаю свой уровень»</h3><p data-i="faq.a1">Для этого и есть тест на 5 минут — он сразу определит вашу группу. На бесплатном пробном уроке я подтвержу уровень лично, а если группа окажется не той — просто переведу вас.</p></div>
+      <div class="faq-item"><h3 data-i="faq.q2">«Вдруг мне не подойдёт?»</h3><p data-i="faq.a2">Сначала — бесплатный пробный урок в вашей группе. Платите только после него, если понравилось. Бронь 5 000 ₸ полностью входит в оплату первого месяца.</p></div>
+      <div class="faq-item"><h3 data-i="faq.q3">«Я стесняюсь говорить при других»</h3><p data-i="faq.a3">В группе максимум 5 человек, все — вашего уровня, и все начинают одновременно. Через две недели это будут ваши люди.</p></div>
+      <div class="faq-item"><h3 data-i="faq.q4">«Что если я пропущу урок?»</h3><p data-i="faq.a4">Все материалы и разборы остаются в WhatsApp-группе — догоните без стресса. Домашние задания проверяю каждый день.</p></div>
     </div>
   </div>
 </section>
@@ -443,7 +691,8 @@ footer{background:var(--ink-2);border-top:1px solid var(--hair-dark);padding:54p
     <h2 class="h-display reveal" style="font-size:clamp(2.2rem,5vw,3.8rem)" data-i="contact.title">Готовы заговорить по-английски уверенно?</h2>
     <p class="lead reveal d1" style="margin:0 auto" data-i="contact.sub">Напишите мне в WhatsApp — и мы договоримся о первом уроке.</p>
     <div class="cta-actions reveal d1">
-      <a class="btn btn--gold" id="wa-cta" target="_blank" rel="noopener">
+      <a class="btn btn--gold" href="test.html" data-i="contact.testBtn">Пройти тест — 5 минут</a>
+      <a class="btn btn--ghost" id="wa-cta" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
         <span data-i="contact.waBtn">Написать в WhatsApp</span>
       </a>
@@ -465,7 +714,7 @@ footer{background:var(--ink-2);border-top:1px solid var(--hair-dark);padding:54p
       </div>
       <div class="foot-r">
         <a href="#about" data-i="nav.about">Обо мне</a>
-        <a href="#results" data-i="nav.results">Результаты</a>
+        <a href="#schedule" data-i="nav.schedule">Расписание</a>
         <a href="#pricing" data-i="nav.pricing">Цена</a>
         <a href="https://instagram.com/nurkanat_dairash" target="_blank" rel="noopener">Instagram</a>
       </div>
@@ -474,20 +723,24 @@ footer{background:var(--ink-2);border-top:1px solid var(--hair-dark);padding:54p
       <span>© 2026 Нұрқанат Дайраш</span>
       <span data-i="footer.note">Астана · Назарбаев Университет</span>
     </div>
+    <p class="ip-line" data-i="footer.ip">ИП «ДАЙРАШ» · оплата через Kaspi QR · Казахстан</p>
   </div>
 </footer>
 
 <script>
 const WA="https://wa.me/77085501378";
+/* Kaspi payment link (decoded from your Kaspi QR — ИП ДАЙРАШ).
+   Opens the Kaspi app directly on phones, so mobile visitors don't need to scan anything. */
+const KASPI_PAY_URL="https://qr.kaspi.kz/13277762425841835346300980059835809824352";
 const I18N={
  ru:{
   "brand.name":"Нұрқанат Дайраш","brand.role":"Преподаватель английского",
   "nav.about":"Обо мне","nav.results":"Результаты","nav.lessons":"Уроки","nav.pricing":"Цена","nav.cta":"Написать в WhatsApp",
   "hero.eyebrow":"Преподаватель английского · Астана · Назарбаев Университет",
   "hero.title":"Заговорите по-английски — <em>свободно</em> и без страха.",
-  "hero.sub":"Индивидуальные онлайн-уроки с Нұрқанатом Дайрашем. От первых неуверенных фраз — до уверенной, живой речи. IELTS 7.5, опыт подготовки учеников к НИШ и школьной программе.",
-  "hero.cta1":"Бесплатный пробный урок","hero.cta2":"Смотреть видео","hero.tag":"Overall",
-  "chips":["4 года опыта","IELTS 7.5","Онлайн 1-на-1"],
+  "hero.sub":"18-недельный интенсив в мини-группах по 5 человек: с вашего уровня — на следующий. 3 урока в неделю, разбор и поддержка в WhatsApp. Старт — 1 сентября. Есть и индивидуальные уроки.",
+  "hero.cta1":"Бесплатный пробный урок","hero.cta2":"Смотреть видео","hero.ctaTest":"Тест на уровень — 5 минут","hero.tag":"Overall",
+  "chips":["Старт — 1 сентября","Мини-группы до 5 человек","IELTS 7.5"],
   "video.eyebrow":"Знакомство","video.title":"Как я получил IELTS 7.5 — и почему теперь учу так.","video.cap":"Короткое видео · 55 секунд",
   "about.eyebrow":"Обо мне","about.title":"Я сам выучил английский здесь — и знаю, где вы застреваете.",
   "about.body":["Меня зовут Нұрқанат Дайраш. Я студент Назарбаев Университета и уже четыре года преподаю английский школьникам и студентам. Мой собственный английский — уровня C1, IELTS 7.5; свободно говорю на казахском, русском и английском.","На уроках мы делаем упор не на зубрёжку правил, а на живой язык: разговорную речь, понимание грамматики «изнутри», работу с текстами и расширение словарного запаса. Я создаю спокойную атмосферу, где не страшно ошибаться и задавать вопросы — потому что именно так и начинают говорить.","Мы работаем не только над английским, но и над уверенностью, дисциплиной и умением учиться самостоятельно. Мне важно, чтобы ученик действительно хотел расти — тогда результат неизбежен."],
@@ -500,7 +753,7 @@ const I18N={
    {k:"Произношение",t:"Чистое произношение",d:"Понятное произношение — заметная разница уже через несколько недель."},
    {k:"Характер",t:"Уверенность и мышление роста",d:"Дисциплина, самостоятельность и вера в себя — навыки, которые остаются с вами."}
   ],
-  "achieve.whofor":"Для учеников от 9 до 45 лет — школьников, абитуриентов и взрослых.",
+  "achieve.whofor":"Для школьников, студентов и взрослых — от 9 до 45 лет. Группы формируются строго по уровню, а не по возрасту.",
   "results.eyebrow":"Результаты","results.title":"Результаты, которыми гордятся мои ученики.",
   "stats":[
    {n:199,suf:"/200",l:"баллов по английскому на экзамене НИШ — у моего ученика"},
@@ -516,23 +769,77 @@ const I18N={
    {b:"Шигео Кацу",t:"экс-президент Назарбаев Университета"},
    {b:"Назарбаев Университет",t:"где я учусь"}
   ],
-  "lessons.eyebrow":"Как проходят уроки","lessons.title":"Простой путь к результату.",
+  "lessons.eyebrow":"Как устроен курс","lessons.title":"Четыре шага до следующего уровня.",
   "steps":[
-   {t:"Бесплатный пробный урок",d:"Знакомимся онлайн, определяем ваш уровень и цели."},
-   {t:"Индивидуальный план",d:"Программа под ваш темп и задачи — без шаблонов."},
-   {t:"Регулярные онлайн-уроки",d:"Занятия по 1 часу, при желании 3–5 раз в неделю."},
-   {t:"Виден прогресс",d:"Вы чувствуете разницу — и её видят ваши результаты."}
+   {t:"Тест — 5 минут",d:"20 вопросов — и вы сразу видите свой уровень: Elementary, Pre-Intermediate или Intermediate."},
+   {t:"Бесплатный пробный урок",d:"Приходите в группу своего уровня и пробуете. Платить — только если понравится."},
+   {t:"18 недель интенсива",d:"3 урока в неделю в мини-группе из 5 человек + домашние задания и разбор в WhatsApp."},
+   {t:"Следующий уровень",d:"Выходите на новый уровень — и говорите свободнее, чем представляли в начале."}
   ],
   "pricing.eyebrow":"Стоимость","pricing.title":"Прозрачно и просто.",
-  "pricing.sub":"Понятная цена и бесплатный первый урок, чтобы вы спокойно попробовали — без обязательств.",
-  "pricing.unit":"за урок 60 минут",
-  "feat":["Онлайн, один на один","Индивидуальная программа","Удобный график 3–5 раз в неделю"],
-  "pricing.trial":"Первый пробный урок — бесплатно.","pricing.cta":"Записаться на пробный урок",
-  "pricing.payNote":"Детали оплаты обсудим в WhatsApp.",
+  "pricing.sub":"Мини-группы по уровню: Elementary, Pre-Intermediate, Intermediate. Интенсив 18 недель, старт — 1 сентября. Цена первого потока — 35 000 ₸ вместо 50 000 ₸.",
+  "pricing.unit":"в месяц · мини-группа до 5 человек",
+  "pricing.old":"обычная цена",
+  "feat":["3 урока в неделю по 60 минут","Группа строго вашего уровня — по тесту","18 недель — выход на следующий уровень","Домашние задания и разбор в WhatsApp","Индивидуально — 8 000 ₸ за урок"],
+  "pricing.trial":"Первый пробный урок — бесплатно. Мест в потоке — 30.","pricing.cta":"Пройти тест — 5 минут",
+  "pricing.payNote":"Бронь места — 5 000 ₸, полностью входит в оплату первого месяца. Остаток — до 29 августа. Оплата через Kaspi.",
   "contact.eyebrow":"Начнём","contact.title":"Готовы заговорить по-английски уверенно?",
-  "contact.sub":"Напишите мне в WhatsApp — и мы договоримся о первом уроке.","contact.waBtn":"Написать в WhatsApp",
+  "contact.sub":"Пройдите тест, приходите на бесплатный пробный урок — и забронируйте место в потоке 1 сентября.","contact.waBtn":"Написать в WhatsApp","contact.testBtn":"Пройти тест — 5 минут",
   "footer.tagline":"Английский без страха — онлайн, по всему Казахстану.","footer.note":"Астана · Назарбаев Университет",
-  "wa.msg":"Здравствуйте, Нұрқанат! Хочу записаться на бесплатный пробный урок английского.",
+  "wa.msg":"Здравствуйте, Нұрқанат! Хочу записаться на бесплатный пробный урок курса (старт 1 сентября).",
+  "video2.eyebrow":"Кто будет вас учить","video2.title":"Познакомьтесь со мной до того, как решите.",
+  "video2.sub":"Два месяца вы будете заниматься с одним человеком — логично сначала посмотреть, кто это. Здесь я рассказываю о себе, о курсе и о том, как проходят уроки.",
+  "video2.cap":"Видео о себе · 1 минута 33 секунды",
+  "nav.levels":"Уровни","nav.schedule":"Расписание","nav.course":"Курс","nav.faq":"Вопросы",
+  "lv.eyebrow":"Три уровня","lv.title":"Найдите свой уровень — и группу к нему.",
+  "lv.sub":"Каждый уровень — отдельный 18-недельный интенсив. За курс вы проходите один полный уровень: с того места, где стоите сейчас, на следующий.",
+  "lv1.for":"Для тех, кто знает отдельные слова, но не может составить фразу. Или учил в школе и всё забыл.",
+  "lv1.after":"К концу курса: рассказываете о себе, семье и работе, задаёте вопросы, понимаете простую речь и справляетесь в поездке.",
+  "lv2.for":"Для тех, кто понимает, но говорит с долгими паузами и боится ошибиться.",
+  "lv2.after":"К концу курса: свободно говорите на бытовые и рабочие темы, рассказываете о прошлом и планах, ведёте переписку.",
+  "lv3.for":"Для тех, кто уверенно владеет основами и хочет беглости, а не новых правил.",
+  "lv3.after":"К концу курса: спорите и аргументируете, понимаете фильмы и подкасты, готовы к собеседованию и подготовке к IELTS.",
+  "lv.note":"Не знаете свой уровень? Тест на 5 минут определит его — и покажет вашу группу.",
+  "sch.eyebrow":"Расписание и потоки","sch.title":"Выберите удобные дни.",
+  "sch.sub":"Два варианта дней на каждом уровне — выбираете тот, что подходит под работу или учёбу. Все занятия онлайн, по 60 минут.",
+  "sch.colLevel":"Уровень","sch.colA":"Группа А","sch.colB":"Группа Б",
+  "sch.daysA":"Пн · Ср · Пт","sch.daysB":"Вт · Чт · Сб","sch.daysA2":"Пн · Ср · Пт","sch.daysB2":"Вт · Чт · Сб","sch.daysA3":"Пн · Ср · Пт","sch.daysB3":"Вт · Чт · Сб",
+  "sch.tz":"Время астанинское. В каждой группе — максимум 5 человек.",
+  "sch.w1lbl":"Поток 1","sch.w1date":"Старт 1 сентября",
+  "sch.w1desc":"30 мест — по 10 на каждый уровень. Оплата до 29 августа. Курс идёт до 11 января, с каникулами 28 декабря — 3 января.",
+  "sch.w2lbl":"Поток 2","sch.w2date":"Старт 8 сентября",
+  "sch.w2desc":"10 мест для тех, кто не успел в первый поток. Та же программа и та же цена — просто начинается неделей позже.",
+  "sch.seats":"Места закрепляются по факту оплаты: кто оплатил раньше — тот в потоке 1. Никакого отбора, только очередь.",
+  "inc.eyebrow":"Что входит в курс","inc.title":"18 недель, 54 урока, один уровень вверх.",
+  "inc.1":"урока за курс — по 3 в неделю, каждый по 60 минут",
+  "inc.2":"человек в группе максимум — говорит каждый, на каждом уроке",
+  "inc.3":"группа уровня: материалы, домашние задания, голосовые разборы",
+  "inc.4":"в день проверяю домашние задания — с личной обратной связью",
+  "inc.5":"за все материалы: конспекты, задания и записи остаются у вас",
+  "inc.6":"сертификат об окончании курса с указанием уровня",
+  "prog.w1":"Недели 1–6","prog.d1":"Снимаем страх говорить. База грамматики уровня, первые уверенные диалоги, произношение.",
+  "prog.w2":"Недели 7–12","prog.d2":"Расширяем словарный запас и времена. Говорим дольше, о более сложных вещах, с меньшим количеством пауз.",
+  "prog.w3":"Недели 13–18","prog.d3":"Беглость и свобода: спонтанная речь, обсуждения, разбор реальных ситуаций — работа, учёба, поездки.",
+  "pay.eyebrow":"Как забронировать место","pay.title":"Четыре шага — и место ваше.",
+  "pay.s1":"Проходите тест и приходите на бесплатный пробный урок своей группы.",
+  "pay.s2":"Понравилось — оплачиваете 5 000 ₸ (бронь) или сразу 35 000 ₸ за первый месяц. Бронь полностью входит в оплату.",
+  "pay.s3":"Отправляете чек мне в WhatsApp — лично, никуда больше.",
+  "pay.s4":"Я подтверждаю оплату и добавляю вас в WhatsApp-группу вашего уровня. Остаток 30 000 ₸ — до 29 августа.",
+  "pay.guarantee":"Гарантия первой недели: если после первой недели занятий поймёте, что курс не ваш — вернём деньги полностью.",
+  "pay.qrCap":"С компьютера — наведите камеру Kaspi на QR. С телефона — просто нажмите кнопку ниже.","pay.qrSoon":"QR появится здесь",
+  "pay.amountWarn":"Сумму вы вводите сами — введите 5 000 ₸ или 35 000 ₸ и в комментарии напишите <b>имя и уровень</b>.",
+  "pay.a1":"бронь места","pay.a2":"первый месяц целиком",
+  "pay.btn":"Оплатить в Kaspi","pay.receiptBtn":"Отправить чек в WhatsApp",
+  "pay.note":"Оплата на ИП. После оплаты обязательно отправьте чек — без него я не смогу подтвердить место.",
+  "solo.title":"Индивидуально","solo.desc":"Если нужен только ваш темп и ваши задачи — например, подготовка к IELTS или НИШ. График согласуем лично.",
+  "solo.price":"8 000 ₸ за урок 60 минут",
+  "footer.ip":"ИП «ДАЙРАШ» · оплата через Kaspi QR · Казахстан",
+  "wa.receipt":"Здравствуйте, Нұрқанат! Отправляю чек об оплате — бронирую место в группе.",
+  "faq.eyebrow":"Частые вопросы","faq.title":"Спокойно — вот ответы.",
+  "faq.q1":"«Я не знаю свой уровень»","faq.a1":"Для этого и есть тест на 5 минут — он сразу определит вашу группу. На бесплатном пробном уроке я подтвержу уровень лично, а если группа окажется не той — просто переведу вас.",
+  "faq.q2":"«Вдруг мне не подойдёт?»","faq.a2":"Сначала — бесплатный пробный урок в вашей группе. Платите только после него, если понравилось. Бронь 5 000 ₸ полностью входит в оплату первого месяца.",
+  "faq.q3":"«Я стесняюсь говорить при других»","faq.a3":"В группе максимум 5 человек, все — вашего уровня, и все начинают одновременно. Через две недели это будут ваши люди.",
+  "faq.q4":"«Что если я пропущу урок?»","faq.a4":"Все материалы и разборы остаются в WhatsApp-группе — догоните без стресса. Домашние задания проверяю каждый день.",
   "doc.title":"Нұрқанат Дайраш — преподаватель английского · Астана"
  },
  kz:{
@@ -540,9 +847,9 @@ const I18N={
   "nav.about":"Мен туралы","nav.results":"Нәтижелер","nav.lessons":"Сабақтар","nav.pricing":"Бағасы","nav.cta":"WhatsApp-қа жазу",
   "hero.eyebrow":"Ағылшын тілі мұғалімі · Астана · Назарбаев Университеті",
   "hero.title":"Ағылшынша <em>еркін</em> әрі қорықпай сөйлеңіз.",
-  "hero.sub":"Нұрқанат Дайрашпен жеке онлайн-сабақтар. Алғашқы тұтығып айтылған сөздерден — еркін әрі тірі сөйлеуге дейін. IELTS 7.5, оқушыларды НИШ-ке және мектеп бағдарламасына дайындау тәжірибесі.",
-  "hero.cta1":"Тегін сынақ сабақ","hero.cta2":"Видеоны көру","hero.tag":"Overall",
-  "chips":["4 жыл тәжірибе","IELTS 7.5","Онлайн 1-ге-1"],
+  "hero.sub":"5 адамдық шағын топтардағы 18 апталық интенсив: өз деңгейіңізден — келесіге. Аптасына 3 сабақ, WhatsApp-та талдау мен қолдау. Старт — 1 қыркүйек. Жеке сабақтар да бар.",
+  "hero.cta1":"Тегін сынақ сабақ","hero.cta2":"Видеоны көру","hero.ctaTest":"Деңгей тесті — 5 минут","hero.tag":"Overall",
+  "chips":["Старт — 1 қыркүйек","Шағын топ — 5 адамға дейін","IELTS 7.5"],
   "video.eyebrow":"Танысу","video.title":"IELTS 7.5-ті қалай алдым — әрі неге дәл солай оқытамын.","video.cap":"Қысқа видео · 55 секунд",
   "about.eyebrow":"Мен туралы","about.title":"Ағылшынды осында өзім үйрендім — қай жерде тұрып қалатыныңызды білемін.",
   "about.body":["Менің атым — Нұрқанат Дайраш. Назарбаев Университетінің студентімін, төрт жылдан бері мектеп оқушылары мен студенттерге ағылшын тілінен сабақ беремін. Өзімнің ағылшыным — C1 деңгейі, IELTS 7.5; қазақ, орыс және ағылшын тілдерінде еркін сөйлеймін.","Сабақта біз ережелерді жаттауға емес, тірі тілге басымдық береміз: ауызекі сөйлеуге, грамматиканы «іштей» түсінуге, мәтінмен жұмысқа және сөздік қорын кеңейтуге. Қателесуден, сұрақ қоюдан қорықпайтын жайлы орта құрамын — себебі адам нақ осылай сөйлей бастайды.","Біз тек ағылшын тілімен ғана емес, сенімділік, тәртіп және өз бетінше оқу дағдысымен де жұмыс істейміз. Мен үшін оқушының шынымен өскісі келгені маңызды — сонда нәтиже сөзсіз келеді."],
@@ -555,7 +862,7 @@ const I18N={
    {k:"Айтылым",t:"Таза айтылым",d:"Түсінікті айтылым — айырмашылық бірнеше аптада-ақ байқалады."},
    {k:"Мінез",t:"Сенімділік пен өсу ойлауы",d:"Тәртіп, дербестік және өзіне сену — сізде қалатын дағдылар."}
   ],
-  "achieve.whofor":"9-дан 45 жасқа дейінгі оқушыларға — мектеп оқушылары, талапкерлер және ересектер.",
+  "achieve.whofor":"Мектеп оқушылары, студенттер және ересектерге — 9-дан 45 жасқа дейін. Топтар жасына емес, деңгейіне қарай құрылады.",
   "results.eyebrow":"Нәтижелер","results.title":"Оқушыларым мақтан тұтатын нәтижелер.",
   "stats":[
    {n:199,suf:"/200",l:"НИШ емтиханында ағылшын тілінен — оқушымда"},
@@ -571,23 +878,77 @@ const I18N={
    {b:"Шигео Кацу",t:"Назарбаев Университетінің экс-президенті"},
    {b:"Назарбаев Университеті",t:"өзім оқитын орта"}
   ],
-  "lessons.eyebrow":"Сабақтар қалай өтеді","lessons.title":"Нәтижеге қарай қарапайым жол.",
+  "lessons.eyebrow":"Курс қалай құрылған","lessons.title":"Келесі деңгейге дейін төрт қадам.",
   "steps":[
-   {t:"Тегін сынақ сабақ",d:"Онлайн танысамыз, деңгейіңіз бен мақсатыңызды анықтаймыз."},
-   {t:"Жеке жоспар",d:"Қарқыныңыз бен мақсатыңызға арналған бағдарлама — шаблонсыз."},
-   {t:"Тұрақты онлайн-сабақтар",d:"Сабақтар 1 сағаттан, қаласаңыз аптасына 3–5 рет."},
-   {t:"Көрінетін прогресс",d:"Айырмашылықты сезінесіз — оны нәтижелеріңіз де көрсетеді."}
+   {t:"Тест — 5 минут",d:"20 сұрақ — деңгейіңізді бірден көресіз: Elementary, Pre-Intermediate немесе Intermediate."},
+   {t:"Тегін сынақ сабақ",d:"Өз деңгейіңіздегі топқа келіп, байқап көресіз. Төлем — тек ұнаса ғана."},
+   {t:"18 апталық интенсив",d:"5 адамдық шағын топта аптасына 3 сабақ + WhatsApp-та үй тапсырмалары мен талдау."},
+   {t:"Келесі деңгей",d:"Жаңа деңгейге шығасыз — басында елестеткеннен де еркін сөйлейсіз."}
   ],
   "pricing.eyebrow":"Бағасы","pricing.title":"Ашық әрі қарапайым.",
-  "pricing.sub":"Түсінікті баға және тегін алғашқы сабақ — міндеттемесіз, еркін байқап көресіз.",
-  "pricing.unit":"60 минут сабақ үшін",
-  "feat":["Онлайн, бір-бірден","Жеке бағдарлама","Ыңғайлы кесте, аптасына 3–5 рет"],
-  "pricing.trial":"Алғашқы сынақ сабақ — тегін.","pricing.cta":"Сынақ сабаққа жазылу",
-  "pricing.payNote":"Төлем туралы WhatsApp-та келісеміз.",
+  "pricing.sub":"Деңгей бойынша шағын топтар: Elementary, Pre-Intermediate, Intermediate. 18 апталық интенсив, старт — 1 қыркүйек. Бірінші легтің бағасы — 50 000 ₸ орнына 35 000 ₸.",
+  "pricing.unit":"айына · шағын топ — 5 адамға дейін",
+  "pricing.old":"әдеттегі баға",
+  "feat":["Аптасына 3 сабақ, 60 минуттан","Тест бойынша дәл өз деңгейіңіздегі топ","18 апта — келесі деңгейге шығу","WhatsApp-та үй тапсырмалары мен талдау","Жеке сабақ — 8 000 ₸"],
+  "pricing.trial":"Алғашқы сынақ сабақ — тегін. Легтегі орын — 30.","pricing.cta":"Тесттен өту — 5 минут",
+  "pricing.payNote":"Орынды брондау — 5 000 ₸, бірінші айдың төлеміне толық кіреді. Қалғаны — 29 тамызға дейін. Төлем — Kaspi арқылы.",
   "contact.eyebrow":"Бастайық","contact.title":"Ағылшынша сенімді сөйлеуге дайынсыз ба?",
-  "contact.sub":"WhatsApp-қа жазыңыз — алғашқы сабақ туралы келісеміз.","contact.waBtn":"WhatsApp-қа жазу",
+  "contact.sub":"Тесттен өтіңіз, тегін сынақ сабаққа келіңіз — 1 қыркүйекдағы легтен орын брондаңыз.","contact.waBtn":"WhatsApp-қа жазу","contact.testBtn":"Тесттен өту — 5 минут",
   "footer.tagline":"Қорқынышсыз ағылшын — онлайн, бүкіл Қазақстан бойынша.","footer.note":"Астана · Назарбаев Университеті",
-  "wa.msg":"Сәлеметсіз бе, Нұрқанат! Тегін ағылшын тілінен сынақ сабағына жазылғым келеді.",
+  "wa.msg":"Сәлеметсіз бе, Нұрқанат! Курстың тегін сынақ сабағына жазылғым келеді (старт — 1 қыркүйек).",
+  "video2.eyebrow":"Сізді кім оқытады","video2.title":"Шешім қабылдамас бұрын менімен танысыңыз.",
+  "video2.sub":"Екі ай бойы бір адаммен айналысасыз — алдымен оның кім екенін көрген дұрыс. Мұнда өзім туралы, курс туралы және сабақтардың қалай өтетіні туралы айтамын.",
+  "video2.cap":"Өзім туралы видео · 1 минут 33 секунд",
+  "nav.levels":"Деңгейлер","nav.schedule":"Кесте","nav.course":"Курс","nav.faq":"Сұрақтар",
+  "lv.eyebrow":"Үш деңгей","lv.title":"Өз деңгейіңізді — және тобыңызды табыңыз.",
+  "lv.sub":"Әр деңгей — бөлек 18 апталық интенсив. Курс барысында бір толық деңгейден өтесіз: қазір тұрған жеріңізден келесісіне.",
+  "lv1.for":"Жеке сөздерді біледі, бірақ сөйлем құрай алмайтындарға. Немесе мектепте оқып, бәрін ұмытқандарға.",
+  "lv1.after":"Курс соңында: өзіңіз, отбасыңыз бен жұмысыңыз туралы айтасыз, сұрақ қоясыз, қарапайым сөзді түсінесіз және сапарда жол таба аласыз.",
+  "lv2.for":"Түсінетін, бірақ ұзақ кідіріспен сөйлейтін және қателесуден қорқатындарға.",
+  "lv2.after":"Курс соңында: тұрмыстық және жұмыс тақырыптарында еркін сөйлейсіз, өткен мен жоспарларыңыз туралы айтасыз, хат алмасасыз.",
+  "lv3.for":"Негізді сенімді меңгерген, енді жаңа ереже емес, еркіндік іздейтіндерге.",
+  "lv3.after":"Курс соңында: пікірталасқа түсіп дәлел келтіресіз, фильмдер мен подкасттарды түсінесіз, сұхбатқа және IELTS-ке дайынсыз.",
+  "lv.note":"Деңгейіңізді білмейсіз бе? 5 минуттық тест оны анықтап, тобыңызды көрсетеді.",
+  "sch.eyebrow":"Кесте және легтер","sch.title":"Ыңғайлы күндерді таңдаңыз.",
+  "sch.sub":"Әр деңгейде күндердің екі нұсқасы — жұмысыңызға не оқуыңызға сай келетінін таңдайсыз. Барлық сабақ онлайн, 60 минуттан.",
+  "sch.colLevel":"Деңгей","sch.colA":"А тобы","sch.colB":"Б тобы",
+  "sch.daysA":"Дс · Ср · Жм","sch.daysB":"Сс · Бс · Сн","sch.daysA2":"Дс · Ср · Жм","sch.daysB2":"Сс · Бс · Сн","sch.daysA3":"Дс · Ср · Жм","sch.daysB3":"Сс · Бс · Сн",
+  "sch.tz":"Астана уақыты. Әр топта — ең көбі 5 адам.",
+  "sch.w1lbl":"1-лек","sch.w1date":"Старт 1 қыркүйек",
+  "sch.w1desc":"30 орын — әр деңгейге 10-нан. Төлем 29 тамызға дейін. Курс 11 қаңтарға дейін, 28 желтоқсан — 3 қаңтар аралығында демалыс.",
+  "sch.w2lbl":"2-лек","sch.w2date":"Старт 8 қыркүйек",
+  "sch.w2desc":"Бірінші лекке үлгермегендерге 10 орын. Бағдарлама да, баға да сол — тек бір апта кейін басталады.",
+  "sch.seats":"Орындар төлем бойынша бекітіледі: кім бұрын төледі — сол 1-лекте. Іріктеу жоқ, тек кезек.",
+  "inc.eyebrow":"Курсқа не кіреді","inc.title":"18 апта, 54 сабақ, бір деңгей жоғары.",
+  "inc.1":"сабақ курс бойы — аптасына 3 рет, әрқайсысы 60 минут",
+  "inc.2":"адам топта ең көбі — әр сабақта әркім сөйлейді",
+  "inc.3":"деңгей тобы: материалдар, үй тапсырмалары, дауыстық талдау",
+  "inc.4":"күніне бір рет үй тапсырмасын тексеремін — жеке кері байланыспен",
+  "inc.5":"барлық материал үшін: конспект, тапсырма және жазбалар сізде қалады",
+  "inc.6":"деңгейі көрсетілген курсты бітіргені туралы сертификат",
+  "prog.w1":"1–6 апта","prog.d1":"Сөйлеу қорқынышын аламыз. Деңгей грамматикасының негізі, алғашқы сенімді диалогтар, айтылым.",
+  "prog.w2":"7–12 апта","prog.d2":"Сөздік қор мен шақтарды кеңейтеміз. Ұзағырақ, күрделірек тақырыпта, аз кідіріспен сөйлейміз.",
+  "prog.w3":"13–18 апта","prog.d3":"Еркіндік пен жеңілдік: дайындықсыз сөйлеу, талқылау, нақты жағдайларды талдау — жұмыс, оқу, сапар.",
+  "pay.eyebrow":"Орынды қалай брондау керек","pay.title":"Төрт қадам — және орын сіздікі.",
+  "pay.s1":"Тесттен өтіп, өз тобыңыздың тегін сынақ сабағына келесіз.",
+  "pay.s2":"Ұнады ма — 5 000 ₸ (бронь) немесе бірден 35 000 ₸ бірінші айға төлейсіз. Бронь төлемге толық кіреді.",
+  "pay.s3":"Чекті маған WhatsApp-қа жібересіз — жеке, басқа еш жерге емес.",
+  "pay.s4":"Мен төлемді растап, сізді деңгейіңіздің WhatsApp-тобына қосамын. Қалған 30 000 ₸ — 29 тамызға дейін.",
+  "pay.guarantee":"Бірінші апта кепілдігі: бірінші аптадан кейін курс сізге сай емес деп шешсеңіз — ақшаны толық қайтарамыз.",
+  "pay.qrCap":"Компьютерден — Kaspi камерасын QR-ға бағыттаңыз. Телефоннан — төмендегі түймені бассаңыз болды.","pay.qrSoon":"QR осы жерде пайда болады",
+  "pay.amountWarn":"Соманы өзіңіз енгізесіз — 5 000 ₸ немесе 35 000 ₸ енгізіп, түсініктемеде <b>атыңыз бен деңгейіңізді</b> жазыңыз.",
+  "pay.a1":"орын брондау","pay.a2":"бірінші ай толығымен",
+  "pay.btn":"Kaspi-мен төлеу","pay.receiptBtn":"Чекті WhatsApp-қа жіберу",
+  "pay.note":"Төлем ЖК-ға. Төлегеннен кейін міндетті түрде чек жіберіңіз — онсыз орынды растай алмаймын.",
+  "solo.title":"Жеке сабақ","solo.desc":"Тек өз қарқыныңыз бен мақсатыңыз қажет болса — мысалы, IELTS немесе НИШ дайындығы. Кестені жеке келісеміз.",
+  "solo.price":"60 минут сабақ — 8 000 ₸",
+  "footer.ip":"ЖК «ДАЙРАШ» · төлем Kaspi QR арқылы · Қазақстан",
+  "wa.receipt":"Сәлеметсіз бе, Нұрқанат! Төлем чегін жіберіп отырмын — топтан орын брондаймын.",
+  "faq.eyebrow":"Жиі қойылатын сұрақтар","faq.title":"Алаңдамаңыз — жауаптар осында.",
+  "faq.q1":"«Деңгейімді білмеймін»","faq.a1":"Ол үшін 5 минуттық тест бар — тобыңызды бірден анықтайды. Тегін сынақ сабақта деңгейіңізді өзім де тексеремін, топ сәйкес келмесе — ауыстырамын.",
+  "faq.q2":"«Маған ұнамаса ше?»","faq.a2":"Алдымен — өз тобыңыздағы тегін сынақ сабақ. Төлем тек содан кейін, ұнаса ғана. 5 000 ₸ бронь бірінші айдың төлеміне толық кіреді.",
+  "faq.q3":"«Басқалардың алдында сөйлеуге ұяламын»","faq.a3":"Топта ең көбі 5 адам, бәрі — сіздің деңгейіңізде және бәрі бір уақытта бастайды. Екі аптадан кейін олар өз адамдарыңыз болады.",
+  "faq.q4":"«Сабақты жіберіп алсам ше?»","faq.a4":"Барлық материалдар мен талдаулар WhatsApp-топта сақталады — стресссіз қуып жетесіз. Үй тапсырмаларын күн сайын тексеремін.",
   "doc.title":"Нұрқанат Дайраш — ағылшын тілі мұғалімі · Астана"
  },
  en:{
@@ -595,9 +956,9 @@ const I18N={
   "nav.about":"About","nav.results":"Results","nav.lessons":"Lessons","nav.pricing":"Pricing","nav.cta":"Message on WhatsApp",
   "hero.eyebrow":"English Teacher · Astana · Nazarbayev University",
   "hero.title":"Speak English <em>freely</em> — without the fear.",
-  "hero.sub":"One-to-one online lessons with Nurkanat Dairash. From your first hesitant phrases to confident, living speech. IELTS 7.5, with students prepared for NIS and school programs.",
-  "hero.cta1":"Free trial lesson","hero.cta2":"Watch the video","hero.tag":"Overall",
-  "chips":["4 years teaching","IELTS 7.5","Online 1-on-1"],
+  "hero.sub":"An 18-week intensive in mini-groups of 5: from your level to the next. 3 lessons a week, feedback and support in WhatsApp. Starts September 1. 1-on-1 lessons available too.",
+  "hero.cta1":"Free trial lesson","hero.cta2":"Watch the video","hero.ctaTest":"5-minute level test","hero.tag":"Overall",
+  "chips":["Starts September 1","Mini-groups of 5","IELTS 7.5"],
   "video.eyebrow":"Get to know me","video.title":"How I got IELTS 7.5 — and why I now teach the way I do.","video.cap":"A short video · 55 seconds",
   "about.eyebrow":"About","about.title":"I learned English here myself — so I know exactly where you get stuck.",
   "about.body":["I'm Nurkanat Dairash. I'm a student at Nazarbayev University, and I've taught English to schoolchildren and students for four years. My own English is at C1 level, IELTS 7.5; I speak Kazakh, Russian and English fluently.","In lessons we don't cram rules — we build living language: real conversation, grammar that finally makes sense from the inside, working with texts, and growing your vocabulary. I keep a calm atmosphere where it isn't scary to make mistakes or ask questions — because that's exactly how people start to speak.","We work on more than English: confidence, discipline, and learning how to learn on your own. What matters to me is a student who genuinely wants to grow — then results are inevitable."],
@@ -610,7 +971,7 @@ const I18N={
    {k:"Pronunciation",t:"Clear pronunciation",d:"Clear, understandable pronunciation — a noticeable difference within weeks."},
    {k:"Mindset",t:"Confidence & growth mindset",d:"Discipline, independence, and self-belief — skills that stay with you."}
   ],
-  "achieve.whofor":"For students aged 9 to 45 — pupils, applicants, and adults.",
+  "achieve.whofor":"For pupils, students and adults aged 9 to 45. Groups are formed strictly by level, never by age.",
   "results.eyebrow":"Results","results.title":"Results my students are proud of.",
   "stats":[
    {n:199,suf:"/200",l:"in English on the NIS exam — by my student"},
@@ -626,23 +987,77 @@ const I18N={
    {b:"Shigeo Katsu",t:"ex-President of Nazarbayev University"},
    {b:"Nazarbayev University",t:"where I study"}
   ],
-  "lessons.eyebrow":"How lessons work","lessons.title":"A simple path to results.",
+  "lessons.eyebrow":"How the course works","lessons.title":"Four steps to the next level.",
   "steps":[
-   {t:"Free trial lesson",d:"We meet online and map your level and goals."},
-   {t:"A plan built for you",d:"A program for your pace and goals — no templates."},
-   {t:"Regular online lessons",d:"One-hour lessons, 3–5 times a week if you want."},
-   {t:"Visible progress",d:"You feel the difference — and your results show it."}
+   {t:"5-minute test",d:"20 questions — and you instantly see your level: Elementary, Pre-Intermediate or Intermediate."},
+   {t:"Free trial lesson",d:"Join a group at your level and try it. You only pay if you love it."},
+   {t:"18-week intensive",d:"3 lessons a week in a mini-group of 5 + homework and feedback in WhatsApp."},
+   {t:"The next level",d:"You move up a full level — speaking more freely than you imagined at the start."}
   ],
   "pricing.eyebrow":"Pricing","pricing.title":"Transparent and simple.",
-  "pricing.sub":"A clear price and a free first lesson, so you can try it calmly — with no commitment.",
-  "pricing.unit":"per 60-minute lesson",
-  "feat":["Online, one-to-one","A personalized program","Flexible schedule, 3–5×/week"],
-  "pricing.trial":"Your first trial lesson is free.","pricing.cta":"Book a trial lesson",
-  "pricing.payNote":"We'll sort out payment over WhatsApp.",
+  "pricing.sub":"Level-based mini-groups: Elementary, Pre-Intermediate, Intermediate. An 18-week intensive starting September 1. First-cohort price — 35,000₸ instead of 50,000₸.",
+  "pricing.unit":"per month · mini-group of up to 5",
+  "pricing.old":"regular price",
+  "feat":["3 lessons per week, 60 minutes each","A group strictly at your level — placed by test","18 weeks — move up a full level","Homework & feedback in WhatsApp","1-on-1 available — 8,000₸ per lesson"],
+  "pricing.trial":"Your first trial lesson is free. 30 seats per cohort.","pricing.cta":"Take the 5-minute test",
+  "pricing.payNote":"Reserve your seat for 5,000₸ — it counts fully toward month one. The rest is due by August 29. Payment via Kaspi.",
   "contact.eyebrow":"Let's start","contact.title":"Ready to speak English with confidence?",
-  "contact.sub":"Message me on WhatsApp and we'll set up your first lesson.","contact.waBtn":"Message on WhatsApp",
+  "contact.sub":"Take the test, join a free trial lesson — and reserve your seat in the September 1 cohort.","contact.waBtn":"Message on WhatsApp","contact.testBtn":"Take the 5-minute test",
   "footer.tagline":"English without fear — online, across Kazakhstan.","footer.note":"Astana · Nazarbayev University",
-  "wa.msg":"Hello, Nurkanat! I'd like to book a free trial English lesson.",
+  "wa.msg":"Hello, Nurkanat! I'd like to join a free trial lesson of the course (starting September 1).",
+  "video2.eyebrow":"Who will teach you","video2.title":"Meet me before you decide.",
+  "video2.sub":"You'll spend two months learning from one person — it makes sense to see who that is first. Here I talk about myself, the course, and how the lessons actually run.",
+  "video2.cap":"About me · 1 minute 33 seconds",
+  "nav.levels":"Levels","nav.schedule":"Schedule","nav.course":"Course","nav.faq":"FAQ",
+  "lv.eyebrow":"Three levels","lv.title":"Find your level — and the group for it.",
+  "lv.sub":"Each level is its own 18-week intensive. Over the course you move one full level: from exactly where you stand now to the next one.",
+  "lv1.for":"For those who know isolated words but can't build a sentence. Or studied at school and forgot it all.",
+  "lv1.after":"By the end: you talk about yourself, family and work, ask questions, follow simple speech and cope while travelling.",
+  "lv2.for":"For those who understand but speak with long pauses and fear making mistakes.",
+  "lv2.after":"By the end: you speak freely on everyday and work topics, describe the past and your plans, handle written correspondence.",
+  "lv3.for":"For those confident with the basics who want fluency, not more rules.",
+  "lv3.after":"By the end: you argue and justify your view, follow films and podcasts, and are ready for interviews and IELTS prep.",
+  "lv.note":"Not sure of your level? The 5-minute test will place you — and show your group.",
+  "sch.eyebrow":"Schedule & cohorts","sch.title":"Pick the days that suit you.",
+  "sch.sub":"Two day options at every level — choose the one that fits work or study. All lessons online, 60 minutes each.",
+  "sch.colLevel":"Level","sch.colA":"Group A","sch.colB":"Group B",
+  "sch.daysA":"Mon · Wed · Fri","sch.daysB":"Tue · Thu · Sat","sch.daysA2":"Mon · Wed · Fri","sch.daysB2":"Tue · Thu · Sat","sch.daysA3":"Mon · Wed · Fri","sch.daysB3":"Tue · Thu · Sat",
+  "sch.tz":"Astana time. Maximum 5 people per group.",
+  "sch.w1lbl":"Cohort 1","sch.w1date":"Starts September 1",
+  "sch.w1desc":"30 seats — 10 per level. Payment by August 29. The course runs to January 11, with a break December 28 – January 3.",
+  "sch.w2lbl":"Cohort 2","sch.w2date":"Starts September 8",
+  "sch.w2desc":"10 seats for those who missed the first cohort. Same program, same price — it simply starts a week later.",
+  "sch.seats":"Seats are held by payment: whoever pays first is in cohort 1. No selection, just a queue.",
+  "inc.eyebrow":"What's included","inc.title":"18 weeks, 54 lessons, one level up.",
+  "inc.1":"lessons over the course — 3 a week, 60 minutes each",
+  "inc.2":"people per group maximum — everyone speaks, every lesson",
+  "inc.3":"group for your level: materials, homework, voice feedback",
+  "inc.4":"a day I check homework — with personal feedback",
+  "inc.5":"for all materials: notes, tasks and recordings stay yours",
+  "inc.6":"certificate of completion stating your level",
+  "prog.w1":"Weeks 1–6","prog.d1":"We remove the fear of speaking. Core grammar for your level, first confident dialogues, pronunciation.",
+  "prog.w2":"Weeks 7–12","prog.d2":"We expand vocabulary and tenses. You speak longer, about harder things, with fewer pauses.",
+  "prog.w3":"Weeks 13–18","prog.d3":"Fluency and freedom: spontaneous speech, discussions, real situations — work, study, travel.",
+  "pay.eyebrow":"How to reserve a seat","pay.title":"Four steps and the seat is yours.",
+  "pay.s1":"Take the test and come to the free trial lesson of your group.",
+  "pay.s2":"If you liked it — pay 5,000₸ (reservation) or the full 35,000₸ for month one. The reservation counts fully toward payment.",
+  "pay.s3":"Send me the receipt on WhatsApp — privately, nowhere else.",
+  "pay.s4":"I confirm the payment and add you to the WhatsApp group for your level. The remaining 30,000₸ is due by August 29.",
+  "pay.guarantee":"First-week guarantee: if after the first week you decide the course isn't for you, we refund you in full.",
+  "pay.qrCap":"On a computer, point your Kaspi camera at the QR. On a phone, just tap the button below.","pay.qrSoon":"QR code goes here",
+  "pay.amountWarn":"You enter the amount yourself — enter 5,000₸ or 35,000₸ and write <b>your name and level</b> in the comment.",
+  "pay.a1":"reserve a seat","pay.a2":"full first month",
+  "pay.btn":"Pay with Kaspi","pay.receiptBtn":"Send receipt on WhatsApp",
+  "pay.note":"Payment goes to a registered sole proprietorship. Always send the receipt after paying — without it I can't confirm your seat.",
+  "solo.title":"One-to-one","solo.desc":"If you need only your pace and your goals — IELTS or NIS preparation, for example. We agree the schedule personally.",
+  "solo.price":"8,000₸ per 60-minute lesson",
+  "footer.ip":"Sole proprietorship «DAIRASH» · payments via Kaspi QR · Kazakhstan",
+  "wa.receipt":"Hello, Nurkanat! Sending my payment receipt — reserving my seat in the group.",
+  "faq.eyebrow":"FAQ","faq.title":"Relax — here are the answers.",
+  "faq.q1":"“I don't know my level”","faq.a1":"That's what the 5-minute test is for — it places you instantly. I'll confirm your level personally at the free trial, and if the group isn't right, I'll simply move you.",
+  "faq.q2":"“What if it's not for me?”","faq.a2":"You start with a free trial lesson in your group. You only pay after it, if you loved it. The 5,000₸ reservation counts fully toward month one.",
+  "faq.q3":"“I'm shy about speaking in front of others”","faq.a3":"Five people max, all at your level, all starting together. Two weeks in, they'll be your people.",
+  "faq.q4":"“What if I miss a lesson?”","faq.a4":"All materials and reviews stay in the WhatsApp group — catch up without stress. I check homework daily.",
   "doc.title":"Nurkanat Dairash — English Teacher · Astana"
  }
 };
@@ -681,6 +1096,10 @@ function render(){
  // links
  const wl=waLink();
  ["#wa-head","#wa-hero","#wa-price","#wa-cta","#wa-phone"].forEach(s=>{const e=$(s); if(e) e.href=wl;});
+ const rcpt=$("#wa-receipt");
+ if(rcpt) rcpt.href=WA+"?text="+encodeURIComponent(I18N[LANG]["wa.receipt"]||I18N[LANG]["wa.msg"]);
+ const pl=$("#paylink");
+ if(pl) pl.href = KASPI_PAY_URL || rcpt.href;
  // active lang btn
  $$("#lang button").forEach(b=>b.classList.toggle("active",b.dataset.l===LANG));
  countUp();
@@ -725,10 +1144,15 @@ function onScroll(){
 addEventListener("scroll",onScroll,{passive:true});
 
 // video
-const playbtn=$("#playbtn"),vid=$("#vid");
-playbtn.addEventListener("click",()=>{vid.play();playbtn.classList.add("hidden");});
-vid.addEventListener("pause",()=>playbtn.classList.remove("hidden"));
-vid.addEventListener("ended",()=>playbtn.classList.remove("hidden"));
+[["#playbtn","#vid"],["#playbtn2","#vid2"]].forEach(([bs,vs])=>{
+ const b=$(bs),v=$(vs); if(!b||!v) return;
+ b.addEventListener("click",()=>{
+   document.querySelectorAll("video").forEach(o=>{if(o!==v){o.pause();}});
+   v.play();b.classList.add("hidden");
+ });
+ v.addEventListener("pause",()=>b.classList.remove("hidden"));
+ v.addEventListener("ended",()=>b.classList.remove("hidden"));
+});
 
 // mobile nav
 $("#burger").addEventListener("click",()=>$("#mnav").classList.add("open"));

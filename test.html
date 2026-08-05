@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Тест на уровень английского · Нұрқанат Дайраш</title>
+<meta name="description" content="Бесплатный тест на уровень английского за 5 минут. Узнайте свой уровень и запишитесь на курс.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#16130f; --ink-2:#100e0b; --ink-3:#1d1813;
+  --ivory:#f4efe5; --paper:#fbf8f1;
+  --on-dark:#ece4d3; --on-dark-mut:#a89d87;
+  --gold:#c2a45a; --gold-lt:#dcc488; --gold-dp:#9b7f43;
+  --hair-dark:rgba(220,196,136,.22);
+  --serif:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+  --sans:"Manrope",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--ink);color:var(--on-dark);font-family:var(--sans);min-height:100vh;display:flex;flex-direction:column}
+a{color:var(--gold);text-decoration:none}
+.wrap{max-width:640px;width:100%;margin:0 auto;padding:24px 20px;flex:1;display:flex;flex-direction:column}
+header{display:flex;align-items:center;gap:12px;padding-bottom:20px;border-bottom:1px solid var(--hair-dark)}
+.logo{width:38px;height:38px;border:1px solid var(--gold);border-radius:2px;display:flex;align-items:center;justify-content:center;font-family:var(--serif);color:var(--gold);font-size:15px;letter-spacing:.5px}
+header .t{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--on-dark-mut)}
+header .t b{display:block;color:var(--on-dark);font-weight:600;letter-spacing:.02em;text-transform:none;font-size:15px}
+/* intro */
+.screen{padding:36px 0;display:none;animation:fade .35s ease}
+.screen.on{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+h1{font-family:var(--serif);font-weight:600;font-size:clamp(30px,6vw,44px);line-height:1.12;margin-bottom:14px}
+h1 em{font-style:italic;color:var(--gold-lt)}
+.sub{color:var(--on-dark-mut);font-size:15.5px;line-height:1.65;margin-bottom:26px}
+.facts{display:flex;gap:18px;margin-bottom:30px;flex-wrap:wrap}
+.facts div{border:1px solid var(--hair-dark);border-radius:2px;padding:10px 16px;font-size:13px;color:var(--on-dark-mut)}
+.facts b{color:var(--gold-lt);font-weight:600}
+.btn{display:inline-block;background:var(--gold);color:var(--ink);font-weight:700;font-size:15px;padding:14px 30px;border-radius:2px;border:none;cursor:pointer;font-family:var(--sans);letter-spacing:.02em;transition:background .2s}
+.btn:hover{background:var(--gold-lt)}
+.btn.ghost{background:transparent;color:var(--gold);border:1px solid var(--gold)}
+/* quiz */
+.bar{height:3px;background:var(--ink-3);border-radius:2px;margin:26px 0 8px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--gold);transition:width .3s ease}
+.count{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--on-dark-mut);margin-bottom:22px}
+.q{font-size:20px;line-height:1.5;font-weight:600;margin-bottom:24px}
+.q .blank{color:var(--gold-lt);letter-spacing:2px}
+.opts{display:grid;gap:10px}
+.opt{background:var(--ink-3);border:1px solid transparent;border-radius:2px;padding:14px 18px;font-size:16px;color:var(--on-dark);cursor:pointer;text-align:left;font-family:var(--sans);transition:border-color .15s,background .15s}
+.opt:hover{border-color:var(--gold-dp)}
+.opt.pick{border-color:var(--gold);background:var(--ink-2)}
+/* result */
+.lvl-tag{display:inline-block;border:1px solid var(--gold);color:var(--gold-lt);border-radius:2px;padding:6px 14px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:16px}
+.res-desc{color:var(--on-dark-mut);font-size:15.5px;line-height:1.7;margin-bottom:26px}
+.card{border:1px solid var(--hair-dark);border-radius:2px;padding:22px;margin-bottom:26px}
+.card h3{font-family:var(--serif);font-size:22px;font-weight:600;margin-bottom:12px;color:var(--on-dark)}
+.card ul{list-style:none}
+.card li{font-size:14.5px;color:var(--on-dark-mut);padding:5px 0 5px 22px;position:relative}
+.card li::before{content:"—";position:absolute;left:0;color:var(--gold)}
+.price{font-size:15px;margin:14px 0 0;color:var(--on-dark)}
+.price b{color:var(--gold-lt);font-size:20px}
+.price s{color:var(--on-dark-mut)}
+.sched{font-size:14.5px;color:var(--on-dark-mut);margin-top:14px;line-height:1.7}
+.sched b{color:var(--gold-lt)}
+.note{font-size:12.5px;color:var(--on-dark-mut);margin-top:18px;line-height:1.6}
+footer{text-align:center;padding:18px;font-size:12px;color:var(--on-dark-mut);border-top:1px solid var(--hair-dark)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">НД</div>
+    <div class="t">Тест на уровень<b>Нұрқанат Дайраш</b></div>
+  </header>
+
+  <!-- INTRO -->
+  <section class="screen on" id="intro">
+    <h1>Узнайте свой уровень — <em>за 5 минут.</em></h1>
+    <p class="sub">20 вопросов — от простых к сложным. Отвечайте честно, не пользуйтесь переводчиком: тест определит ваш уровень и подберёт группу курса, который стартует <b style="color:var(--gold-lt)">1 сентября</b>.</p>
+    <div class="facts">
+      <div><b>20</b> вопросов</div>
+      <div><b>≈5</b> минут</div>
+      <div><b>3</b> уровня групп</div>
+    </div>
+    <button class="btn" onclick="start()">Начать тест</button>
+  </section>
+
+  <!-- QUIZ -->
+  <section class="screen" id="quiz">
+    <div class="bar"><i id="barfill"></i></div>
+    <div class="count" id="count"></div>
+    <div class="q" id="qtext"></div>
+    <div class="opts" id="opts"></div>
+  </section>
+
+  <!-- RESULT -->
+  <section class="screen" id="result">
+    <div class="lvl-tag" id="lvltag"></div>
+    <h1 id="lvlname"></h1>
+    <p class="res-desc" id="lvldesc"></p>
+    <div class="card">
+      <h3>Ваша группа</h3>
+      <ul>
+        <li>Мини-группа — максимум 5 человек</li>
+        <li>3 урока в неделю по 60 минут, онлайн</li>
+        <li>18 недель — выход на следующий уровень</li>
+        <li>Материалы, домашние задания и разборы в WhatsApp</li>
+        <li>Сертификат об окончании курса</li>
+      </ul>
+      <p class="sched" id="sched"></p>
+      <p class="price"><b>35 000 ₸/мес</b> · цена первого потока <s>50 000 ₸</s></p>
+    </div>
+    <a class="btn" id="wabtn" target="_blank" rel="noopener">Записаться в WhatsApp</a>
+    <button class="btn ghost" style="margin-left:10px" onclick="location.reload()">Пройти ещё раз</button>
+    <div class="card">
+      <h3>Как забронировать место</h3>
+      <ul>
+        <li>Бесплатный пробный урок в вашей группе — сначала пробуете</li>
+        <li>Оплата 5 000 ₸ (бронь) или 35 000 ₸ сразу — бронь входит в оплату</li>
+        <li>Чек отправляете лично в WhatsApp</li>
+        <li>Я подтверждаю и добавляю в группу вашего уровня</li>
+      </ul>
+      <p class="price"><b>Поток 1 — 1 сентября</b> · оплата до 29 августа · 30 мест</p>
+      <p class="price" style="margin-top:6px"><b>Поток 2 — 8 сентября</b> · 10 мест</p>
+    </div>
+    <p class="note">Места закрепляются по факту оплаты: кто раньше оплатил — тот в первом потоке. Гарантия первой недели: не понравится — вернём деньги полностью.</p>
+  </section>
+</div>
+<footer>© 2026 Нұрқанат Дайраш · Астана · <a href="index.html">на главную</a></footer>
+
+<script>
+const QS = [
+ // A1 — Elementary check
+ {q:"I ___ a student.", o:["am","is","are","be"], a:0},
+ {q:"She ___ from Almaty.", o:["are","is","am","be"], a:1},
+ {q:"___ you like coffee?", o:["Does","Are","Do","Is"], a:2},
+ {q:"This is my brother. ___ name is Arman.", o:["Her","He","Him","His"], a:3},
+ {q:"There ___ two books on the table.", o:["is","are","be","am"], a:1},
+ {q:"I ___ TV every evening.", o:["watch","watches","watching","am watch"], a:0},
+ {q:"How ___ are you? — I'm 25.", o:["much","old","many","years"], a:1},
+ // A2 — Pre-Intermediate check
+ {q:"She ___ to work yesterday.", o:["go","goes","went","gone"], a:2},
+ {q:"I'm taller ___ my brother.", o:["that","then","as","than"], a:3},
+ {q:"Have you ever ___ to London?", o:["been","was","be","went"], a:0},
+ {q:"I ___ dinner when he called me.", o:["cooked","was cooking","cook","am cooking"], a:1},
+ {q:"You ___ smoke here. It's forbidden.", o:["don't have to","couldn't","mustn't","wouldn't"], a:2},
+ {q:"There isn't ___ milk in the fridge.", o:["many","much","a few","some"], a:1},
+ {q:"If it rains, we ___ at home.", o:["stayed","stay","would stay","will stay"], a:3},
+ // B1 — Intermediate check
+ {q:"I've been living here ___ 2019.", o:["for","since","from","during"], a:1},
+ {q:"The letter ___ sent last week.", o:["was","is","has","did"], a:0},
+ {q:"If I ___ rich, I would travel the world.", o:["am","will be","were","would be"], a:2},
+ {q:"She asked me where I ___.", o:["live","lived","do live","am living"], a:1},
+ {q:"I wish I ___ speak French.", o:["can","will","could","would"], a:2},
+ {q:"He denied ___ the money.", o:["to steal","steal","stole","stealing"], a:3},
+];
+const LEVELS = {
+ elem: {tag:"A1 → A2", name:"Elementary", desc:"У вас есть база, но пока не хватает грамматики и уверенности, чтобы строить фразы свободно. Группа Elementary даст прочный фундамент: базовая грамматика, первые диалоги, разговорная практика с первого урока."},
+ pre:  {tag:"A2 → B1", name:"Pre-Intermediate", desc:"Вы понимаете английский и знаете основы, но говорите с паузами и ошибками. Группа Pre-Intermediate — про то, чтобы превратить пассивные знания в живую речь: времена, разговорные конструкции, много практики."},
+ inter:{tag:"B1 → B2", name:"Intermediate", desc:"Хороший результат — вы уверенно владеете основами. Группа Intermediate прокачает беглость, сложную грамматику и словарный запас, чтобы вы говорили свободно и без страха."}
+};
+let i = 0, score = 0, picked = false;
+function start(){ show("quiz"); render(); }
+function show(id){ document.querySelectorAll(".screen").forEach(s=>s.classList.remove("on")); document.getElementById(id).classList.add("on"); window.scrollTo(0,0); }
+function render(){
+  const item = QS[i];
+  document.getElementById("barfill").style.width = (i/QS.length*100)+"%";
+  document.getElementById("count").textContent = "Вопрос " + (i+1) + " из " + QS.length;
+  document.getElementById("qtext").innerHTML = item.q.replace("___",'<span class="blank">＿＿＿</span>');
+  const box = document.getElementById("opts");
+  box.innerHTML = "";
+  picked = false;
+  item.o.forEach((opt,idx)=>{
+    const b = document.createElement("button");
+    b.className = "opt"; b.textContent = opt;
+    b.onclick = ()=>{
+      if(picked) return; picked = true;
+      b.classList.add("pick");
+      if(idx === item.a) score++;
+      setTimeout(()=>{ i++; i < QS.length ? render() : finish(); }, 250);
+    };
+    box.appendChild(b);
+  });
+}
+function finish(){
+  const lvl = score <= 8 ? LEVELS.elem : score <= 14 ? LEVELS.pre : LEVELS.inter;
+  document.getElementById("lvltag").textContent = lvl.tag + " · " + score + "/20";
+  document.getElementById("lvlname").textContent = lvl.name;
+  document.getElementById("lvldesc").textContent = lvl.desc;
+  const SCHED = {
+    "Elementary":"18:00", "Pre-Intermediate":"19:15", "Intermediate":"20:30"
+  };
+  document.getElementById("sched").innerHTML =
+    "Ваше расписание: <b>" + SCHED[lvl.name] + "</b> — группа А (Пн · Ср · Пт) или группа Б (Вт · Чт · Сб), время астанинское.";
+  const msg = encodeURIComponent("Здравствуйте! Я прошёл(ла) тест на сайте — мой уровень: " + lvl.name + " (" + score + "/20). Хочу записаться на курс (старт 1 сентября).");
+  document.getElementById("wabtn").href = "https://wa.me/77085501378?text=" + msg;
+  show("result");
+}
+</script>
+</body>
+</html>
