@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Тест на уровень английского · Нұрқанат Дайраш</title>
-<meta name="description" content="Комплексный тест на уровень английского: грамматика, лексика, чтение и самооценка речи. Определение уровня по шкале CEFR за 10 минут.">
+<meta name="description" content="Комплексный тест на уровень английского по шкале CEFR: грамматика, лексика, чтение и самооценка речи. Определяет уровень и подходящую группу курса.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://nurkanat-tau.github.io/test.html">
-<meta property="og:title" content="Тест на уровень английского — 10 минут">
-<meta property="og:description" content="Грамматика, лексика, чтение и речь. Узнайте свой уровень по CEFR и подходящую группу курса.">
+<meta property="og:title" content="Тест на уровень английского — CEFR A1–B2">
+<meta property="og:description" content="40 заданий: грамматика, лексика, чтение и речь. Узнайте свой уровень и подходящую группу курса.">
 <meta property="og:image" content="https://nurkanat-tau.github.io/about-poster.jpg">
 <meta name="theme-color" content="#16130f">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,11 +37,12 @@ header .t b{display:block;color:var(--on-dark);font-weight:600;letter-spacing:.0
 h1{font-family:var(--serif);font-weight:600;font-size:clamp(29px,5.6vw,42px);line-height:1.13;margin-bottom:14px}
 h1 em{font-style:italic;color:var(--gold-lt)}
 .sub{color:var(--on-dark-mut);font-size:15.5px;line-height:1.68;margin-bottom:24px}
-.facts{display:flex;gap:14px;margin-bottom:26px;flex-wrap:wrap}
-.facts div{border:1px solid var(--hair-dark);border-radius:2px;padding:10px 15px;font-size:12.5px;color:var(--on-dark-mut)}
+.facts{display:flex;gap:12px;margin-bottom:24px;flex-wrap:wrap}
+.facts div{border:1px solid var(--hair-dark);border-radius:2px;padding:9px 14px;font-size:12.5px;color:var(--on-dark-mut)}
 .facts b{color:var(--gold-lt);font-weight:600}
-.rules{border-left:2px solid var(--gold);padding:2px 0 2px 16px;margin-bottom:28px}
-.rules p{font-size:13.5px;color:var(--on-dark-mut);line-height:1.7}
+.rules{border-left:2px solid var(--gold);padding:2px 0 2px 16px;margin-bottom:26px}
+.rules p{font-size:13.5px;color:var(--on-dark-mut);line-height:1.7;margin-bottom:7px}
+.rules p:last-child{margin-bottom:0}
 .rules p b{color:var(--on-dark)}
 .btn{display:inline-block;background:var(--gold);color:var(--ink);font-weight:700;font-size:15px;padding:14px 30px;border-radius:2px;border:none;cursor:pointer;font-family:var(--sans);transition:background .2s;text-align:center}
 .btn:hover{background:var(--gold-lt)}
@@ -49,8 +50,8 @@ h1 em{font-style:italic;color:var(--gold-lt)}
 .btn.ghost{background:transparent;color:var(--gold);border:1px solid var(--gold)}
 .bar{height:3px;background:var(--ink-3);border-radius:2px;margin:24px 0 8px;overflow:hidden}
 .bar i{display:block;height:100%;width:0;background:var(--gold);transition:width .3s ease}
-.meta{display:flex;justify-content:space-between;align-items:center;font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--on-dark-mut);margin-bottom:20px}
-.meta .skill{border:1px solid var(--hair-dark);border-radius:2px;padding:3px 9px;letter-spacing:.1em}
+.meta{display:flex;justify-content:space-between;align-items:center;font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--on-dark-mut);margin-bottom:20px;gap:10px}
+.meta .skill{border:1px solid var(--hair-dark);border-radius:2px;padding:3px 9px;letter-spacing:.1em;white-space:nowrap}
 .passage{background:var(--ink-3);border-left:2px solid var(--gold-dp);padding:14px 16px;border-radius:2px;margin-bottom:16px;font-size:15px;line-height:1.7;color:var(--on-dark)}
 .q{font-size:19.5px;line-height:1.55;font-weight:600;margin-bottom:22px}
 .q .blank{color:var(--gold-lt);letter-spacing:2px}
@@ -63,7 +64,7 @@ h1 em{font-style:italic;color:var(--gold-lt)}
 .sa-item:last-of-type{border-bottom:none}
 .sa-q{font-size:16px;line-height:1.55;margin-bottom:12px}
 .sa-opts{display:flex;gap:8px;flex-wrap:wrap}
-.sa-opts button{flex:1;min-width:96px;background:var(--ink-3);border:1px solid transparent;border-radius:2px;padding:11px 8px;
+.sa-opts button{flex:1;min-width:92px;background:var(--ink-3);border:1px solid transparent;border-radius:2px;padding:11px 8px;
   color:var(--on-dark);font-family:var(--sans);font-size:14px;cursor:pointer;transition:border-color .15s,background .15s}
 .sa-opts button:hover{border-color:var(--gold-dp)}
 .sa-opts button.pick{border-color:var(--gold);background:var(--ink-2);color:var(--gold-lt)}
@@ -77,6 +78,8 @@ h1 em{font-style:italic;color:var(--gold-lt)}
 .card li::before{content:"—";position:absolute;left:0;color:var(--gold)}
 .rec-why{font-size:14px;color:var(--on-dark-mut);line-height:1.7;margin-top:10px;padding-top:12px;border-top:1px solid var(--hair-dark)}
 .rec-why b{color:var(--gold-lt)}
+.flagbox{border:1px solid var(--low);border-radius:2px;background:rgba(176,106,82,.08);padding:12px 14px;margin-top:14px;font-size:13px;line-height:1.6;color:var(--on-dark)}
+.flagbox b{color:var(--gold-lt)}
 .sk{margin-bottom:13px}
 .sk-top{display:flex;justify-content:space-between;font-size:13.5px;margin-bottom:5px}
 .sk-top b{color:var(--on-dark);font-weight:600}
@@ -85,11 +88,11 @@ h1 em{font-style:italic;color:var(--gold-lt)}
 .sk-bar i{display:block;height:100%;border-radius:3px;transition:width .6s ease}
 .band-tbl{width:100%;border-collapse:collapse;margin-top:6px}
 .band-tbl td{padding:8px 0;border-bottom:1px solid var(--hair-dark);font-size:13.5px;color:var(--on-dark-mut)}
-.band-tbl td:first-child{color:var(--on-dark);font-weight:600;width:64px}
+.band-tbl td:first-child{color:var(--on-dark);font-weight:600;width:60px}
 .band-tbl td:last-child{text-align:right}
 .band-tbl tr:last-child td{border-bottom:none}
 .verdict{font-weight:600}
-.v-ok{color:var(--ok)} .v-mid{color:var(--mid)} .v-low{color:var(--low)}
+.v-ok{color:var(--ok)} .v-mid{color:var(--mid)} .v-low{color:var(--low)} .v-na{color:var(--on-dark-mut);font-weight:400}
 .pricebox{margin-top:16px;border-top:1px solid var(--hair-dark);padding-top:16px}
 .pb-main{display:flex;align-items:baseline;gap:8px}
 .pb-main b{font-family:var(--serif);font-size:2.1rem;color:var(--gold-lt);line-height:1}
@@ -136,15 +139,17 @@ footer{text-align:center;padding:18px;font-size:12px;color:var(--on-dark-mut);bo
 
   <section class="screen on" id="intro">
     <h1>Определим ваш уровень — <em>точно.</em></h1>
-    <p class="sub">28 заданий на грамматику, лексику и чтение плюс короткая самооценка речи. Тест построен по шкале CEFR (A1–B2) и определяет не только уровень, но и то, насколько уверенно вы на нём держитесь — чтобы вы не попали в группу, где будет скучно или слишком тяжело.</p>
+    <p class="sub">Тест построен по шкале CEFR и проверяет грамматику, лексику и чтение отдельно на каждом уровне — от A1 до B2. Он определяет не просто «уровень», а насколько уверенно вы на нём держитесь: именно это решает, в какой группе вам не будет ни скучно, ни слишком тяжело.</p>
     <div class="facts">
-      <div><b>28</b> заданий</div>
-      <div><b>≈10</b> минут</div>
+      <div>до <b>40</b> заданий</div>
+      <div><b>≈12</b> минут</div>
       <div><b>4</b> уровня CEFR</div>
-      <div><b>3</b> навыка</div>
+      <div><b>3</b> навыка + речь</div>
     </div>
     <div class="rules">
-      <p><b>Отвечайте честно.</b> Не пользуйтесь переводчиком и не угадывайте — если не знаете, выбирайте «Не знаю». Так тест определит уровень точнее, а вы попадёте в свою группу.</p>
+      <p><b>Не угадывайте.</b> Если не знаете — выбирайте «Не знаю». Угаданный ответ ставит вас в группу выше вашей, где вы будете молчать.</p>
+      <p><b>Без переводчика и без подсказок.</b> Тест нужен вам, а не мне.</p>
+      <p><b>Тест закончится раньше</b>, если ваш уровень определится по первым блокам.</p>
     </div>
     <button class="btn" onclick="start()">Начать тест</button>
   </section>
@@ -161,7 +166,7 @@ footer{text-align:center;padding:18px;font-size:12px;color:var(--on-dark-mut);bo
     <div class="bar"><i style="width:100%"></i></div>
     <div class="meta"><span>Последний шаг</span><span class="skill">Речь</span></div>
     <h1 style="font-size:clamp(24px,4.6vw,32px)">Насколько уверенно вы <em>говорите?</em></h1>
-    <p class="sub">Тест выше проверил письменные навыки. Но курс — про речь, поэтому оцените себя честно: это влияет на выбор группы.</p>
+    <p class="sub">Задания выше проверили письменные навыки. Но курс — про речь, поэтому оцените себя честно: это влияет на выбор группы.</p>
     <div id="saList"></div>
     <button class="btn" id="saBtn" onclick="finishAll()" style="margin-top:20px;width:100%" disabled>Показать результат</button>
   </section>
@@ -176,6 +181,7 @@ footer{text-align:center;padding:18px;font-size:12px;color:var(--on-dark-mut);bo
       <ul id="recList"></ul>
       <p class="sched" id="sched"></p>
       <p class="rec-why" id="recWhy"></p>
+      <div id="flags"></div>
     </div>
 
     <div class="card">
@@ -233,44 +239,61 @@ footer{text-align:center;padding:18px;font-size:12px;color:var(--on-dark-mut);bo
 
 <script>
 const WA="https://wa.me/77085501378";
-const IDK="__idk__";
 
+/* ============ ITEM BANK — 10 per CEFR band (5 grammar / 3 vocabulary / 2 reading) ============ */
 const QS=[
- {b:"A1",s:"Грамматика",q:"I ___ from Kazakhstan.",o:["am","is","are","be"],a:0},
- {b:"A1",s:"Грамматика",q:"She ___ coffee every morning.",o:["drink","drinks","drinking","is drink"],a:1},
- {b:"A1",s:"Грамматика",q:"There ___ two windows in this room.",o:["is","are","be","am"],a:1},
- {b:"A1",s:"Грамматика",q:"___ you speak English?",o:["Do","Are","Is","Does"],a:0},
- {b:"A1",s:"Лексика",q:"Choose the opposite of “big”:",o:["small","tall","long","wide"],a:0},
- {b:"A1",s:"Лексика",q:"You usually sleep in the ___.",o:["kitchen","bedroom","garden","office"],a:1},
- {b:"A1",s:"Чтение",p:"Anna is twelve. She lives in Astana with her mother and her little brother. Her father works in Almaty.",
-  q:"Who lives with Anna?",o:["Her mother and brother","Her father only","Her grandmother","Nobody"],a:0},
-
- {b:"A2",s:"Грамматика",q:"Yesterday we ___ to the cinema.",o:["go","went","gone","are going"],a:1},
- {b:"A2",s:"Грамматика",q:"My sister is taller ___ me.",o:["that","then","than","as"],a:2},
- {b:"A2",s:"Грамматика",q:"She has ___ finished her homework, so she is free now.",o:["yet","already","still","never"],a:1},
- {b:"A2",s:"Грамматика",q:"If it rains tomorrow, we ___ at home.",o:["stayed","stay","will stay","would stay"],a:2},
- {b:"A2",s:"Лексика",q:"We had to ___ a decision quickly.",o:["do","make","take","get"],a:1},
- {b:"A2",s:"Лексика",q:"I am really ___ of flying — I hate planes.",o:["afraid","angry","proud","interested"],a:0},
- {b:"A2",s:"Чтение",p:"Hi Bob, I can’t come on Friday — I have to work late. Could we meet on Saturday morning instead? Sorry! Sam",
-  q:"What does Sam want?",o:["To cancel completely","To change the day","To work on Saturday","To meet on Friday night"],a:1},
-
- {b:"B1",s:"Грамматика",q:"I have been living here ___ 2019.",o:["for","since","from","during"],a:1},
- {b:"B1",s:"Грамматика",q:"The letter ___ last week.",o:["was sent","is sent","sent","has sent"],a:0},
- {b:"B1",s:"Грамматика",q:"She asked me where I ___.",o:["live","lived","do live","am living"],a:1},
- {b:"B1",s:"Грамматика",q:"He denied ___ the money.",o:["to take","take","took","taking"],a:3},
- {b:"B1",s:"Лексика",q:"The film was so ___ that I fell asleep.",o:["bored","boring","bore","boredom"],a:1},
- {b:"B1",s:"Лексика",q:"Can you ___ the music? It is far too loud.",o:["turn down","turn on","turn up","turn into"],a:0},
- {b:"B1",s:"Чтение",p:"The café is looking for a part-time assistant. No experience is necessary, as full training is provided. However, applicants must be available at weekends.",
-  q:"What is essential for this job?",o:["Previous experience","Weekend availability","A training certificate","Full-time hours"],a:1},
-
- {b:"B2",s:"Грамматика",q:"Had I known about the traffic, I ___ earlier.",o:["would leave","would have left","will leave","left"],a:1},
- {b:"B2",s:"Грамматика",q:"___ the terrible weather, the match went ahead.",o:["Despite","Although","However","Because of"],a:0},
- {b:"B2",s:"Грамматика",q:"Not only ___ late, but he also forgot the tickets.",o:["he was","was he","he is","is he"],a:1},
- {b:"B2",s:"Грамматика",q:"It is high time we ___ about leaving.",o:["think","are thinking","thought","will think"],a:2},
- {b:"B2",s:"Лексика",q:"It was a ___ decision — he did not think it through at all.",o:["rash","harsh","fresh","rush"],a:0},
- {b:"B2",s:"Лексика",q:"The evidence against the company was ___.",o:["compulsory","competitive","compelling","complimentary"],a:2},
- {b:"B2",s:"Чтение",p:"While the new policy has been praised for its ambition, critics point out that it offers little in the way of practical funding. Without money attached, they argue, it amounts to little more than a statement of intent.",
-  q:"What is the critics’ main objection?",o:["The policy is not ambitious","The policy lacks funding","The policy is too expensive","The policy came too late"],a:1}
+/* ---------- A1 ---------- */
+{b:"A1",s:"Грамматика",q:"My brother ___ in Almaty.",o:["lives","live","living","is live"],a:0},
+{b:"A1",s:"Грамматика",q:"___ she your sister?",o:["Is","Are","Do","Does"],a:0},
+{b:"A1",s:"Грамматика",q:"We ___ go to school on Sundays.",o:["don't","doesn't","aren't","not"],a:0},
+{b:"A1",s:"Грамматика",q:"I bought ___ apples at the market.",o:["some","a","much","an"],a:0},
+{b:"A1",s:"Грамматика",q:"Look — the children ___ in the garden now.",o:["are playing","play","plays","played"],a:0},
+{b:"A1",s:"Лексика",q:"The opposite of “expensive” is ___.",o:["cheap","poor","free","short"],a:0},
+{b:"A1",s:"Лексика",q:"I ___ my teeth every morning.",o:["brush","wash","clean up","make"],a:0},
+{b:"A1",s:"Лексика",q:"She works in a hospital. She is a ___.",o:["nurse","driver","waiter","teacher"],a:0},
+{b:"A1",s:"Чтение",p:"The shop opens at 9 in the morning and closes at 6. It is closed on Sundays.",
+ q:"When can you go to the shop?",o:["Saturday at 10 a.m.","Sunday at 10 a.m.","Monday at 7 p.m.","Sunday at 5 p.m."],a:0},
+{b:"A1",s:"Чтение",p:"Dear Ann, I am in Turkey with my family. The weather is hot and the sea is beautiful. See you next week. Marat",
+ q:"Where is Marat now?",o:["In Turkey","At home","At school","In Astana"],a:0},
+/* ---------- A2 ---------- */
+{b:"A2",s:"Грамматика",q:"She ___ TV when I called her.",o:["was watching","watched","watches","has watched"],a:0},
+{b:"A2",s:"Грамматика",q:"You ___ wear a helmet here — it's the rule.",o:["must","can","might","would"],a:0},
+{b:"A2",s:"Грамматика",q:"This is the ___ film I have ever seen.",o:["best","better","goodest","more good"],a:0},
+{b:"A2",s:"Грамматика",q:"He isn't ___ to drive a car.",o:["old enough","enough old","too old","so old"],a:0},
+{b:"A2",s:"Грамматика",q:"If it rains tomorrow, we ___ at home.",o:["will stay","stayed","would stay","stay"],a:0},
+{b:"A2",s:"Лексика",q:"We had to ___ a decision very quickly.",o:["make","do","take","get"],a:0},
+{b:"A2",s:"Лексика",q:"I'm looking ___ my keys — I can't find them.",o:["for","at","after","up"],a:0},
+{b:"A2",s:"Лексика",q:"The flight was ___ because of the snow.",o:["delayed","late","stopped","broken"],a:0},
+{b:"A2",s:"Чтение",p:"Hi Bob, I can't come on Friday — I have to work late. Could we meet on Saturday morning instead? Sorry! Sam",
+ q:"What does Sam want?",o:["To change the day","To cancel completely","To work on Saturday","To meet on Friday night"],a:0},
+{b:"A2",s:"Чтение",p:"Tickets bought online are 10% cheaper. Students pay half price, but must show a valid student card at the entrance.",
+ q:"What does a student need in order to pay half price?",o:["A valid student card","To buy online only","To arrive early","A 10% discount code"],a:0},
+/* ---------- B1 ---------- */
+{b:"B1",s:"Грамматика",q:"If I ___ more time, I would travel more.",o:["had","have","will have","would have"],a:0},
+{b:"B1",s:"Грамматика",q:"The house ___ in 1990.",o:["was built","built","has built","is building"],a:0},
+{b:"B1",s:"Грамматика",q:"He said he ___ finish the report by Friday.",o:["would","will","can","shall"],a:0},
+{b:"B1",s:"Грамматика",q:"I'm used to ___ up early.",o:["getting","get","got","have got"],a:0},
+{b:"B1",s:"Грамматика",q:"I have been living here ___ 2019.",o:["since","for","from","during"],a:0},
+{b:"B1",s:"Лексика",q:"We'll have to ___ the meeting until next week.",o:["put off","put on","put up","put down"],a:0},
+{b:"B1",s:"Лексика",q:"His explanation was long and rather ___.",o:["confusing","confused","confuse","confusion"],a:0},
+{b:"B1",s:"Лексика",q:"I can't ___ to buy a new laptop this year.",o:["afford","allow","permit","manage"],a:0},
+{b:"B1",s:"Чтение",p:"The café is looking for a part-time assistant. No experience is necessary, as full training is provided. However, applicants must be available at weekends.",
+ q:"What is essential for this job?",o:["Weekend availability","Previous experience","A training certificate","Full-time hours"],a:0},
+{b:"B1",s:"Чтение",p:"Most of the reviews praised the restaurant's food, though several mentioned that the service was slow. Prices, everyone agreed, were reasonable.",
+ q:"What did reviewers disagree about least?",o:["The prices","The service speed","The location","The opening hours"],a:0},
+/* ---------- B2 ---------- */
+{b:"B2",s:"Грамматика",q:"Had I known about the traffic, I ___ earlier.",o:["would have left","would leave","will leave","left"],a:0},
+{b:"B2",s:"Грамматика",q:"___ the terrible weather, the match went ahead.",o:["Despite","Although","However","Because of"],a:0},
+{b:"B2",s:"Грамматика",q:"Not only ___ late, but he also forgot the tickets.",o:["was he","he was","he is","is he"],a:0},
+{b:"B2",s:"Грамматика",q:"By the time we arrived, the film ___.",o:["had already started","already started","has already started","was already starting"],a:0},
+{b:"B2",s:"Грамматика",q:"It's high time we ___ about leaving.",o:["thought","think","are thinking","will think"],a:0},
+{b:"B2",s:"Лексика",q:"It was a ___ decision — he didn't think it through at all.",o:["rash","harsh","fresh","rush"],a:0},
+{b:"B2",s:"Лексика",q:"The evidence against the company was ___.",o:["compelling","compulsory","competitive","complimentary"],a:0},
+{b:"B2",s:"Лексика",q:"The new findings ___ doubt on the original theory.",o:["cast","threw","put","gave"],a:0},
+{b:"B2",s:"Чтение",p:"While the new policy has been praised for its ambition, critics point out that it offers little in the way of practical funding. Without money attached, they argue, it amounts to little more than a statement of intent.",
+ q:"What is the critics' main objection?",o:["It lacks funding","It is not ambitious","It is too expensive","It came too late"],a:0},
+{b:"B2",s:"Чтение",p:"Hardly had the company announced record profits when it revealed plans to cut three hundred jobs. Shareholders welcomed the news; employees, understandably, did not.",
+ q:"What does the passage imply?",o:["Shareholders and staff reacted differently","The company was losing money","The job cuts were cancelled","Profits fell that year"],a:0}
 ];
 
 const SA=[
@@ -282,6 +305,10 @@ const SA=[
 const SA_OPTS=[{t:"Да",v:2},{t:"Иногда",v:1},{t:"Нет",v:0}];
 
 const BANDS=["A1","A2","B1","B2"];
+const PER_BAND=10;
+/* stop early when a band is clearly beyond the student — saves them 10–30 pointless items
+   and stops random guessing from inflating higher bands */
+const STOP_AT={A1:3,A2:2,B1:2};
 const GROUPS={
  elem:{name:"Elementary",tag:"A1 → A2",time:"18:00"},
  pre:{name:"Pre-Intermediate",tag:"A2 → B1",time:"19:15"},
@@ -293,92 +320,119 @@ const FIRST_WEEKS={
  inter:["Сложные конструкции: условные, пассив, косвенная речь","Беглость: спонтанные обсуждения без подготовки","Точность: синонимы, коллокации, идиомы"]
 };
 
-let i=0, answers=[], saAnswers=[null,null,null,null];
+let order=[], i=0, res=[], saAnswers=[null,null,null,null], tShown=0, stoppedAt=null;
+
 function $(s){return document.querySelector(s)}
 function show(id){document.querySelectorAll(".screen").forEach(s=>s.classList.remove("on"));$("#"+id).classList.add("on");window.scrollTo(0,0)}
-function start(){i=0;answers=[];show("quiz");render()}
+
+function start(){
+  order=QS.map((q,n)=>n); i=0; res=[]; stoppedAt=null;
+  show("quiz"); render();
+}
+
+/* Fisher–Yates on the option list so the correct answer isn't always in the same place */
+function shuffled(n){
+  const it=QS[n];
+  const arr=it.o.map((text,idx)=>({text,ok:idx===it.a}));
+  for(let k=arr.length-1;k>0;k--){const j=Math.floor(Math.random()*(k+1));[arr[k],arr[j]]=[arr[j],arr[k]]}
+  return arr;
+}
 
 function render(){
-  const it=QS[i];
-  $("#barfill").style.width=(i/QS.length*100)+"%";
-  $("#count").textContent="Вопрос "+(i+1)+" из "+QS.length;
-  $("#skill").textContent=it.s;
+  const n=order[i], it=QS[n];
+  $("#barfill").style.width=(i/order.length*100)+"%";
+  $("#count").textContent="Вопрос "+(i+1)+" из "+order.length;
+  $("#skill").textContent=it.s+" · "+it.b;
   $("#passage").innerHTML=it.p?'<div class="passage">'+it.p+'</div>':"";
   $("#qtext").innerHTML=it.q.replace("___",'<span class="blank">＿＿＿</span>');
-  const box=$("#opts");box.innerHTML="";
+  const box=$("#opts"); box.innerHTML="";
   let locked=false;
-  const choose=(val,el)=>{if(locked)return;locked=true;el.classList.add("pick");answers[i]=val;setTimeout(next,220)};
-  it.o.forEach((opt,idx)=>{
+  tShown=Date.now();
+  const answer=(ok,idk,el)=>{
+    if(locked)return; locked=true; el.classList.add("pick");
+    res.push({band:it.b,skill:it.s,ok,idk,ms:Date.now()-tShown});
+    setTimeout(next,210);
+  };
+  shuffled(n).forEach(opt=>{
     const b=document.createElement("button");
-    b.className="opt";b.textContent=opt;
-    b.onclick=()=>choose(idx,b);
+    b.className="opt"; b.textContent=opt.text;
+    b.onclick=()=>answer(opt.ok,false,b);
     box.appendChild(b);
   });
   const idk=document.createElement("button");
-  idk.className="opt idk";idk.textContent="Не знаю";
-  idk.onclick=()=>choose(IDK,idk);
+  idk.className="opt idk"; idk.textContent="Не знаю";
+  idk.onclick=()=>answer(false,true,idk);
   box.appendChild(idk);
 }
-function next(){ i++; i<QS.length ? render() : startSA(); }
+
+function next(){
+  i++;
+  // adaptive stop at each band boundary
+  if(i%PER_BAND===0){
+    const bandIdx=i/PER_BAND-1, band=BANDS[bandIdx];
+    if(STOP_AT[band]!==undefined){
+      const got=res.filter(r=>r.band===band && r.ok).length;
+      if(got<=STOP_AT[band]){ stoppedAt=band; return startSA(); }
+    }
+  }
+  i<order.length ? render() : startSA();
+}
 
 function startSA(){
-  const l=$("#saList");l.innerHTML="";
+  const l=$("#saList"); l.innerHTML="";
   SA.forEach((s,n)=>{
-    const d=document.createElement("div");d.className="sa-item";
+    const d=document.createElement("div"); d.className="sa-item";
     d.innerHTML='<div class="sa-q">'+s.t+'</div>';
-    const row=document.createElement("div");row.className="sa-opts";
+    const row=document.createElement("div"); row.className="sa-opts";
     SA_OPTS.forEach(o=>{
-      const b=document.createElement("button");b.textContent=o.t;
+      const b=document.createElement("button"); b.textContent=o.t;
       b.onclick=()=>{
         saAnswers[n]=o.v;
         [...row.children].forEach(c=>c.classList.remove("pick"));
         b.classList.add("pick");
-        $("#saBtn").disabled = saAnswers.some(a=>a===null);
+        $("#saBtn").disabled=saAnswers.some(a=>a===null);
       };
       row.appendChild(b);
     });
-    d.appendChild(row);l.appendChild(d);
+    d.appendChild(row); l.appendChild(d);
   });
   show("selfassess");
 }
 
+/* ================== SCORING ================== */
 function analyse(){
   const band={},skill={};
-  BANDS.forEach(b=>band[b]={n:0,ok:0,idk:0});
+  BANDS.forEach(b=>band[b]={n:0,ok:0,idk:0,tested:false});
   ["Грамматика","Лексика","Чтение"].forEach(s=>skill[s]={n:0,ok:0});
-  QS.forEach((it,n)=>{
-    const a=answers[n];
-    const ok = a!==IDK && a===it.a;
-    band[it.b].n++; skill[it.s].n++;
-    if(ok){band[it.b].ok++;skill[it.s].ok++}
-    if(a===IDK) band[it.b].idk++;
+  res.forEach(r=>{
+    band[r.band].n++; band[r.band].tested=true;
+    skill[r.skill].n++;
+    if(r.ok){band[r.band].ok++;skill[r.skill].ok++}
+    if(r.idk) band[r.band].idk++;
   });
-  const pct={};BANDS.forEach(b=>pct[b]=band[b].ok/band[b].n);
+  const pct={};
+  BANDS.forEach(b=>pct[b]= band[b].n ? band[b].ok/band[b].n : 0);
 
+  /* Robust banding: take the HIGHEST band passed at >=65%, tolerating imperfect
+     lower bands (>=50%) so that a careless slip on easy items can't collapse the result. */
   let current=null;
-  for(const b of BANDS){ if(pct[b]>=0.70) current=b; else break; }
+  BANDS.forEach((b,k)=>{
+    if(band[b].tested && pct[b]>=0.65 && BANDS.slice(0,k).every(x=>pct[x]>=0.50)) current=b;
+  });
 
   const nextOf={A1:"A2",A2:"B1",B1:"B2",B2:null};
   const nb = current ? nextOf[current] : "A1";
-  const nextPct = nb ? pct[nb] : 1;
-  /* 7 items per band, so the only possible scores are 0/7…7/7 (0,14,29,43,57,71,86,100%).
-     Thresholds sit on that grid: 4+/7 = strong (promote), 3/7 = solid, 0–2/7 = weak. */
-  let strength = nextPct>=0.55 ? "strong" : nextPct>=0.35 ? "solid" : "weak";
+  const nextPct = nb ? (band[nb].tested ? pct[nb] : 0) : 1;
+  /* 10 items per band → scores land on 0,10,20…100, so thresholds can be exact */
+  const strength = nextPct>=0.50 ? "strong" : nextPct>=0.30 ? "solid" : "weak";
 
-  let group;
-  if(current===null || current==="A1") group="elem";
-  else if(current==="A2") group="pre";
-  else group="inter";
-
+  let group = (current===null||current==="A1") ? "elem" : current==="A2" ? "pre" : "inter";
   let bumped=false;
   if(strength==="strong"){
     if(group==="elem"){group="pre";bumped=true}
     else if(group==="pre"){group="inter";bumped=true}
   }
 
-  /* Speaking drag: only when written level is clearly ahead of spoken ability.
-     B1/B2 writers who barely speak → one group down (course is speaking-first).
-     A2 writers only drop if they answered "Нет" to everything. */
   const sp=saAnswers.reduce((a,b)=>a+(b||0),0);
   const written = current ? BANDS.indexOf(current) : -1;
   let speakingDrag=false;
@@ -386,26 +440,35 @@ function analyse(){
     group = group==="inter" ? "pre" : "elem";
     speakingDrag=true; bumped=false;
   }
+
+  /* reliability signals */
+  const times=res.map(r=>r.ms).sort((a,b)=>a-b);
+  const median = times.length ? times[Math.floor(times.length/2)] : 0;
+  const rushed = times.length>=8 && median<3500;
+  const idkTotal = BANDS.reduce((a,b)=>a+band[b].idk,0);
+  const guessy = idkTotal===0 && (pct.B2>0.3 && pct.A1<0.7);   // no "не знаю" + odd shape
+  const inconsistent = band.B2.tested && band.A1.tested && (pct.B2 - pct.A1) > 0.3;
+
   return {band,skill,pct,current,strength,group,bumped,speakingDrag,sp,nextPct,
-          idkTotal:BANDS.reduce((a,b)=>a+band[b].idk,0), aboveTop:current==="B2"};
+          idkTotal,rushed,guessy,inconsistent,median,stoppedAt,
+          answered:res.length, aboveTop:current==="B2"};
 }
 
 function finishAll(){
   const r=analyse();
   const g=GROUPS[r.group];
-  const lvlLabel = r.current || "начальный";
-  const strengthWord = {weak:"уверенный",solid:"уверенный",strong:"сильный"}[r.strength];
+  const lvl = r.current || "начальный";
 
-  $("#lvltag").textContent = (r.current || "Pre-A1") + " · " + Math.round((r.pct[r.current||"A1"])*100) + "% по уровню";
+  $("#lvltag").textContent=(r.current||"Pre-A1")+" · "+r.answered+" заданий";
   $("#lvlname").textContent = r.current
-    ? (r.strength==="strong" ? "Сильный "+lvlLabel : lvlLabel)
+    ? (r.strength==="strong" ? "Сильный "+lvl : lvl)
     : "Начинаем с нуля";
 
   let desc;
   if(!r.current) desc="Базовые конструкции пока не закрепились — это нормальная точка старта. Построим фундамент с нуля, и говорить вы начнёте с первого урока.";
-  else if(r.strength==="strong") desc="Вы уверенно держите уровень "+lvlLabel+" и уже неплохо справляетесь с материалом следующего. Проходить "+lvlLabel+" заново было бы потерей времени.";
-  else if(r.strength==="solid") desc="Вы уверенно держите уровень "+lvlLabel+". Следующий уровень пока даётся частично — это ровно та точка, с которой начинается рост.";
-  else desc="Уровень "+lvlLabel+" закреплён, но следующий пока почти не даётся. Начнём с прочной опоры, чтобы не осталось пробелов.";
+  else if(r.strength==="strong") desc="Вы уверенно держите уровень "+lvl+" и уже неплохо справляетесь с материалом следующего. Проходить "+lvl+" заново было бы потерей времени.";
+  else if(r.strength==="solid") desc="Вы уверенно держите уровень "+lvl+". Следующий уровень пока даётся частично — это ровно та точка, с которой начинается рост.";
+  else desc="Уровень "+lvl+" закреплён, но следующий пока почти не даётся. Начнём с прочной опоры, чтобы не осталось пробелов.";
   $("#lvldesc").textContent=desc;
 
   $("#recTitle").textContent="Ваша группа: "+g.name;
@@ -419,34 +482,43 @@ function finishAll(){
   $("#sched").innerHTML="Ваше расписание: <b>"+g.time+"</b> — группа А (Пн · Ср · Пт) или группа Б (Вт · Чт · Сб), время астанинское.";
 
   let why;
-  if(r.speakingDrag) why="<b>Почему именно эта группа:</b> письменно вы сильнее, чем в речи — по самооценке говорить пока тяжело. Курс построен вокруг разговора, поэтому здесь вы заговорите быстрее, чем в более сильной группе, где будете молчать.";
-  else if(r.bumped) why="<b>Почему группа выше вашего уровня:</b> вы уверенно справляетесь с материалом "+lvlLabel+" и уже взяли "+Math.round(r.nextPct*100)+"% заданий следующего уровня. Повторять пройденное — потерять 18 недель.";
+  if(r.speakingDrag) why="<b>Почему именно эта группа:</b> письменно вы сильнее, чем в речи — по самооценке говорить пока тяжело. Курс построен вокруг разговора, поэтому здесь вы заговорите быстрее, чем в сильной группе, где будете молчать.";
+  else if(r.bumped) why="<b>Почему группа выше вашего уровня:</b> материал "+lvl+" вы держите уверенно и уже взяли "+Math.round(r.nextPct*100)+"% заданий следующего уровня. Повторять пройденное — потерять 18 недель.";
   else if(r.aboveTop) why="<b>Важно:</b> ваш уровень выше верхней группы курса. Intermediate может оказаться простым — напишите мне, обсудим индивидуальные занятия или подготовку к IELTS.";
-  else why="<b>Почему именно эта группа:</b> вы уверенно держите "+lvlLabel+", а следующий уровень взяли на "+Math.round(r.nextPct*100)+"%. Это оптимальная нагрузка: не скучно и не слишком тяжело.";
+  else why="<b>Почему именно эта группа:</b> вы уверенно держите "+lvl+", а следующий уровень взяли на "+Math.round(r.nextPct*100)+"%. Это оптимальная нагрузка: не скучно и не слишком тяжело.";
   $("#recWhy").innerHTML=why;
 
+  const flags=[];
+  if(r.rushed) flags.push("Вы отвечали очень быстро (в среднем "+(r.median/1000).toFixed(1)+" сек на вопрос). Возможно, результат занижен — на пробном уроке проверим ещё раз.");
+  if(r.guessy) flags.push("Похоже, часть ответов была угадана: вы ни разу не выбрали «Не знаю», но результаты по уровням выглядят необычно. Уровень уточним на пробном уроке.");
+  if(r.inconsistent) flags.push("Результат неровный: сложные задания даются лучше простых. Обычно это невнимательность — окончательный уровень подтвердим на уроке.");
+  $("#flags").innerHTML = flags.length ? flags.map(f=>'<div class="flagbox"><b>Обратите внимание.</b> '+f+'</div>').join("") : "";
+
   const colour=p=>p>=0.7?"var(--ok)":p>=0.4?"var(--mid)":"var(--low)";
-  $("#skills").innerHTML=Object.entries(r.skill).map(([k,v])=>{
+  $("#skills").innerHTML=Object.entries(r.skill).filter(([,v])=>v.n>0).map(([k,v])=>{
     const p=v.ok/v.n;
     return '<div class="sk"><div class="sk-top"><b>'+k+'</b><span>'+v.ok+' / '+v.n+'</span></div>'+
            '<div class="sk-bar"><i style="width:'+(p*100)+'%;background:'+colour(p)+'"></i></div></div>';
-  }).join("") +
+  }).join("")+
   '<div class="sk"><div class="sk-top"><b>Речь (самооценка)</b><span>'+r.sp+' / 8</span></div>'+
   '<div class="sk-bar"><i style="width:'+(r.sp/8*100)+'%;background:'+colour(r.sp/8)+'"></i></div></div>';
 
   $("#bandTbl").innerHTML=BANDS.map(b=>{
-    const p=r.pct[b], v=p>=0.7?["Освоено","v-ok"]:p>=0.4?["Частично","v-mid"]:["Ещё нет","v-low"];
+    if(!r.band[b].tested) return "<tr><td>"+b+"</td><td>—</td><td><span class='verdict v-na'>не проверялся</span></td></tr>";
+    const p=r.pct[b], v=p>=0.65?["Освоено","v-ok"]:p>=0.4?["Частично","v-mid"]:["Ещё нет","v-low"];
     return "<tr><td>"+b+"</td><td>"+r.band[b].ok+" / "+r.band[b].n+"</td>"+
            '<td><span class="verdict '+v[1]+'">'+v[0]+"</span></td></tr>";
   }).join("");
 
-  $("#idkNote").textContent = r.idkTotal>0
+  let note = r.idkTotal>0
     ? "Вы честно отметили «не знаю» "+r.idkTotal+" раз — это помогло определить уровень точнее."
     : "Вы ответили на все вопросы без пропусков.";
+  if(r.stoppedAt) note+=" Тест остановился после блока "+r.stoppedAt+": уровень был уже ясен, и дальнейшие задания ничего бы не изменили.";
+  $("#idkNote").textContent=note;
 
   $("#firstWeeks").innerHTML=FIRST_WEEKS[r.group].map(t=>"<li>"+t+"</li>").join("");
 
-  const msg=encodeURIComponent("Здравствуйте! Я прошёл(ла) тест на сайте. Мой уровень: "+lvlLabel+", рекомендованная группа: "+g.name+". Хочу на бесплатный пробный урок (старт 1 сентября).");
+  const msg=encodeURIComponent("Здравствуйте! Я прошёл(ла) тест на сайте. Мой уровень: "+lvl+", рекомендованная группа: "+g.name+". Хочу на бесплатный пробный урок (старт 1 сентября).");
   $("#wabtn").href=WA+"?text="+msg;
   const rmsg=encodeURIComponent("Здравствуйте, Нұрқанат! Отправляю чек об оплате. Моя группа: "+g.name+". Бронирую место в потоке 1 сентября.");
   $("#receiptbtn").href=WA+"?text="+rmsg;
