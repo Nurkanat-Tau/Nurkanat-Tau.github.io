@@ -4,66 +4,92 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Тест на уровень английского · Нұрқанат Дайраш</title>
-<meta name="description" content="Бесплатный тест на уровень английского за 5 минут. Узнайте свой уровень и запишитесь на курс.">
+<meta name="description" content="Комплексный тест на уровень английского: грамматика, лексика, чтение и самооценка речи. Определение уровня по шкале CEFR за 10 минут.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nurkanat-tau.github.io/test.html">
+<meta property="og:title" content="Тест на уровень английского — 10 минут">
+<meta property="og:description" content="Грамматика, лексика, чтение и речь. Узнайте свой уровень по CEFR и подходящую группу курса.">
+<meta property="og:image" content="https://nurkanat-tau.github.io/about-poster.jpg">
+<meta name="theme-color" content="#16130f">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
   --ink:#16130f; --ink-2:#100e0b; --ink-3:#1d1813;
-  --ivory:#f4efe5; --paper:#fbf8f1;
   --on-dark:#ece4d3; --on-dark-mut:#a89d87;
   --gold:#c2a45a; --gold-lt:#dcc488; --gold-dp:#9b7f43;
   --hair-dark:rgba(220,196,136,.22);
+  --ok:#7fa86a; --mid:#c2a45a; --low:#b06a52;
   --serif:"Cormorant Garamond",Georgia,"Times New Roman",serif;
   --sans:"Manrope",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
 }
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:var(--ink);color:var(--on-dark);font-family:var(--sans);min-height:100vh;display:flex;flex-direction:column}
+body{background:var(--ink);color:var(--on-dark);font-family:var(--sans);min-height:100vh;display:flex;flex-direction:column;-webkit-font-smoothing:antialiased}
 a{color:var(--gold);text-decoration:none}
-.wrap{max-width:640px;width:100%;margin:0 auto;padding:24px 20px;flex:1;display:flex;flex-direction:column}
+.wrap{max-width:660px;width:100%;margin:0 auto;padding:24px 20px;flex:1;display:flex;flex-direction:column}
 header{display:flex;align-items:center;gap:12px;padding-bottom:20px;border-bottom:1px solid var(--hair-dark)}
-.logo{width:38px;height:38px;border:1px solid var(--gold);border-radius:2px;display:flex;align-items:center;justify-content:center;font-family:var(--serif);color:var(--gold);font-size:15px;letter-spacing:.5px}
+.logo{width:38px;height:38px;border:1px solid var(--gold);border-radius:2px;display:flex;align-items:center;justify-content:center;font-family:var(--serif);color:var(--gold);font-size:15px}
 header .t{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--on-dark-mut)}
 header .t b{display:block;color:var(--on-dark);font-weight:600;letter-spacing:.02em;text-transform:none;font-size:15px}
-/* intro */
-.screen{padding:36px 0;display:none;animation:fade .35s ease}
+.screen{padding:34px 0;display:none;animation:fade .35s ease}
 .screen.on{display:block}
 @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-h1{font-family:var(--serif);font-weight:600;font-size:clamp(30px,6vw,44px);line-height:1.12;margin-bottom:14px}
+h1{font-family:var(--serif);font-weight:600;font-size:clamp(29px,5.6vw,42px);line-height:1.13;margin-bottom:14px}
 h1 em{font-style:italic;color:var(--gold-lt)}
-.sub{color:var(--on-dark-mut);font-size:15.5px;line-height:1.65;margin-bottom:26px}
-.facts{display:flex;gap:18px;margin-bottom:30px;flex-wrap:wrap}
-.facts div{border:1px solid var(--hair-dark);border-radius:2px;padding:10px 16px;font-size:13px;color:var(--on-dark-mut)}
+.sub{color:var(--on-dark-mut);font-size:15.5px;line-height:1.68;margin-bottom:24px}
+.facts{display:flex;gap:14px;margin-bottom:26px;flex-wrap:wrap}
+.facts div{border:1px solid var(--hair-dark);border-radius:2px;padding:10px 15px;font-size:12.5px;color:var(--on-dark-mut)}
 .facts b{color:var(--gold-lt);font-weight:600}
-.btn{display:inline-block;background:var(--gold);color:var(--ink);font-weight:700;font-size:15px;padding:14px 30px;border-radius:2px;border:none;cursor:pointer;font-family:var(--sans);letter-spacing:.02em;transition:background .2s}
+.rules{border-left:2px solid var(--gold);padding:2px 0 2px 16px;margin-bottom:28px}
+.rules p{font-size:13.5px;color:var(--on-dark-mut);line-height:1.7}
+.rules p b{color:var(--on-dark)}
+.btn{display:inline-block;background:var(--gold);color:var(--ink);font-weight:700;font-size:15px;padding:14px 30px;border-radius:2px;border:none;cursor:pointer;font-family:var(--sans);transition:background .2s;text-align:center}
 .btn:hover{background:var(--gold-lt)}
+.btn:disabled{opacity:.4;cursor:not-allowed}
 .btn.ghost{background:transparent;color:var(--gold);border:1px solid var(--gold)}
-/* quiz */
-.bar{height:3px;background:var(--ink-3);border-radius:2px;margin:26px 0 8px;overflow:hidden}
+.bar{height:3px;background:var(--ink-3);border-radius:2px;margin:24px 0 8px;overflow:hidden}
 .bar i{display:block;height:100%;width:0;background:var(--gold);transition:width .3s ease}
-.count{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--on-dark-mut);margin-bottom:22px}
-.q{font-size:20px;line-height:1.5;font-weight:600;margin-bottom:24px}
+.meta{display:flex;justify-content:space-between;align-items:center;font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--on-dark-mut);margin-bottom:20px}
+.meta .skill{border:1px solid var(--hair-dark);border-radius:2px;padding:3px 9px;letter-spacing:.1em}
+.passage{background:var(--ink-3);border-left:2px solid var(--gold-dp);padding:14px 16px;border-radius:2px;margin-bottom:16px;font-size:15px;line-height:1.7;color:var(--on-dark)}
+.q{font-size:19.5px;line-height:1.55;font-weight:600;margin-bottom:22px}
 .q .blank{color:var(--gold-lt);letter-spacing:2px}
-.opts{display:grid;gap:10px}
+.opts{display:grid;gap:9px}
 .opt{background:var(--ink-3);border:1px solid transparent;border-radius:2px;padding:14px 18px;font-size:16px;color:var(--on-dark);cursor:pointer;text-align:left;font-family:var(--sans);transition:border-color .15s,background .15s}
 .opt:hover{border-color:var(--gold-dp)}
 .opt.pick{border-color:var(--gold);background:var(--ink-2)}
-/* result */
-.lvl-tag{display:inline-block;border:1px solid var(--gold);color:var(--gold-lt);border-radius:2px;padding:6px 14px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:16px}
-.res-desc{color:var(--on-dark-mut);font-size:15.5px;line-height:1.7;margin-bottom:26px}
-.card{border:1px solid var(--hair-dark);border-radius:2px;padding:22px;margin-bottom:26px}
-.card h3{font-family:var(--serif);font-size:22px;font-weight:600;margin-bottom:12px;color:var(--on-dark)}
+.opt.idk{color:var(--on-dark-mut);font-size:14.5px;background:transparent;border:1px dashed var(--hair-dark)}
+.sa-item{border-bottom:1px solid var(--hair-dark);padding:18px 0}
+.sa-item:last-of-type{border-bottom:none}
+.sa-q{font-size:16px;line-height:1.55;margin-bottom:12px}
+.sa-opts{display:flex;gap:8px;flex-wrap:wrap}
+.sa-opts button{flex:1;min-width:96px;background:var(--ink-3);border:1px solid transparent;border-radius:2px;padding:11px 8px;
+  color:var(--on-dark);font-family:var(--sans);font-size:14px;cursor:pointer;transition:border-color .15s,background .15s}
+.sa-opts button:hover{border-color:var(--gold-dp)}
+.sa-opts button.pick{border-color:var(--gold);background:var(--ink-2);color:var(--gold-lt)}
+.lvl-tag{display:inline-block;border:1px solid var(--gold);color:var(--gold-lt);border-radius:2px;padding:6px 14px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:14px}
+.res-desc{color:var(--on-dark-mut);font-size:15.5px;line-height:1.72;margin-bottom:24px}
+.card{border:1px solid var(--hair-dark);border-radius:3px;padding:22px;margin-bottom:22px}
+.card.hi{border-color:var(--gold);background:rgba(194,164,90,.05)}
+.card h3{font-family:var(--serif);font-size:21px;font-weight:600;margin-bottom:12px;color:var(--on-dark)}
 .card ul{list-style:none}
-.card li{font-size:14.5px;color:var(--on-dark-mut);padding:5px 0 5px 22px;position:relative}
+.card li{font-size:14.5px;color:var(--on-dark-mut);padding:5px 0 5px 20px;position:relative;line-height:1.6}
 .card li::before{content:"—";position:absolute;left:0;color:var(--gold)}
-.price{font-size:15px;margin:14px 0 0;color:var(--on-dark)}
-.price b{color:var(--gold-lt);font-size:20px}
-.price s{color:var(--on-dark-mut)}
-.sched{font-size:14.5px;color:var(--on-dark-mut);margin-top:14px;line-height:1.7}
-.sched b{color:var(--gold-lt)}
-.note{font-size:12.5px;color:var(--on-dark-mut);margin-top:18px;line-height:1.6}
-
-/* price box */
+.rec-why{font-size:14px;color:var(--on-dark-mut);line-height:1.7;margin-top:10px;padding-top:12px;border-top:1px solid var(--hair-dark)}
+.rec-why b{color:var(--gold-lt)}
+.sk{margin-bottom:13px}
+.sk-top{display:flex;justify-content:space-between;font-size:13.5px;margin-bottom:5px}
+.sk-top b{color:var(--on-dark);font-weight:600}
+.sk-top span{color:var(--on-dark-mut)}
+.sk-bar{height:6px;background:var(--ink-3);border-radius:3px;overflow:hidden}
+.sk-bar i{display:block;height:100%;border-radius:3px;transition:width .6s ease}
+.band-tbl{width:100%;border-collapse:collapse;margin-top:6px}
+.band-tbl td{padding:8px 0;border-bottom:1px solid var(--hair-dark);font-size:13.5px;color:var(--on-dark-mut)}
+.band-tbl td:first-child{color:var(--on-dark);font-weight:600;width:64px}
+.band-tbl td:last-child{text-align:right}
+.band-tbl tr:last-child td{border-bottom:none}
+.verdict{font-weight:600}
+.v-ok{color:var(--ok)} .v-mid{color:var(--mid)} .v-low{color:var(--low)}
 .pricebox{margin-top:16px;border-top:1px solid var(--hair-dark);padding-top:16px}
 .pb-main{display:flex;align-items:baseline;gap:8px}
 .pb-main b{font-family:var(--serif);font-size:2.1rem;color:var(--gold-lt);line-height:1}
@@ -72,7 +98,6 @@ h1 em{font-style:italic;color:var(--gold-lt)}
 .pb-sub b{color:var(--gold-lt)}
 .pb-total{font-size:12.5px;color:var(--on-dark-mut);margin-top:9px;padding-top:9px;border-top:1px solid var(--hair-dark);line-height:1.6}
 .pb-total b{color:var(--on-dark)}
-/* payment card */
 .pay-lead{font-size:14px;color:var(--on-dark-mut);line-height:1.65;margin-bottom:16px}
 .pay-opts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:18px}
 .pay-opt{border:1px solid var(--hair-dark);border-radius:2px;padding:13px}
@@ -85,14 +110,21 @@ h1 em{font-style:italic;color:var(--gold-lt)}
 .qr-txt p b{color:var(--on-dark)}
 .qr-txt .warn{margin-top:8px;border-left:2px solid var(--gold);padding-left:10px;color:var(--on-dark)}
 .qr-txt .warn b{color:var(--gold-lt)}
-#kaspibtn,#receiptbtn{display:block;width:100%;text-align:center;margin-bottom:9px}
+#kaspibtn,#receiptbtn,#wabtn{display:block;width:100%;margin-bottom:9px}
 .steps-after{font-size:12.5px;color:var(--on-dark-mut);line-height:1.6;margin:12px 0 14px}
+.price{font-size:15px;margin-top:12px;color:var(--on-dark)}
+.price b{color:var(--gold-lt)}
+.price s{color:var(--on-dark-mut)}
+.sched{font-size:14.5px;color:var(--on-dark-mut);margin-top:14px;line-height:1.7}
+.sched b{color:var(--gold-lt)}
+.note{font-size:12.5px;color:var(--on-dark-mut);margin-top:16px;line-height:1.65}
+.again{margin-top:14px}
+footer{text-align:center;padding:18px;font-size:12px;color:var(--on-dark-mut);border-top:1px solid var(--hair-dark)}
 @media(max-width:520px){
   .pay-opts{grid-template-columns:1fr}
   .qr-row{flex-direction:column;align-items:flex-start}
   .qr-row .qr{width:150px;height:150px}
 }
-footer{text-align:center;padding:18px;font-size:12px;color:var(--on-dark-mut);border-top:1px solid var(--hair-dark)}
 </style>
 </head>
 <body>
@@ -102,68 +134,87 @@ footer{text-align:center;padding:18px;font-size:12px;color:var(--on-dark-mut);bo
     <div class="t">Тест на уровень<b>Нұрқанат Дайраш</b></div>
   </header>
 
-  <!-- INTRO -->
   <section class="screen on" id="intro">
-    <h1>Узнайте свой уровень — <em>за 5 минут.</em></h1>
-    <p class="sub">20 вопросов — от простых к сложным. Отвечайте честно, не пользуйтесь переводчиком: тест определит ваш уровень и подберёт группу курса, который стартует <b style="color:var(--gold-lt)">1 сентября</b>.</p>
+    <h1>Определим ваш уровень — <em>точно.</em></h1>
+    <p class="sub">28 заданий на грамматику, лексику и чтение плюс короткая самооценка речи. Тест построен по шкале CEFR (A1–B2) и определяет не только уровень, но и то, насколько уверенно вы на нём держитесь — чтобы вы не попали в группу, где будет скучно или слишком тяжело.</p>
     <div class="facts">
-      <div><b>20</b> вопросов</div>
-      <div><b>≈5</b> минут</div>
-      <div><b>3</b> уровня групп</div>
+      <div><b>28</b> заданий</div>
+      <div><b>≈10</b> минут</div>
+      <div><b>4</b> уровня CEFR</div>
+      <div><b>3</b> навыка</div>
+    </div>
+    <div class="rules">
+      <p><b>Отвечайте честно.</b> Не пользуйтесь переводчиком и не угадывайте — если не знаете, выбирайте «Не знаю». Так тест определит уровень точнее, а вы попадёте в свою группу.</p>
     </div>
     <button class="btn" onclick="start()">Начать тест</button>
   </section>
 
-  <!-- QUIZ -->
   <section class="screen" id="quiz">
     <div class="bar"><i id="barfill"></i></div>
-    <div class="count" id="count"></div>
+    <div class="meta"><span id="count"></span><span class="skill" id="skill"></span></div>
+    <div id="passage"></div>
     <div class="q" id="qtext"></div>
     <div class="opts" id="opts"></div>
   </section>
 
-  <!-- RESULT -->
+  <section class="screen" id="selfassess">
+    <div class="bar"><i style="width:100%"></i></div>
+    <div class="meta"><span>Последний шаг</span><span class="skill">Речь</span></div>
+    <h1 style="font-size:clamp(24px,4.6vw,32px)">Насколько уверенно вы <em>говорите?</em></h1>
+    <p class="sub">Тест выше проверил письменные навыки. Но курс — про речь, поэтому оцените себя честно: это влияет на выбор группы.</p>
+    <div id="saList"></div>
+    <button class="btn" id="saBtn" onclick="finishAll()" style="margin-top:20px;width:100%" disabled>Показать результат</button>
+  </section>
+
   <section class="screen" id="result">
     <div class="lvl-tag" id="lvltag"></div>
     <h1 id="lvlname"></h1>
     <p class="res-desc" id="lvldesc"></p>
-    <div class="card">
-      <h3>Ваша группа</h3>
-      <ul>
-        <li>Мини-группа — максимум 5 человек</li>
-        <li>3 урока в неделю по 60 минут, онлайн</li>
-        <li>18 недель — выход на следующий уровень</li>
-        <li>Материалы, домашние задания и разборы в WhatsApp</li>
-        <li>Сертификат об окончании курса</li>
-      </ul>
+
+    <div class="card hi">
+      <h3 id="recTitle"></h3>
+      <ul id="recList"></ul>
       <p class="sched" id="sched"></p>
+      <p class="rec-why" id="recWhy"></p>
+    </div>
+
+    <div class="card">
+      <h3>Разбор по навыкам</h3>
+      <div id="skills"></div>
+      <h3 style="margin-top:22px;font-size:18px">По уровням CEFR</h3>
+      <table class="band-tbl" id="bandTbl"></table>
+      <p class="note" id="idkNote"></p>
+    </div>
+
+    <div class="card">
+      <h3>Первые недели курса</h3>
+      <ul id="firstWeeks"></ul>
       <div class="pricebox">
         <div class="pb-main"><b>35 000 ₸</b><span>в месяц</span></div>
         <div class="pb-sub">Цена первого потока вместо <s>50 000 ₸</s>. Оплата <b>каждый месяц</b>, пока идёт курс.</div>
         <div class="pb-total">Весь курс — 18 недель: 4 месяца по 35 000 ₸ + последние 2 недели 17 500 ₸ = <b>157 500 ₸</b></div>
       </div>
     </div>
-    <a class="btn" id="wabtn" target="_blank" rel="noopener">Записаться в WhatsApp</a>
-    <button class="btn ghost" style="margin-left:10px" onclick="location.reload()">Пройти ещё раз</button>
-    <div class="card pay-card">
+
+    <a class="btn" id="wabtn" target="_blank" rel="noopener">Записаться на бесплатный пробный урок</a>
+
+    <div class="card" style="margin-top:22px">
       <h3>Забронировать место сейчас</h3>
       <p class="pay-lead">Сначала — бесплатный пробный урок, платить необязательно. Но если уже решили: бронь закрепляет место, а мест в первом потоке всего 30.</p>
       <div class="pay-opts">
         <div class="pay-opt">
-          <b>5 000 ₸</b>
-          <span>бронь места</span>
+          <b>5 000 ₸</b><span>бронь места</span>
           <small>Входит в оплату первого месяца. Остаток 30 000 ₸ — до 29 августа.</small>
         </div>
         <div class="pay-opt">
-          <b>35 000 ₸</b>
-          <span>первый месяц</span>
+          <b>35 000 ₸</b><span>первый месяц</span>
           <small>Место закреплено сразу. Следующий платёж — 1 октября.</small>
         </div>
       </div>
       <div class="qr-row">
         <img class="qr" src="kaspi-qr.png" alt="Kaspi QR — ИП ДАЙРАШ">
         <div class="qr-txt">
-          <p><b>С телефона</b> — нажмите кнопку «Оплатить в Kaspi».<br><b>С компьютера</b> — наведите камеру Kaspi на QR.</p>
+          <p><b>С телефона</b> — нажмите «Оплатить в Kaspi».<br><b>С компьютера</b> — наведите камеру Kaspi на QR.</p>
           <p class="warn">Сумму вводите сами: <b>5 000 ₸</b> или <b>35 000 ₸</b>. В комментарии обязательно напишите <b>имя и уровень</b>.</p>
         </div>
       </div>
@@ -173,79 +224,233 @@ footer{text-align:center;padding:18px;font-size:12px;color:var(--on-dark-mut);bo
       <p class="price"><b>Поток 1 — 1 сентября</b> · оплата до 29 августа · 30 мест</p>
       <p class="price" style="margin-top:6px"><b>Поток 2 — 8 сентября</b> · 10 мест</p>
     </div>
-    <p class="note">Места закрепляются по факту оплаты: кто раньше оплатил — тот в первом потоке. Гарантия первой недели: не понравится — вернём деньги полностью.</p>
+
+    <p class="note">Тест проверяет грамматику, лексику и чтение — но не живую речь. Окончательный уровень я подтверждаю на бесплатном пробном уроке, и если группа окажется не той, просто переведу вас в подходящую.</p>
+    <button class="btn ghost again" onclick="location.reload()">Пройти ещё раз</button>
   </section>
 </div>
 <footer>© 2026 Нұрқанат Дайраш · Астана · <a href="index.html">на главную</a></footer>
 
 <script>
-const QS = [
- // A1 — Elementary check
- {q:"I ___ a student.", o:["am","is","are","be"], a:0},
- {q:"She ___ from Almaty.", o:["are","is","am","be"], a:1},
- {q:"___ you like coffee?", o:["Does","Are","Do","Is"], a:2},
- {q:"This is my brother. ___ name is Arman.", o:["Her","He","Him","His"], a:3},
- {q:"There ___ two books on the table.", o:["is","are","be","am"], a:1},
- {q:"I ___ TV every evening.", o:["watch","watches","watching","am watch"], a:0},
- {q:"How ___ are you? — I'm 25.", o:["much","old","many","years"], a:1},
- // A2 — Pre-Intermediate check
- {q:"She ___ to work yesterday.", o:["go","goes","went","gone"], a:2},
- {q:"I'm taller ___ my brother.", o:["that","then","as","than"], a:3},
- {q:"Have you ever ___ to London?", o:["been","was","be","went"], a:0},
- {q:"I ___ dinner when he called me.", o:["cooked","was cooking","cook","am cooking"], a:1},
- {q:"You ___ smoke here. It's forbidden.", o:["don't have to","couldn't","mustn't","wouldn't"], a:2},
- {q:"There isn't ___ milk in the fridge.", o:["many","much","a few","some"], a:1},
- {q:"If it rains, we ___ at home.", o:["stayed","stay","would stay","will stay"], a:3},
- // B1 — Intermediate check
- {q:"I've been living here ___ 2019.", o:["for","since","from","during"], a:1},
- {q:"The letter ___ sent last week.", o:["was","is","has","did"], a:0},
- {q:"If I ___ rich, I would travel the world.", o:["am","will be","were","would be"], a:2},
- {q:"She asked me where I ___.", o:["live","lived","do live","am living"], a:1},
- {q:"I wish I ___ speak French.", o:["can","will","could","would"], a:2},
- {q:"He denied ___ the money.", o:["to steal","steal","stole","stealing"], a:3},
+const WA="https://wa.me/77085501378";
+const IDK="__idk__";
+
+const QS=[
+ {b:"A1",s:"Грамматика",q:"I ___ from Kazakhstan.",o:["am","is","are","be"],a:0},
+ {b:"A1",s:"Грамматика",q:"She ___ coffee every morning.",o:["drink","drinks","drinking","is drink"],a:1},
+ {b:"A1",s:"Грамматика",q:"There ___ two windows in this room.",o:["is","are","be","am"],a:1},
+ {b:"A1",s:"Грамматика",q:"___ you speak English?",o:["Do","Are","Is","Does"],a:0},
+ {b:"A1",s:"Лексика",q:"Choose the opposite of “big”:",o:["small","tall","long","wide"],a:0},
+ {b:"A1",s:"Лексика",q:"You usually sleep in the ___.",o:["kitchen","bedroom","garden","office"],a:1},
+ {b:"A1",s:"Чтение",p:"Anna is twelve. She lives in Astana with her mother and her little brother. Her father works in Almaty.",
+  q:"Who lives with Anna?",o:["Her mother and brother","Her father only","Her grandmother","Nobody"],a:0},
+
+ {b:"A2",s:"Грамматика",q:"Yesterday we ___ to the cinema.",o:["go","went","gone","are going"],a:1},
+ {b:"A2",s:"Грамматика",q:"My sister is taller ___ me.",o:["that","then","than","as"],a:2},
+ {b:"A2",s:"Грамматика",q:"She has ___ finished her homework, so she is free now.",o:["yet","already","still","never"],a:1},
+ {b:"A2",s:"Грамматика",q:"If it rains tomorrow, we ___ at home.",o:["stayed","stay","will stay","would stay"],a:2},
+ {b:"A2",s:"Лексика",q:"We had to ___ a decision quickly.",o:["do","make","take","get"],a:1},
+ {b:"A2",s:"Лексика",q:"I am really ___ of flying — I hate planes.",o:["afraid","angry","proud","interested"],a:0},
+ {b:"A2",s:"Чтение",p:"Hi Bob, I can’t come on Friday — I have to work late. Could we meet on Saturday morning instead? Sorry! Sam",
+  q:"What does Sam want?",o:["To cancel completely","To change the day","To work on Saturday","To meet on Friday night"],a:1},
+
+ {b:"B1",s:"Грамматика",q:"I have been living here ___ 2019.",o:["for","since","from","during"],a:1},
+ {b:"B1",s:"Грамматика",q:"The letter ___ last week.",o:["was sent","is sent","sent","has sent"],a:0},
+ {b:"B1",s:"Грамматика",q:"She asked me where I ___.",o:["live","lived","do live","am living"],a:1},
+ {b:"B1",s:"Грамматика",q:"He denied ___ the money.",o:["to take","take","took","taking"],a:3},
+ {b:"B1",s:"Лексика",q:"The film was so ___ that I fell asleep.",o:["bored","boring","bore","boredom"],a:1},
+ {b:"B1",s:"Лексика",q:"Can you ___ the music? It is far too loud.",o:["turn down","turn on","turn up","turn into"],a:0},
+ {b:"B1",s:"Чтение",p:"The café is looking for a part-time assistant. No experience is necessary, as full training is provided. However, applicants must be available at weekends.",
+  q:"What is essential for this job?",o:["Previous experience","Weekend availability","A training certificate","Full-time hours"],a:1},
+
+ {b:"B2",s:"Грамматика",q:"Had I known about the traffic, I ___ earlier.",o:["would leave","would have left","will leave","left"],a:1},
+ {b:"B2",s:"Грамматика",q:"___ the terrible weather, the match went ahead.",o:["Despite","Although","However","Because of"],a:0},
+ {b:"B2",s:"Грамматика",q:"Not only ___ late, but he also forgot the tickets.",o:["he was","was he","he is","is he"],a:1},
+ {b:"B2",s:"Грамматика",q:"It is high time we ___ about leaving.",o:["think","are thinking","thought","will think"],a:2},
+ {b:"B2",s:"Лексика",q:"It was a ___ decision — he did not think it through at all.",o:["rash","harsh","fresh","rush"],a:0},
+ {b:"B2",s:"Лексика",q:"The evidence against the company was ___.",o:["compulsory","competitive","compelling","complimentary"],a:2},
+ {b:"B2",s:"Чтение",p:"While the new policy has been praised for its ambition, critics point out that it offers little in the way of practical funding. Without money attached, they argue, it amounts to little more than a statement of intent.",
+  q:"What is the critics’ main objection?",o:["The policy is not ambitious","The policy lacks funding","The policy is too expensive","The policy came too late"],a:1}
 ];
-const LEVELS = {
- elem: {tag:"A1 → A2", name:"Elementary", desc:"У вас есть база, но пока не хватает грамматики и уверенности, чтобы строить фразы свободно. Группа Elementary даст прочный фундамент: базовая грамматика, первые диалоги, разговорная практика с первого урока."},
- pre:  {tag:"A2 → B1", name:"Pre-Intermediate", desc:"Вы понимаете английский и знаете основы, но говорите с паузами и ошибками. Группа Pre-Intermediate — про то, чтобы превратить пассивные знания в живую речь: времена, разговорные конструкции, много практики."},
- inter:{tag:"B1 → B2", name:"Intermediate", desc:"Хороший результат — вы уверенно владеете основами. Группа Intermediate прокачает беглость, сложную грамматику и словарный запас, чтобы вы говорили свободно и без страха."}
+
+const SA=[
+ {t:"Могу рассказать о себе, семье и своём дне без подготовки."},
+ {t:"Могу 5 минут поддерживать разговор на знакомую тему, не переходя на русский."},
+ {t:"Могу объяснить своё мнение и привести аргументы."},
+ {t:"Могу говорить на рабочие или учебные темы без долгих пауз."}
+];
+const SA_OPTS=[{t:"Да",v:2},{t:"Иногда",v:1},{t:"Нет",v:0}];
+
+const BANDS=["A1","A2","B1","B2"];
+const GROUPS={
+ elem:{name:"Elementary",tag:"A1 → A2",time:"18:00"},
+ pre:{name:"Pre-Intermediate",tag:"A2 → B1",time:"19:15"},
+ inter:{name:"Intermediate",tag:"B1 → B2",time:"20:30"}
 };
-let i = 0, score = 0, picked = false;
-function start(){ show("quiz"); render(); }
-function show(id){ document.querySelectorAll(".screen").forEach(s=>s.classList.remove("on")); document.getElementById(id).classList.add("on"); window.scrollTo(0,0); }
+const FIRST_WEEKS={
+ elem:["Ставим базу: порядок слов, настоящее время, вопросы","Первые диалоги о себе, семье и работе — с первого урока","Произношение звуков, которых нет в русском и казахском"],
+ pre:["Времена в живой речи: прошедшее, будущее, present perfect","Переводим пассивный запас в активный — говорите то, что уже знаете","Учимся говорить длиннее: связки, паузы, переспросы"],
+ inter:["Сложные конструкции: условные, пассив, косвенная речь","Беглость: спонтанные обсуждения без подготовки","Точность: синонимы, коллокации, идиомы"]
+};
+
+let i=0, answers=[], saAnswers=[null,null,null,null];
+function $(s){return document.querySelector(s)}
+function show(id){document.querySelectorAll(".screen").forEach(s=>s.classList.remove("on"));$("#"+id).classList.add("on");window.scrollTo(0,0)}
+function start(){i=0;answers=[];show("quiz");render()}
+
 function render(){
-  const item = QS[i];
-  document.getElementById("barfill").style.width = (i/QS.length*100)+"%";
-  document.getElementById("count").textContent = "Вопрос " + (i+1) + " из " + QS.length;
-  document.getElementById("qtext").innerHTML = item.q.replace("___",'<span class="blank">＿＿＿</span>');
-  const box = document.getElementById("opts");
-  box.innerHTML = "";
-  picked = false;
-  item.o.forEach((opt,idx)=>{
-    const b = document.createElement("button");
-    b.className = "opt"; b.textContent = opt;
-    b.onclick = ()=>{
-      if(picked) return; picked = true;
-      b.classList.add("pick");
-      if(idx === item.a) score++;
-      setTimeout(()=>{ i++; i < QS.length ? render() : finish(); }, 250);
-    };
+  const it=QS[i];
+  $("#barfill").style.width=(i/QS.length*100)+"%";
+  $("#count").textContent="Вопрос "+(i+1)+" из "+QS.length;
+  $("#skill").textContent=it.s;
+  $("#passage").innerHTML=it.p?'<div class="passage">'+it.p+'</div>':"";
+  $("#qtext").innerHTML=it.q.replace("___",'<span class="blank">＿＿＿</span>');
+  const box=$("#opts");box.innerHTML="";
+  let locked=false;
+  const choose=(val,el)=>{if(locked)return;locked=true;el.classList.add("pick");answers[i]=val;setTimeout(next,220)};
+  it.o.forEach((opt,idx)=>{
+    const b=document.createElement("button");
+    b.className="opt";b.textContent=opt;
+    b.onclick=()=>choose(idx,b);
     box.appendChild(b);
   });
+  const idk=document.createElement("button");
+  idk.className="opt idk";idk.textContent="Не знаю";
+  idk.onclick=()=>choose(IDK,idk);
+  box.appendChild(idk);
 }
-function finish(){
-  const lvl = score <= 8 ? LEVELS.elem : score <= 14 ? LEVELS.pre : LEVELS.inter;
-  document.getElementById("lvltag").textContent = lvl.tag + " · " + score + "/20";
-  document.getElementById("lvlname").textContent = lvl.name;
-  document.getElementById("lvldesc").textContent = lvl.desc;
-  const SCHED = {
-    "Elementary":"18:00", "Pre-Intermediate":"19:15", "Intermediate":"20:30"
-  };
-  document.getElementById("sched").innerHTML =
-    "Ваше расписание: <b>" + SCHED[lvl.name] + "</b> — группа А (Пн · Ср · Пт) или группа Б (Вт · Чт · Сб), время астанинское.";
-  const msg = encodeURIComponent("Здравствуйте! Я прошёл(ла) тест на сайте — мой уровень: " + lvl.name + " (" + score + "/20). Хочу записаться на курс (старт 1 сентября).");
-  document.getElementById("wabtn").href = "https://wa.me/77085501378?text=" + msg;
-  const rmsg = encodeURIComponent("Здравствуйте, Нұрқанат! Отправляю чек об оплате. Мой уровень: " + lvl.name + ". Бронирую место в потоке 1 сентября.");
-  document.getElementById("receiptbtn").href = "https://wa.me/77085501378?text=" + rmsg;
+function next(){ i++; i<QS.length ? render() : startSA(); }
+
+function startSA(){
+  const l=$("#saList");l.innerHTML="";
+  SA.forEach((s,n)=>{
+    const d=document.createElement("div");d.className="sa-item";
+    d.innerHTML='<div class="sa-q">'+s.t+'</div>';
+    const row=document.createElement("div");row.className="sa-opts";
+    SA_OPTS.forEach(o=>{
+      const b=document.createElement("button");b.textContent=o.t;
+      b.onclick=()=>{
+        saAnswers[n]=o.v;
+        [...row.children].forEach(c=>c.classList.remove("pick"));
+        b.classList.add("pick");
+        $("#saBtn").disabled = saAnswers.some(a=>a===null);
+      };
+      row.appendChild(b);
+    });
+    d.appendChild(row);l.appendChild(d);
+  });
+  show("selfassess");
+}
+
+function analyse(){
+  const band={},skill={};
+  BANDS.forEach(b=>band[b]={n:0,ok:0,idk:0});
+  ["Грамматика","Лексика","Чтение"].forEach(s=>skill[s]={n:0,ok:0});
+  QS.forEach((it,n)=>{
+    const a=answers[n];
+    const ok = a!==IDK && a===it.a;
+    band[it.b].n++; skill[it.s].n++;
+    if(ok){band[it.b].ok++;skill[it.s].ok++}
+    if(a===IDK) band[it.b].idk++;
+  });
+  const pct={};BANDS.forEach(b=>pct[b]=band[b].ok/band[b].n);
+
+  let current=null;
+  for(const b of BANDS){ if(pct[b]>=0.70) current=b; else break; }
+
+  const nextOf={A1:"A2",A2:"B1",B1:"B2",B2:null};
+  const nb = current ? nextOf[current] : "A1";
+  const nextPct = nb ? pct[nb] : 1;
+  /* 7 items per band, so the only possible scores are 0/7…7/7 (0,14,29,43,57,71,86,100%).
+     Thresholds sit on that grid: 4+/7 = strong (promote), 3/7 = solid, 0–2/7 = weak. */
+  let strength = nextPct>=0.55 ? "strong" : nextPct>=0.35 ? "solid" : "weak";
+
+  let group;
+  if(current===null || current==="A1") group="elem";
+  else if(current==="A2") group="pre";
+  else group="inter";
+
+  let bumped=false;
+  if(strength==="strong"){
+    if(group==="elem"){group="pre";bumped=true}
+    else if(group==="pre"){group="inter";bumped=true}
+  }
+
+  /* Speaking drag: only when written level is clearly ahead of spoken ability.
+     B1/B2 writers who barely speak → one group down (course is speaking-first).
+     A2 writers only drop if they answered "Нет" to everything. */
+  const sp=saAnswers.reduce((a,b)=>a+(b||0),0);
+  const written = current ? BANDS.indexOf(current) : -1;
+  let speakingDrag=false;
+  if(group!=="elem" && ((written>=2 && sp<=2) || (written===1 && sp===0))){
+    group = group==="inter" ? "pre" : "elem";
+    speakingDrag=true; bumped=false;
+  }
+  return {band,skill,pct,current,strength,group,bumped,speakingDrag,sp,nextPct,
+          idkTotal:BANDS.reduce((a,b)=>a+band[b].idk,0), aboveTop:current==="B2"};
+}
+
+function finishAll(){
+  const r=analyse();
+  const g=GROUPS[r.group];
+  const lvlLabel = r.current || "начальный";
+  const strengthWord = {weak:"уверенный",solid:"уверенный",strong:"сильный"}[r.strength];
+
+  $("#lvltag").textContent = (r.current || "Pre-A1") + " · " + Math.round((r.pct[r.current||"A1"])*100) + "% по уровню";
+  $("#lvlname").textContent = r.current
+    ? (r.strength==="strong" ? "Сильный "+lvlLabel : lvlLabel)
+    : "Начинаем с нуля";
+
+  let desc;
+  if(!r.current) desc="Базовые конструкции пока не закрепились — это нормальная точка старта. Построим фундамент с нуля, и говорить вы начнёте с первого урока.";
+  else if(r.strength==="strong") desc="Вы уверенно держите уровень "+lvlLabel+" и уже неплохо справляетесь с материалом следующего. Проходить "+lvlLabel+" заново было бы потерей времени.";
+  else if(r.strength==="solid") desc="Вы уверенно держите уровень "+lvlLabel+". Следующий уровень пока даётся частично — это ровно та точка, с которой начинается рост.";
+  else desc="Уровень "+lvlLabel+" закреплён, но следующий пока почти не даётся. Начнём с прочной опоры, чтобы не осталось пробелов.";
+  $("#lvldesc").textContent=desc;
+
+  $("#recTitle").textContent="Ваша группа: "+g.name;
+  $("#recList").innerHTML=[
+    g.name+" ("+g.tag+") — мини-группа до 5 человек",
+    "3 урока в неделю по 60 минут, онлайн",
+    "18 недель — выход на следующий уровень",
+    "Материалы, домашние задания и разборы в WhatsApp",
+    "Сертификат об окончании курса"
+  ].map(t=>"<li>"+t+"</li>").join("");
+  $("#sched").innerHTML="Ваше расписание: <b>"+g.time+"</b> — группа А (Пн · Ср · Пт) или группа Б (Вт · Чт · Сб), время астанинское.";
+
+  let why;
+  if(r.speakingDrag) why="<b>Почему именно эта группа:</b> письменно вы сильнее, чем в речи — по самооценке говорить пока тяжело. Курс построен вокруг разговора, поэтому здесь вы заговорите быстрее, чем в более сильной группе, где будете молчать.";
+  else if(r.bumped) why="<b>Почему группа выше вашего уровня:</b> вы уверенно справляетесь с материалом "+lvlLabel+" и уже взяли "+Math.round(r.nextPct*100)+"% заданий следующего уровня. Повторять пройденное — потерять 18 недель.";
+  else if(r.aboveTop) why="<b>Важно:</b> ваш уровень выше верхней группы курса. Intermediate может оказаться простым — напишите мне, обсудим индивидуальные занятия или подготовку к IELTS.";
+  else why="<b>Почему именно эта группа:</b> вы уверенно держите "+lvlLabel+", а следующий уровень взяли на "+Math.round(r.nextPct*100)+"%. Это оптимальная нагрузка: не скучно и не слишком тяжело.";
+  $("#recWhy").innerHTML=why;
+
+  const colour=p=>p>=0.7?"var(--ok)":p>=0.4?"var(--mid)":"var(--low)";
+  $("#skills").innerHTML=Object.entries(r.skill).map(([k,v])=>{
+    const p=v.ok/v.n;
+    return '<div class="sk"><div class="sk-top"><b>'+k+'</b><span>'+v.ok+' / '+v.n+'</span></div>'+
+           '<div class="sk-bar"><i style="width:'+(p*100)+'%;background:'+colour(p)+'"></i></div></div>';
+  }).join("") +
+  '<div class="sk"><div class="sk-top"><b>Речь (самооценка)</b><span>'+r.sp+' / 8</span></div>'+
+  '<div class="sk-bar"><i style="width:'+(r.sp/8*100)+'%;background:'+colour(r.sp/8)+'"></i></div></div>';
+
+  $("#bandTbl").innerHTML=BANDS.map(b=>{
+    const p=r.pct[b], v=p>=0.7?["Освоено","v-ok"]:p>=0.4?["Частично","v-mid"]:["Ещё нет","v-low"];
+    return "<tr><td>"+b+"</td><td>"+r.band[b].ok+" / "+r.band[b].n+"</td>"+
+           '<td><span class="verdict '+v[1]+'">'+v[0]+"</span></td></tr>";
+  }).join("");
+
+  $("#idkNote").textContent = r.idkTotal>0
+    ? "Вы честно отметили «не знаю» "+r.idkTotal+" раз — это помогло определить уровень точнее."
+    : "Вы ответили на все вопросы без пропусков.";
+
+  $("#firstWeeks").innerHTML=FIRST_WEEKS[r.group].map(t=>"<li>"+t+"</li>").join("");
+
+  const msg=encodeURIComponent("Здравствуйте! Я прошёл(ла) тест на сайте. Мой уровень: "+lvlLabel+", рекомендованная группа: "+g.name+". Хочу на бесплатный пробный урок (старт 1 сентября).");
+  $("#wabtn").href=WA+"?text="+msg;
+  const rmsg=encodeURIComponent("Здравствуйте, Нұрқанат! Отправляю чек об оплате. Моя группа: "+g.name+". Бронирую место в потоке 1 сентября.");
+  $("#receiptbtn").href=WA+"?text="+rmsg;
+
   show("result");
 }
 </script>
