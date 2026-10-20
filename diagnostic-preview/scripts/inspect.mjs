@@ -1,0 +1,16 @@
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url);
+const {chromium}=require('C:/Users/dajra/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'});
+const page=await browser.newPage({viewport:{width:1440,height:1000}});
+await page.goto('http://127.0.0.1:4173',{waitUntil:'networkidle'});
+await page.locator('[data-action="language"]').click();
+await page.setViewportSize({width:390,height:844});
+console.log(await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth,body:document.body.scrollWidth})));
+console.log(JSON.stringify(await page.evaluate(()=>[...document.querySelectorAll('body *')].filter(e=>{const r=e.getBoundingClientRect();return r.right>innerWidth+1||r.left< -1;}).map(e=>({tag:e.tagName,cls:e.className,left:Math.round(e.getBoundingClientRect().left),right:Math.round(e.getBoundingClientRect().right),width:Math.round(e.getBoundingClientRect().width)})).slice(0,30)),null,2));
+await page.locator('.teacher-photo').scrollIntoViewIfNeeded();
+await page.waitForFunction(()=>[...document.images].every(i=>i.complete));
+await page.evaluate(()=>window.scrollTo(0,0));
+await page.screenshot({path:'artifacts/inspect-mobile.png',fullPage:true});
+await page.screenshot({path:'artifacts/inspect-mobile-viewport.png'});
+await browser.close();
