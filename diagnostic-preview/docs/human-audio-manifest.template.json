@@ -1,0 +1,733 @@
+{
+  "schemaVersion": 1,
+  "status": "template_awaiting_human_recordings",
+  "purpose": "Ten original listening proof clips; authoring levels are unvalidated hypotheses.",
+  "sourceVersion": "1.0.0-draft",
+  "syntheticAllowed": false,
+  "approvedForAssessment": false,
+  "recordingRoute": "owner_plus_second_consenting_adult_for_dialogues",
+  "privateRightsRecordsMustStayOutsideRepository": true,
+  "clips": [
+    {
+      "id": "human-a1-monologue-01",
+      "intendedLevel": "A1",
+      "type": "monologue",
+      "title": "Before the art class",
+      "scriptSource": "docs/benchmark-content.mjs#human-a1-monologue-01",
+      "scriptVersion": "1.0.0-draft",
+      "scriptSha256": "2ca918036b3855f6582ecc9618734bbe955f90dc9b3e1e3a3c1b1840fe2c6698",
+      "hashBasis": "Exact UTF-8 bytes of stimulus.script; no whitespace normalization.",
+      "itemIds": [
+        "bench-a1-listening-monologue"
+      ],
+      "durationTargetSeconds": [
+        30,
+        35
+      ],
+      "performanceDirections": "One adult receptionist giving a friendly practical message. Slow, very clear connected speech with short pauses for comprehension; keep a natural voice rather than spelling out words. No answer-revealing emphasis on café.",
+      "status": "awaiting_human_recording",
+      "plannedCast": [
+        {
+          "role": "Receptionist",
+          "performerReference": "P01",
+          "meaning": "Owner; assignment pending recording"
+        }
+      ],
+      "actualPerformers": [],
+      "recording": {
+        "actualHumanVerified": false,
+        "sessionDate": null,
+        "sessionEvidenceId": null,
+        "originalTakeFilename": null,
+        "verifiedBy": null
+      },
+      "rights": {
+        "status": "pending",
+        "privateEvidenceIds": [],
+        "reviewedBy": null,
+        "approvedUse": null
+      },
+      "assets": {
+        "archivalMaster": null,
+        "delivery": null
+      },
+      "runtimeAsset": null,
+      "measurements": {
+        "durationSeconds": null,
+        "sampleRateHz": null,
+        "channels": null,
+        "codec": null,
+        "integratedLufs": null,
+        "truePeakDbtp": null,
+        "deliverySha256": null
+      },
+      "review": {
+        "scriptFidelity": "pending",
+        "humanOrigin": "pending",
+        "rights": "pending",
+        "twoSpeakerInteraction": "not_applicable",
+        "listenerOne": null,
+        "listenerTwo": null,
+        "itemKeyReview": "pending",
+        "technicalReview": "pending",
+        "mobilePlayback": "pending",
+        "approvedForAssessment": false,
+        "approvedBy": null,
+        "approvedAt": null
+      },
+      "notes": []
+    },
+    {
+      "id": "human-a1-conversation-01",
+      "intendedLevel": "A1",
+      "type": "dialogue",
+      "title": "At a café",
+      "scriptSource": "docs/benchmark-content.mjs#human-a1-conversation-01",
+      "scriptVersion": "1.0.0-draft",
+      "scriptSha256": "a6e4cea1e62cb07a5daf230b33af8db1c85192c728950b7ea837cd9b0351f885",
+      "hashBasis": "Exact UTF-8 bytes of stimulus.script; no whitespace normalization.",
+      "itemIds": [
+        "bench-a1-listening-dialogue"
+      ],
+      "durationTargetSeconds": [
+        30,
+        35
+      ],
+      "performanceDirections": "Two adults in a routine café exchange. Very slow, very clear, friendly delivery with natural turn-taking and space to process each turn. Do not exaggerate the correction or add café noise.",
+      "status": "awaiting_human_recording",
+      "plannedCast": [
+        {
+          "role": "Server",
+          "performerReference": "P01",
+          "meaning": "Owner; assignment pending recording"
+        },
+        {
+          "role": "Sam",
+          "performerReference": "P02",
+          "meaning": "Second consenting adult; assignment pending recording"
+        }
+      ],
+      "actualPerformers": [],
+      "recording": {
+        "actualHumanVerified": false,
+        "sessionDate": null,
+        "sessionEvidenceId": null,
+        "originalTakeFilename": null,
+        "verifiedBy": null
+      },
+      "rights": {
+        "status": "pending",
+        "privateEvidenceIds": [],
+        "reviewedBy": null,
+        "approvedUse": null
+      },
+      "assets": {
+        "archivalMaster": null,
+        "delivery": null
+      },
+      "runtimeAsset": null,
+      "measurements": {
+        "durationSeconds": null,
+        "sampleRateHz": null,
+        "channels": null,
+        "codec": null,
+        "integratedLufs": null,
+        "truePeakDbtp": null,
+        "deliverySha256": null
+      },
+      "review": {
+        "scriptFidelity": "pending",
+        "humanOrigin": "pending",
+        "rights": "pending",
+        "twoSpeakerInteraction": "pending",
+        "listenerOne": null,
+        "listenerTwo": null,
+        "itemKeyReview": "pending",
+        "technicalReview": "pending",
+        "mobilePlayback": "pending",
+        "approvedForAssessment": false,
+        "approvedBy": null,
+        "approvedAt": null
+      },
+      "notes": []
+    },
+    {
+      "id": "human-a2-monologue-01",
+      "intendedLevel": "A2",
+      "type": "monologue",
+      "title": "A message from the repair shop",
+      "scriptSource": "docs/benchmark-content.mjs#human-a2-monologue-01",
+      "scriptVersion": "1.0.0-draft",
+      "scriptSha256": "994b6dc3a33fa9204852befd2edec0c38ec899b6b177746669ec08ad71c57389",
+      "hashBasis": "Exact UTF-8 bytes of stimulus.script; no whitespace normalization.",
+      "itemIds": [
+        "bench-a2-listening-monologue"
+      ],
+      "durationTargetSeconds": [
+        40,
+        60
+      ],
+      "performanceDirections": "One adult leaving a helpful voicemail. Clear standard conversational pace with short meaningful pauses, not slow word-by-word dictation.",
+      "status": "awaiting_human_recording",
+      "plannedCast": [
+        {
+          "role": "Repair shop assistant",
+          "performerReference": "P01",
+          "meaning": "Owner; assignment pending recording"
+        }
+      ],
+      "actualPerformers": [],
+      "recording": {
+        "actualHumanVerified": false,
+        "sessionDate": null,
+        "sessionEvidenceId": null,
+        "originalTakeFilename": null,
+        "verifiedBy": null
+      },
+      "rights": {
+        "status": "pending",
+        "privateEvidenceIds": [],
+        "reviewedBy": null,
+        "approvedUse": null
+      },
+      "assets": {
+        "archivalMaster": null,
+        "delivery": null
+      },
+      "runtimeAsset": null,
+      "measurements": {
+        "durationSeconds": null,
+        "sampleRateHz": null,
+        "channels": null,
+        "codec": null,
+        "integratedLufs": null,
+        "truePeakDbtp": null,
+        "deliverySha256": null
+      },
+      "review": {
+        "scriptFidelity": "pending",
+        "humanOrigin": "pending",
+        "rights": "pending",
+        "twoSpeakerInteraction": "not_applicable",
+        "listenerOne": null,
+        "listenerTwo": null,
+        "itemKeyReview": "pending",
+        "technicalReview": "pending",
+        "mobilePlayback": "pending",
+        "approvedForAssessment": false,
+        "approvedBy": null,
+        "approvedAt": null
+      },
+      "notes": []
+    },
+    {
+      "id": "human-a2-conversation-01",
+      "intendedLevel": "A2",
+      "type": "dialogue",
+      "title": "A birthday present",
+      "scriptSource": "docs/benchmark-content.mjs#human-a2-conversation-01",
+      "scriptVersion": "1.0.0-draft",
+      "scriptSha256": "22af49535cfc797cb1992c10722d6348c9cd084337fb40992c7b047079649503",
+      "hashBasis": "Exact UTF-8 bytes of stimulus.script; no whitespace normalization.",
+      "itemIds": [
+        "bench-a2-listening-dialogue"
+      ],
+      "durationTargetSeconds": [
+        40,
+        60
+      ],
+      "performanceDirections": "Two adult siblings considering a present. Sound familiar and relaxed. Preserve the change of proposal without caricatured disappointed or delighted voices.",
+      "status": "awaiting_human_recording",
+      "plannedCast": [
+        {
+          "role": "Maya",
+          "performerReference": "P01",
+          "meaning": "Owner; assignment pending recording"
+        },
+        {
+          "role": "Tim",
+          "performerReference": "P02",
+          "meaning": "Second consenting adult; assignment pending recording"
+        }
+      ],
+      "actualPerformers": [],
+      "recording": {
+        "actualHumanVerified": false,
+        "sessionDate": null,
+        "sessionEvidenceId": null,
+        "originalTakeFilename": null,
+        "verifiedBy": null
+      },
+      "rights": {
+        "status": "pending",
+        "privateEvidenceIds": [],
+        "reviewedBy": null,
+        "approvedUse": null
+      },
+      "assets": {
+        "archivalMaster": null,
+        "delivery": null
+      },
+      "runtimeAsset": null,
+      "measurements": {
+        "durationSeconds": null,
+        "sampleRateHz": null,
+        "channels": null,
+        "codec": null,
+        "integratedLufs": null,
+        "truePeakDbtp": null,
+        "deliverySha256": null
+      },
+      "review": {
+        "scriptFidelity": "pending",
+        "humanOrigin": "pending",
+        "rights": "pending",
+        "twoSpeakerInteraction": "pending",
+        "listenerOne": null,
+        "listenerTwo": null,
+        "itemKeyReview": "pending",
+        "technicalReview": "pending",
+        "mobilePlayback": "pending",
+        "approvedForAssessment": false,
+        "approvedBy": null,
+        "approvedAt": null
+      },
+      "notes": []
+    },
+    {
+      "id": "human-b1-monologue-01",
+      "intendedLevel": "B1",
+      "type": "monologue",
+      "title": "Changing a walking plan",
+      "scriptSource": "docs/benchmark-content.mjs#human-b1-monologue-01",
+      "scriptVersion": "1.0.0-draft",
+      "scriptSha256": "8fcfba18ead924cec6cb4734e439724fb4e39a42c10ae8a92ce20e2f6d6980fc",
+      "hashBasis": "Exact UTF-8 bytes of stimulus.script; no whitespace normalization.",
+      "itemIds": [
+        "bench-b1-listening-monologue"
+      ],
+      "durationTargetSeconds": [
+        65,
+        95
+      ],
+      "performanceDirections": "One adult telling friends about a real-feeling outing. Natural narrative pacing; make contrasts understandable without highlighting the correct answer phrase.",
+      "status": "awaiting_human_recording",
+      "plannedCast": [
+        {
+          "role": "Walker",
+          "performerReference": "P01",
+          "meaning": "Owner; assignment pending recording"
+        }
+      ],
+      "actualPerformers": [],
+      "recording": {
+        "actualHumanVerified": false,
+        "sessionDate": null,
+        "sessionEvidenceId": null,
+        "originalTakeFilename": null,
+        "verifiedBy": null
+      },
+      "rights": {
+        "status": "pending",
+        "privateEvidenceIds": [],
+        "reviewedBy": null,
+        "approvedUse": null
+      },
+      "assets": {
+        "archivalMaster": null,
+        "delivery": null
+      },
+      "runtimeAsset": null,
+      "measurements": {
+        "durationSeconds": null,
+        "sampleRateHz": null,
+        "channels": null,
+        "codec": null,
+        "integratedLufs": null,
+        "truePeakDbtp": null,
+        "deliverySha256": null
+      },
+      "review": {
+        "scriptFidelity": "pending",
+        "humanOrigin": "pending",
+        "rights": "pending",
+        "twoSpeakerInteraction": "not_applicable",
+        "listenerOne": null,
+        "listenerTwo": null,
+        "itemKeyReview": "pending",
+        "technicalReview": "pending",
+        "mobilePlayback": "pending",
+        "approvedForAssessment": false,
+        "approvedBy": null,
+        "approvedAt": null
+      },
+      "notes": []
+    },
+    {
+      "id": "human-b1-conversation-01",
+      "intendedLevel": "B1",
+      "type": "dialogue",
+      "title": "Preparing a short presentation",
+      "scriptSource": "docs/benchmark-content.mjs#human-b1-conversation-01",
+      "scriptVersion": "1.0.0-draft",
+      "scriptSha256": "64b6f1a2062d489405547a58926db7dc4a6a89326757c1f4bd57412421c105c0",
+      "hashBasis": "Exact UTF-8 bytes of stimulus.script; no whitespace normalization.",
+      "itemIds": [
+        "bench-b1-listening-dialogue"
+      ],
+      "durationTargetSeconds": [
+        65,
+        95
+      ],
+      "performanceDirections": "Two adult classmates making a plan. Mild hesitation and agreement should emerge naturally. Keep Josh thoughtful rather than obstructive.",
+      "status": "awaiting_human_recording",
+      "plannedCast": [
+        {
+          "role": "Lina",
+          "performerReference": "P01",
+          "meaning": "Owner; assignment pending recording"
+        },
+        {
+          "role": "Josh",
+          "performerReference": "P02",
+          "meaning": "Second consenting adult; assignment pending recording"
+        }
+      ],
+      "actualPerformers": [],
+      "recording": {
+        "actualHumanVerified": false,
+        "sessionDate": null,
+        "sessionEvidenceId": null,
+        "originalTakeFilename": null,
+        "verifiedBy": null
+      },
+      "rights": {
+        "status": "pending",
+        "privateEvidenceIds": [],
+        "reviewedBy": null,
+        "approvedUse": null
+      },
+      "assets": {
+        "archivalMaster": null,
+        "delivery": null
+      },
+      "runtimeAsset": null,
+      "measurements": {
+        "durationSeconds": null,
+        "sampleRateHz": null,
+        "channels": null,
+        "codec": null,
+        "integratedLufs": null,
+        "truePeakDbtp": null,
+        "deliverySha256": null
+      },
+      "review": {
+        "scriptFidelity": "pending",
+        "humanOrigin": "pending",
+        "rights": "pending",
+        "twoSpeakerInteraction": "pending",
+        "listenerOne": null,
+        "listenerTwo": null,
+        "itemKeyReview": "pending",
+        "technicalReview": "pending",
+        "mobilePlayback": "pending",
+        "approvedForAssessment": false,
+        "approvedBy": null,
+        "approvedAt": null
+      },
+      "notes": []
+    },
+    {
+      "id": "human-b2-monologue-01",
+      "intendedLevel": "B2",
+      "type": "monologue",
+      "title": "Revising an audio tour",
+      "scriptSource": "docs/benchmark-content.mjs#human-b2-monologue-01",
+      "scriptVersion": "1.0.0-draft",
+      "scriptSha256": "41e046b050e819a2c348805b124ece4595fb511accb923aa5cbd5b379e77223c",
+      "hashBasis": "Exact UTF-8 bytes of stimulus.script; no whitespace normalization.",
+      "itemIds": [
+        "bench-b2-listening-monologue"
+      ],
+      "durationTargetSeconds": [
+        90,
+        130
+      ],
+      "performanceDirections": "One adult producer reflecting in a short interview answer. Engaged, thoughtful, ordinary speech. Pauses in the actual performance should be normal, not reproduce unusually long tour silences.",
+      "status": "awaiting_human_recording",
+      "plannedCast": [
+        {
+          "role": "Audio-tour producer",
+          "performerReference": "P01",
+          "meaning": "Owner; assignment pending recording"
+        }
+      ],
+      "actualPerformers": [],
+      "recording": {
+        "actualHumanVerified": false,
+        "sessionDate": null,
+        "sessionEvidenceId": null,
+        "originalTakeFilename": null,
+        "verifiedBy": null
+      },
+      "rights": {
+        "status": "pending",
+        "privateEvidenceIds": [],
+        "reviewedBy": null,
+        "approvedUse": null
+      },
+      "assets": {
+        "archivalMaster": null,
+        "delivery": null
+      },
+      "runtimeAsset": null,
+      "measurements": {
+        "durationSeconds": null,
+        "sampleRateHz": null,
+        "channels": null,
+        "codec": null,
+        "integratedLufs": null,
+        "truePeakDbtp": null,
+        "deliverySha256": null
+      },
+      "review": {
+        "scriptFidelity": "pending",
+        "humanOrigin": "pending",
+        "rights": "pending",
+        "twoSpeakerInteraction": "not_applicable",
+        "listenerOne": null,
+        "listenerTwo": null,
+        "itemKeyReview": "pending",
+        "technicalReview": "pending",
+        "mobilePlayback": "pending",
+        "approvedForAssessment": false,
+        "approvedBy": null,
+        "approvedAt": null
+      },
+      "notes": []
+    },
+    {
+      "id": "human-b2-conversation-01",
+      "intendedLevel": "B2",
+      "type": "dialogue",
+      "title": "Tickets for a neighbourhood festival",
+      "scriptSource": "docs/benchmark-content.mjs#human-b2-conversation-01",
+      "scriptVersion": "1.0.0-draft",
+      "scriptSha256": "3f6526745a394ee01a4e9e54927a48184d92216d17082746f49168cdb087990a",
+      "hashBasis": "Exact UTF-8 bytes of stimulus.script; no whitespace normalization.",
+      "itemIds": [
+        "bench-b2-listening-dialogue"
+      ],
+      "durationTargetSeconds": [
+        95,
+        140
+      ],
+      "performanceDirections": "Two adult organisers reasoning together. Natural overlapping intake of breath is fine; words carrying evidence must remain intelligible. Neither speaker is the obvious authority or a caricatured opponent.",
+      "status": "awaiting_human_recording",
+      "plannedCast": [
+        {
+          "role": "Rosa",
+          "performerReference": "P01",
+          "meaning": "Owner; assignment pending recording"
+        },
+        {
+          "role": "Daniel",
+          "performerReference": "P02",
+          "meaning": "Second consenting adult; assignment pending recording"
+        }
+      ],
+      "actualPerformers": [],
+      "recording": {
+        "actualHumanVerified": false,
+        "sessionDate": null,
+        "sessionEvidenceId": null,
+        "originalTakeFilename": null,
+        "verifiedBy": null
+      },
+      "rights": {
+        "status": "pending",
+        "privateEvidenceIds": [],
+        "reviewedBy": null,
+        "approvedUse": null
+      },
+      "assets": {
+        "archivalMaster": null,
+        "delivery": null
+      },
+      "runtimeAsset": null,
+      "measurements": {
+        "durationSeconds": null,
+        "sampleRateHz": null,
+        "channels": null,
+        "codec": null,
+        "integratedLufs": null,
+        "truePeakDbtp": null,
+        "deliverySha256": null
+      },
+      "review": {
+        "scriptFidelity": "pending",
+        "humanOrigin": "pending",
+        "rights": "pending",
+        "twoSpeakerInteraction": "pending",
+        "listenerOne": null,
+        "listenerTwo": null,
+        "itemKeyReview": "pending",
+        "technicalReview": "pending",
+        "mobilePlayback": "pending",
+        "approvedForAssessment": false,
+        "approvedBy": null,
+        "approvedAt": null
+      },
+      "notes": []
+    },
+    {
+      "id": "human-c1-monologue-01",
+      "intendedLevel": "C1",
+      "type": "monologue",
+      "title": "An actor on recording a familiar novel",
+      "scriptSource": "docs/benchmark-content.mjs#human-c1-monologue-01",
+      "scriptVersion": "1.0.0-draft",
+      "scriptSha256": "c5c567c93e8fcefe54559add2fc8048bd55523728ef98260ddbe08e3153f224a",
+      "hashBasis": "Exact UTF-8 bytes of stimulus.script; no whitespace normalization.",
+      "itemIds": [
+        "bench-c1-listening-monologue"
+      ],
+      "durationTargetSeconds": [
+        130,
+        180
+      ],
+      "performanceDirections": "One experienced adult performer in a reflective interview. Natural shifts of thought, not an academic lecture. Preserve distinctions in stance without theatrical impersonations of the fictional character.",
+      "status": "awaiting_human_recording",
+      "plannedCast": [
+        {
+          "role": "Narrator",
+          "performerReference": "P01",
+          "meaning": "Owner; assignment pending recording"
+        }
+      ],
+      "actualPerformers": [],
+      "recording": {
+        "actualHumanVerified": false,
+        "sessionDate": null,
+        "sessionEvidenceId": null,
+        "originalTakeFilename": null,
+        "verifiedBy": null
+      },
+      "rights": {
+        "status": "pending",
+        "privateEvidenceIds": [],
+        "reviewedBy": null,
+        "approvedUse": null
+      },
+      "assets": {
+        "archivalMaster": null,
+        "delivery": null
+      },
+      "runtimeAsset": null,
+      "measurements": {
+        "durationSeconds": null,
+        "sampleRateHz": null,
+        "channels": null,
+        "codec": null,
+        "integratedLufs": null,
+        "truePeakDbtp": null,
+        "deliverySha256": null
+      },
+      "review": {
+        "scriptFidelity": "pending",
+        "humanOrigin": "pending",
+        "rights": "pending",
+        "twoSpeakerInteraction": "not_applicable",
+        "listenerOne": null,
+        "listenerTwo": null,
+        "itemKeyReview": "pending",
+        "technicalReview": "pending",
+        "mobilePlayback": "pending",
+        "approvedForAssessment": false,
+        "approvedBy": null,
+        "approvedAt": null
+      },
+      "notes": []
+    },
+    {
+      "id": "human-c1-conversation-01",
+      "intendedLevel": "C1",
+      "type": "dialogue",
+      "title": "Editing a profile of a local chef",
+      "scriptSource": "docs/benchmark-content.mjs#human-c1-conversation-01",
+      "scriptVersion": "1.0.0-draft",
+      "scriptSha256": "6bdfc223547599d9c26bdc300236fcbd1db59e3cfa17d100c762cd134e274942",
+      "hashBasis": "Exact UTF-8 bytes of stimulus.script; no whitespace normalization.",
+      "itemIds": [
+        "bench-c1-listening-dialogue"
+      ],
+      "durationTargetSeconds": [
+        140,
+        190
+      ],
+      "performanceDirections": "Two adult journalists in a collaborative editorial conversation. Allow measured disagreement and self-correction. The editor is probing, not scolding; the writer revises a position without suddenly becoming submissive.",
+      "status": "awaiting_human_recording",
+      "plannedCast": [
+        {
+          "role": "Editor",
+          "performerReference": "P01",
+          "meaning": "Owner; assignment pending recording"
+        },
+        {
+          "role": "Writer",
+          "performerReference": "P02",
+          "meaning": "Second consenting adult; assignment pending recording"
+        }
+      ],
+      "actualPerformers": [],
+      "recording": {
+        "actualHumanVerified": false,
+        "sessionDate": null,
+        "sessionEvidenceId": null,
+        "originalTakeFilename": null,
+        "verifiedBy": null
+      },
+      "rights": {
+        "status": "pending",
+        "privateEvidenceIds": [],
+        "reviewedBy": null,
+        "approvedUse": null
+      },
+      "assets": {
+        "archivalMaster": null,
+        "delivery": null
+      },
+      "runtimeAsset": null,
+      "measurements": {
+        "durationSeconds": null,
+        "sampleRateHz": null,
+        "channels": null,
+        "codec": null,
+        "integratedLufs": null,
+        "truePeakDbtp": null,
+        "deliverySha256": null
+      },
+      "review": {
+        "scriptFidelity": "pending",
+        "humanOrigin": "pending",
+        "rights": "pending",
+        "twoSpeakerInteraction": "pending",
+        "listenerOne": null,
+        "listenerTwo": null,
+        "itemKeyReview": "pending",
+        "technicalReview": "pending",
+        "mobilePlayback": "pending",
+        "approvedForAssessment": false,
+        "approvedBy": null,
+        "approvedAt": null
+      },
+      "notes": []
+    }
+  ],
+  "limitations": [
+    "No human recordings have been supplied by this template.",
+    "A microphone take or filename does not prove human origin, consent, naturalness or test validity.",
+    "All runtime assets stay null until independent review and deliberate application admission.",
+    "Technical acceptance cannot establish CEFR alignment or scoring accuracy."
+  ]
+}

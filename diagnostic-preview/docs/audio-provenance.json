@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 1,
+  "bankVersion": "preview-0.2.0-draft",
+  "metadataRecordedAt": "2026-10-20T20:18:51.421Z",
+  "purpose": "Generation metadata and technical file/decode verification; not human perceptual review.",
+  "generation": {
+    "engine": "Windows System.Speech.Synthesis.SpeechSynthesizer",
+    "voice": "Microsoft Zira Desktop",
+    "rate": -1,
+    "volume": 100,
+    "sampleRateHz": 22050,
+    "channels": 1,
+    "bitsPerSample": 16,
+    "encoding": "PCM",
+    "settingsSource": "scripts/generate-audio.ps1",
+    "settingsSourceSha256": "0f009007a0a9db104a416f20f2655d0b3914b545bfe0a4728a8cd060745730e3",
+    "manifestSource": "artifacts/audio-manifest.json",
+    "manifestSourceSha256": "3aa865148703414b2d658f14a06f78061356f6b75e911e20e8309f25c04f0b1f",
+    "basis": "Voice, rate, and volume are recorded from the generation script. Format is read from WAV headers. Manifest transcripts match the current bank; hashes identify the exact source text and audio bytes. This is not a cryptographic proof that a particular voice produced those bytes."
+  },
+  "verification": {
+    "localWavHeadersAndDurations": "passed",
+    "all20BrowserDecoded": "passed",
+    "servedBytesMatchLocalFiles": "passed",
+    "browser": "Microsoft Edge",
+    "browserVersion": "155.0.4283.62",
+    "browserDecoder": "OfflineAudioContext.decodeAudioData at 22050 Hz",
+    "humanPerceptualReview": "not performed",
+    "limitation": "Decoding and a nonzero waveform do not establish intelligibility, naturalness, pronunciation quality, or transcript fidelity by listening."
+  },
+  "files": [
+    {
+      "id": "a1-l01",
+      "file": "audio/a1-l01.wav",
+      "transcriptSha256": "af378517aaf5de2bcaf42d416a8fe57a8cf357e25de25df33011ef8df86ccbc8",
+      "audioSha256": "d8318dc034340847f17896f07caa725880dd8b05d33eff126fe2c42920728e85",
+      "byteLength": 464550,
+      "encoding": "PCM",
+      "channels": 1,
+      "sampleRateHz": 22050,
+      "bitsPerSample": 16,
+      "sampleFrames": 232252,
+      "dataBytes": 464504,
+      "durationSeconds": 10.53297052154195,
+      "peakSampleMagnitude": 20542,
+      "browserDecode": {
+        "passed": true,
+        "sampleFrames": 232252,
+        "durationSeconds": 10.53297052154195
+      }
+    },
+    {
+      "id": "a1-l02",
+      "file": "audio/a1-l02.wav",
+      "transcriptSha256": "c0751c822e6e38d1c95aa6b84cefbbd0cf48e2c84f79358d49a211f23958b6bd",
+      "audioSha256": "087aadc6fc19a604f45188b86dbadd3f05652a9f3ee6819633f341a23bba5cea",
+      "byteLength": 481308,
+      "encoding": "PCM",
+      "channels": 1,
+      "sampleRateHz": 22050,
+      "bitsPerSample": 16,
+      "sampleFrames": 240631,
+      "dataBytes": 481262,
+      "durationSeconds": 10.91297052154195,
+      "peakSampleMagnitude": 21639,
+      "browserDecode": {
+        "passed": true,
+        "sampleFrames": 240631,
+        "durationSeconds": 10.91297052154195
+      }
+    },
+    {
+      "id": "a1-l03",
+      "file": "audio/a1-l03.wav",
+      "transcriptSha256": "4f8b6b61b72dff65c92fe69f54f22305f3e5cf94f2fcf1edf4d1daced67a92b7",
+      "audioSha256": "1fbed948ca94fbb152991e52f9213d8bbbbda9f73df3e58bd71b2af6f2033434",
+      "byteLength": 427504,
+      "encoding": "PCM",
+      "channels": 1,
+      "sampleRateHz": 22050,
+      "bitsPerSample": 16,
+      "sampleFrames": 213729,
+      "dataBytes": 427458,
+      "durationSeconds": 9.692925170068028,
+      "peakSampleMagnitude": 23446,
+      "browserDecode": {
+        "passed": true,
+        "sampleFrames": 213729,
+        "durationSeconds": 9.692925170068028
+      }
+    },
+    {
+      "id": "a1-l04",
+      "file": "audio/a1-l04.wav",
+      "transcriptSha256": "3f1482df2ade69ed2cba4ebd49c73ef2583fd973205c2117c7a84ec62b65ad5e",
+      "audioSha256": "e8e98929e45285809a2f75518bba9381a3c21e27a9fde9c2b405eba336a0bd99",
+      "byteLength": 416492,
+      "encoding": "PCM",
+      "channels": 1,
+      "sampleRateHz": 22050,
+      "bitsPerSample": 16,
+      "sampleFrames": 208223,
+      "dataBytes": 416446,
+      "durationSeconds": 9.443219954648526,
+      "peakSampleMagnitude": 22014,
+      "browserDecode": {
+        "passed": true,
+        "sampleFrames": 208223,
+        "durationSeconds": 9.443219954648526
+      }
+    },
+    {
+      "id": "a2-l01",
+      "file": "audio/a2-l01.wav",
+      "transcriptSha256": "31ec490e97e82bf2c635b6cd9acfeb3e7ac9e0d9b05503b846bfedeccb3b0b7e",
+      "audioSha256": "86cf4b7a85f05af149dc27648cac9749c3c6822d56686a35def312e88487f761",
+      "byteLength": 791718,
+      "encoding": "PCM",
+      "channels": 1,
+      "sampleRateHz": 22050,
+      "bitsPerSample": 16,
+      "sampleFrames": 395836,
+      "dataBytes": 791672,
+      "durationSeconds": 17.951746031746033,
+      "peakSampleMagnitude": 24448,
+      "browserDecode": {
+        "passed": true,
+        "sampleFrames": 395836,
+        "durationSeconds": 17.951746031746033
+      }
+    },
+    {
+      "id": "a2-l02",
+      "file": "audio/a2-l02.wav",
+      "transcriptSha256": "eda725cb7ef3851209d8aaef68e7b121d7d18fc6a259db2a56217bc504f95f8e",
+      "audioSha256": "9f1ce4237135d85bba2bf06eaefd2d51b34ac165b81163ab31b4038d40807ec4",
+      "byteLength": 755786,
+      "encoding": "PCM",
+      "channels": 1,
+      "sampleRateHz": 22050,
+      "bitsPerSample": 16,
+      "sampleFrames": 377870,
+      "dataBytes": 755740,
+      "durationSeconds": 17.136961451247167,
+      "peakSampleMagnitude": 22931,
+      "browserDecode": {
+        "passed": true,
+        "sampleFrames": 377870,
+        "durationSeconds": 17.136961451247167
+      }
+    },
+    {
+      "id": "a2-l03",
+      "file": "audio/a2-l03.wav",
+      "transcriptSha256": "5a587b32615cd8ea7bdda2d733e766dc85e3da0ae3c6dd0a51b94a36e242488c",
+      "audioSha256": "6a4faf7a90cec02014862899075b571f9a47c00030a6b8c5de68c3d2555f837c",
+      "byteLength": 754684,
+      "encoding": "PCM",
+      "channels": 1,
+      "sampleRateHz": 22050,
+      "bitsPerSample": 16,
+      "sampleFrames": 377319,
+      "dataBytes": 754638,
+      "durationSeconds": 17.111972789115647,
+      "peakSampleMagnitude": 24233,
+      "browserDecode": {
+        "passed": true,
+        "sampleFrames": 377319,
+        "durationSeconds": 17.111972789115647
+      }
+    },
+    {
+      "id": "a2-l04",
+      "file": "audio/a2-l04.wav",
+      "transcriptSha256": "982f99fdc1550094fc1477001d5a19c1ba344ca7531940b62388ae2fd03d4bf4",
+      "audioSha256": "b094bfbc7b1aa566e08254766bc420d8736b858fcbce7093301eb388108db58a",
+      "byteLength": 772990,
+      "encoding": "PCM",
+      "channels": 1,
+      "sampleRateHz": 22050,
+      "bitsPerSample": 16,
+      "sampleFrames": 386472,
+      "dataBytes": 772944,
+      "durationSeconds": 17.527074829931973,
+      "peakSampleMagnitude": 23461,
+      "browserDecode": {
+        "passed": true,
+        "sampleFrames": 386472,
+        "durationSeconds": 17.527074829931973
+      }
+    },
+    {
+      "id": "b1-l01",
+      "file": "audio/b1-l01.wav",
+      "transcriptSha256": "67aa19ab9dcb1452a5d7340fc95236da7168b3a93ec6bf1de1639038e794e59b",
+      "audioSha256": "8fb4d0408d029b8cb57a1a4b098c2bb34a90bd9294249d04e2a3bfa60d6d7fa3",
+      "byteLength": 1132782,
+      "encoding": "PCM",
+      "channels": 1,
+      "sampleRateHz": 22050,
+      "bitsPerSample": 16,
+      "sampleFrames": 566368,
+      "dataBytes": 1132736,
+      "durationSeconds": 25.68562358276644,
+      "peakSampleMagnitude": 22628,
+      "browserDecode": {
+        "passed": true,
+        "sampleFrames": 566368,
+        "durationSeconds": 25.68562358276644
+      }
+    },
+    {
+      "id": "b1-l02",
+      "file": "audio/b1-l02.wav",
+      "transcriptSha256": "ca630e078ffdd08a7f8a73d71daab9606f5d361fc30374fc8b1c97c1ada16852",
+      "audioSha256": "81e2dbe6cc0bf016508be6f5ddc600b828bf70b1b4cd75d7e4a040a30feb8272",
+      "byteLength": 1187240,
+      "encoding": "PCM",
+      "channels": 1,
+      "sampleRateHz": 22050,
+      "bitsPerSample": 16,
+      "sampleFrames": 593597,
+      "dataBytes": 1187194,
+      "durationSeconds": 26.92049886621315,
+      "peakSampleMagnitude": 22701,
+      "browserDecode": {
+        "passed": true,
+        "sampleFrames": 593597,
+        "durationSeconds": 26.92049886621315
+      }
+    },
+    {
+      "id": "b1-l03",
+      "file": "audio/b1-l03.wav",
+      "transcriptSha256": "5223bb63aa2ece0cf497a1bdc939b5de4054267d1b1bcc2df469497119fc8dff",
+      "audioSha256": "9da1e63bd48ccc76b594c3b54e53d50ac2b25707ed444e8d953940afbcbd7078",
+      "byteLength": 1253582,
+      "encoding": "PCM",
+      "channels": 1,
+      "sampleRateHz": 22050,
+      "bitsPerSample": 16,
+      "sampleFrames": 626768,
+      "dataBytes": 1253536,
+      "durationSeconds": 28.424852607709752,
+      "peakSampleMagnitude": 22519,
+      "browserDecode": {
+        "passed": true,
+        "sampleFrames": 626768,
+        "durationSeconds": 28.424852607709752
+      }
+    },
+    {
+      "id": "b1-l04",
+      "file": "audio/b1-l04.wav",
+      "transcriptSha256": "797be26d2dd739c6fe2454d389a594941bb0b059cfaa7cbb92c166dde9275099",
+      "audioSha256": "1c96edba2fb2aa9a270bc853ca9179a9d5282676f0f4c6b39e3de8a8f7a60795",
+      "byteLength": 1102990,
+      "encoding": "PCM",
+      "channels": 1,
+      "sampleRateHz": 22050,
+      "bitsPerSample": 16,
+      "sampleFrames": 551472,
+      "dataBytes": 1102944,
+      "durationSeconds": 25.010068027210885,
+      "peakSampleMagnitude": 24626,
+      "browserDecode": {
+        "passed": true,
+        "sampleFrames": 551472,
+        "durationSeconds": 25.010068027210885
+      }
+    },
+    {
+      "id": "b2-l01",
+      "file": "audio/b2-l01.wav",
+      "transcriptSha256": "8b2fae5ab1ceb6c233e9d979e76bda89426a039f8cce0f899d95da4d82934727",
+      "audioSha256": "a05ab4b4a8edfec5fcb83f3dc5a030b1834f9f35db479119eb46247bcf31e212",
+      "byteLength": 1574576,
+      "encoding": "PCM",
+      "channels": 1,
+      "sampleRateHz": 22050,
+      "bitsPerSample": 16,
+      "sampleFrames": 787265,
+      "dataBytes": 1574530,
+      "durationSeconds": 35.70362811791383,
+      "peakSampleMagnitude": 22273,
+      "browserDecode": {
+        "passed": true,
+        "sampleFrames": 787265,
+        "durationSeconds": 35.70362811791383
+      }
+    },
+    {
+      "id": "b2-l02",
+      "file": "audio/b2-l02.wav",
+      "transcriptSha256": "fe325dd3a00aad88f7750098b43abcd438f746bb7c76f9979287d52182b333f6",
+      "audioSha256": "ab462195911ccfee05db8c9beef9aa3265e14488323b537f0622970589489cb1",
+      "byteLength": 1465218,
+      "encoding": "PCM",
+      "channels": 1,
+      "sampleRateHz": 22050,
+      "bitsPerSample": 16,
+      "sampleFrames": 732586,
+      "dataBytes": 1465172,
+      "durationSeconds": 33.22385487528344,
+      "peakSampleMagnitude": 24415,
+      "browserDecode": {
+        "passed": true,
+        "sampleFrames": 732586,
+        "durationSeconds": 33.22385487528344
+      }
+    },
+    {
+      "id": "b2-l03",
+      "file": "audio/b2-l03.wav",
+      "transcriptSha256": "d921757626c299fdd15f5d8e70f3c73ce005055ede48edb6890baf9489ecbb91",
+      "audioSha256": "78b81104531c009d0c7e7ef9d0697e298a26e853d451a378ff7e8bd8a2c4495f",
+      "byteLength": 1768788,
+      "encoding": "PCM",
+      "channels": 1,
+      "sampleRateHz": 22050,
+      "bitsPerSample": 16,
+      "sampleFrames": 884371,
+      "dataBytes": 1768742,
+      "durationSeconds": 40.1075283446712,
+      "peakSampleMagnitude": 25273,
+      "browserDecode": {
+        "passed": true,
+        "sampleFrames": 884371,
+        "durationSeconds": 40.1075283446712
+      }
+    },
+    {
+      "id": "b2-l04",
+      "file": "audio/b2-l04.wav",
+      "transcriptSha256": "0cc46b3219ddd8459ba8caf8b948691d0bf6dbff2eeb2cce8a25a022b153bdfb",
+      "audioSha256": "080d42ced8e2aefa4c07690942705ea47e98cde2723c7f68fb4886ba302ff620",
+      "byteLength": 1382996,
+      "encoding": "PCM",
+      "channels": 1,
+      "sampleRateHz": 22050,
+      "bitsPerSample": 16,
+      "sampleFrames": 691475,
+      "dataBytes": 1382950,
+      "durationSeconds": 31.359410430839002,
+      "peakSampleMagnitude": 25401,
+      "browserDecode": {
+        "passed": true,
+        "sampleFrames": 691475,
+        "durationSeconds": 31.359410430839002
+      }
+    },
+    {
+      "id": "c1-l01",
+      "file": "audio/c1-l01.wav",
+      "transcriptSha256": "62877cc69218bd07e775b8474fa7ba608eec0f900f506bf58f090b34669c036b",
+      "audioSha256": "7985dbb07804ea768e1568a725cbb4a0aafbeaa4e8bacac67c2bb194401f2db0",
+      "byteLength": 1851028,
+      "encoding": "PCM",
+      "channels": 1,
+      "sampleRateHz": 22050,
+      "bitsPerSample": 16,
+      "sampleFrames": 925491,
+      "dataBytes": 1850982,
+      "durationSeconds": 41.97238095238095,
+      "peakSampleMagnitude": 24917,
+      "browserDecode": {
+        "passed": true,
+        "sampleFrames": 925491,
+        "durationSeconds": 41.97238095238095
+      }
+    },
+    {
+      "id": "c1-l02",
+      "file": "audio/c1-l02.wav",
+      "transcriptSha256": "9819b2ec7801b8564d2824ac5e81b8384e1b1bcedbb710e56d8da523d5a26587",
+      "audioSha256": "0bddaf09d721fd0cbeadd037d3c580a7c06687f58702e78f3b8d8db72ed10088",
+      "byteLength": 1832282,
+      "encoding": "PCM",
+      "channels": 1,
+      "sampleRateHz": 22050,
+      "bitsPerSample": 16,
+      "sampleFrames": 916118,
+      "dataBytes": 1832236,
+      "durationSeconds": 41.54730158730159,
+      "peakSampleMagnitude": 24887,
+      "browserDecode": {
+        "passed": true,
+        "sampleFrames": 916118,
+        "durationSeconds": 41.54730158730159
+      }
+    },
+    {
+      "id": "c1-l03",
+      "file": "audio/c1-l03.wav",
+      "transcriptSha256": "4d84c7ac36d848acf5ad91f9e19c4fbea1764ff289fe45ce55079f2c43188306",
+      "audioSha256": "c10de91eca6c1e94b26aced4e9d3facbde63bbb268da5ddc8181fa8c1f3e132f",
+      "byteLength": 1738590,
+      "encoding": "PCM",
+      "channels": 1,
+      "sampleRateHz": 22050,
+      "bitsPerSample": 16,
+      "sampleFrames": 869272,
+      "dataBytes": 1738544,
+      "durationSeconds": 39.422766439909296,
+      "peakSampleMagnitude": 26462,
+      "browserDecode": {
+        "passed": true,
+        "sampleFrames": 869272,
+        "durationSeconds": 39.422766439909296
+      }
+    },
+    {
+      "id": "c1-l04",
+      "file": "audio/c1-l04.wav",
+      "transcriptSha256": "95c39853e39276d52b87cae8eef6dad3aece170c20406193cfe0113c1912e0a2",
+      "audioSha256": "1836e585ccd55145bb6ff5fc71bae24a3a0704d6f89eb8fed6ad4c83f4c3fa19",
+      "byteLength": 1686340,
+      "encoding": "PCM",
+      "channels": 1,
+      "sampleRateHz": 22050,
+      "bitsPerSample": 16,
+      "sampleFrames": 843147,
+      "dataBytes": 1686294,
+      "durationSeconds": 38.23795918367347,
+      "peakSampleMagnitude": 22918,
+      "browserDecode": {
+        "passed": true,
+        "sampleFrames": 843147,
+        "durationSeconds": 38.23795918367347
+      }
+    }
+  ]
+}

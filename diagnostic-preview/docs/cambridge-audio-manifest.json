@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "status": "private_user_supplied_audio_review",
+  "use": "Private sample practice and review; not a validated or paid diagnostic.",
+  "publicRedistributionPermissionEstablished": false,
+  "paidUsePermissionEstablished": false,
+  "publisherAuthenticityIndependentlyVerified": false,
+  "syntheticSpeechUsed": false,
+  "limitations": [
+    "Transcript alignment and decode checks do not establish human perceptual quality or speaker identity.",
+    "IELTS source labels and task types are not CEFR calibration for this sample.",
+    "Ownership of local files does not establish commercial or public redistribution permission."
+  ],
+  "sourceProvenance": "User-supplied Cambridge IELTS21-labelled recordings, compared with supplied book scripts. No affiliation or endorsement.",
+  "clips": [
+    {
+      "id": "c21-t1-sailing",
+      "title": "Sailing courses",
+      "src": "listening/c21-t1-sailing.mp3",
+      "durationSeconds": 151.106372,
+      "bytes": 3627511,
+      "sha256": "1cda1dc2716061ad6c2ee1bae0402c5d95939ab63ca194c9e27c26a16e0d108e",
+      "sourceFilename": "C21T1P1.1.mp3",
+      "sourceSha256": "73d44b3aa391e712382c9293de44135c00480592f95ea85059e2b5bbc926c6d0",
+      "sourceBook": "User-supplied Cambridge IELTS 21-labelled material",
+      "sourcePdfPage": 98,
+      "sourcePrintedPage": 97,
+      "requestedSourceStartSeconds": 117.4,
+      "requestedSourceEndSeconds": 268.5,
+      "processing": "Audio-stream packet copy only; no speech generation or audio re-encoding.",
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 6663791,
+        "decodedDurationSeconds": 151.106372,
+        "decodedPeakDbfs": -2.522,
+        "decodedRmsDbfs": -21.043,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 0.755,
+        "decodeSucceeded": true
+      },
+      "verification": {
+        "pdfPageVisuallyInspected": true,
+        "sourceFilenameMatchesTestAndPart": true,
+        "localAsrAlignment": "checked_against_supplied_pdf_and_word_timestamps",
+        "browserDecode": {
+          "status": "passed",
+          "browser": "Local Edge/Chromium",
+          "decodedDurationSeconds": 151.10635416666668,
+          "channels": 2,
+          "contextSampleRateHz": 48000,
+          "scope": "Full OfflineAudioContext decode and native player progress; no human perceptual claim."
+        },
+        "humanPerceptualReview": "not_performed",
+        "asrModel": "faster-whisper tiny.en, CPU int8, no prompt text",
+        "asrLimitations": "Minor recognition errors remain; source PDF controls wording. Automatic word times are approximate.",
+        "packetCopy": {
+          "status": "passed",
+          "exactCompressedAudioSequencePreserved": true,
+          "actualSourcePacketStartSeconds": 117.39428571428572
+        }
+      },
+      "answerEvidence": [
+        {
+          "itemId": "c21-t1-listening-01",
+          "sourceStartSeconds": 140.26,
+          "sourceEndSeconds": 152.12,
+          "excerptStartSeconds": 22.86,
+          "excerptEndSeconds": 34.72,
+          "timingStatus": "approximate_automatic_alignment_reviewed_against_pdf"
+        },
+        {
+          "itemId": "c21-t1-listening-02",
+          "sourceStartSeconds": 188.6,
+          "sourceEndSeconds": 218.7,
+          "excerptStartSeconds": 71.2,
+          "excerptEndSeconds": 101.3,
+          "timingStatus": "approximate_automatic_alignment_reviewed_against_pdf"
+        },
+        {
+          "itemId": "c21-t1-listening-03",
+          "sourceStartSeconds": 228.12,
+          "sourceEndSeconds": 239.32,
+          "excerptStartSeconds": 110.72,
+          "excerptEndSeconds": 121.92,
+          "timingStatus": "approximate_automatic_alignment_reviewed_against_pdf"
+        }
+      ],
+      "boundaryQuantisation": "MP3 packet-copy boundaries; decoded duration measured independently. No speed change."
+    },
+    {
+      "id": "c21-t1-makeup",
+      "title": "Starting work as a makeup artist",
+      "src": "listening/c21-t1-makeup.mp3",
+      "durationSeconds": 139.612494,
+      "bytes": 3351658,
+      "sha256": "e2cab663f5ab28868880d6fa3c9a989d6cdaa2fff469e0b622ceb6c5d60a4e31",
+      "sourceFilename": "C21T1P2.1.mp3",
+      "sourceSha256": "d94a92bd721c4eacf1c15026fe43849a473363d48b35d1cf328d67e006ffa96a",
+      "sourceBook": "User-supplied Cambridge IELTS 21-labelled material",
+      "sourcePdfPage": 99,
+      "sourcePrintedPage": 98,
+      "requestedSourceStartSeconds": 76.0,
+      "requestedSourceEndSeconds": 215.6,
+      "processing": "Audio-stream packet copy only; no speech generation or audio re-encoding.",
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 6156911,
+        "decodedDurationSeconds": 139.612494,
+        "decodedPeakDbfs": -1.918,
+        "decodedRmsDbfs": -19.839,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 2.09,
+        "decodeSucceeded": true
+      },
+      "verification": {
+        "pdfPageVisuallyInspected": true,
+        "sourceFilenameMatchesTestAndPart": true,
+        "localAsrAlignment": "checked_against_supplied_pdf_and_word_timestamps",
+        "browserDecode": {
+          "status": "passed",
+          "browser": "Local Edge/Chromium",
+          "decodedDurationSeconds": 139.61247916666667,
+          "channels": 2,
+          "contextSampleRateHz": 48000,
+          "scope": "Full OfflineAudioContext decode and native player progress; no human perceptual claim."
+        },
+        "humanPerceptualReview": "not_performed",
+        "asrModel": "faster-whisper tiny.en, CPU int8, no prompt text",
+        "asrLimitations": "Minor recognition errors remain; source PDF controls wording. Automatic word times are approximate.",
+        "packetCopy": {
+          "status": "passed",
+          "exactCompressedAudioSequencePreserved": true,
+          "actualSourcePacketStartSeconds": 75.99020408163265
+        }
+      },
+      "answerEvidence": [
+        {
+          "itemId": "c21-t1-listening-04",
+          "sourceStartSeconds": 105.36,
+          "sourceEndSeconds": 126.37,
+          "excerptStartSeconds": 29.36,
+          "excerptEndSeconds": 50.37,
+          "timingStatus": "approximate_automatic_alignment_reviewed_against_pdf"
+        },
+        {
+          "itemId": "c21-t1-listening-05",
+          "sourceStartSeconds": 191.17,
+          "sourceEndSeconds": 215.09,
+          "excerptStartSeconds": 115.17,
+          "excerptEndSeconds": 139.09,
+          "timingStatus": "approximate_automatic_alignment_reviewed_against_pdf"
+        }
+      ],
+      "boundaryQuantisation": "MP3 packet-copy boundaries; decoded duration measured independently. No speed change."
+    },
+    {
+      "id": "c21-t1-resources",
+      "title": "Evaluating study resources",
+      "src": "listening/c21-t1-resources.mp3",
+      "durationSeconds": 133.343107,
+      "bytes": 3201193,
+      "sha256": "4ee0a005092709c2e7e174131eb4be5b94e03780cb7feb4ff223205bffcc2b75",
+      "sourceFilename": "C21T1P3.2.mp3",
+      "sourceSha256": "0669ec852db2b979997f10fc8ac935a5447af505f0b155481c703a5f9c92128a",
+      "sourceBook": "User-supplied Cambridge IELTS 21-labelled material",
+      "sourcePdfPage": 101,
+      "sourcePrintedPage": 100,
+      "requestedSourceStartSeconds": 8.7,
+      "requestedSourceEndSeconds": 142.05,
+      "processing": "Audio-stream packet copy only; no speech generation or audio re-encoding.",
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 5880431,
+        "decodedDurationSeconds": 133.343107,
+        "decodedPeakDbfs": -2.075,
+        "decodedRmsDbfs": -21.474,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 0.738,
+        "decodeSucceeded": true
+      },
+      "verification": {
+        "pdfPageVisuallyInspected": true,
+        "sourceFilenameMatchesTestAndPart": true,
+        "localAsrAlignment": "checked_against_supplied_pdf_and_word_timestamps",
+        "browserDecode": {
+          "status": "passed",
+          "browser": "Local Edge/Chromium",
+          "decodedDurationSeconds": 133.34310416666668,
+          "channels": 2,
+          "contextSampleRateHz": 48000,
+          "scope": "Full OfflineAudioContext decode and native player progress; no human perceptual claim."
+        },
+        "humanPerceptualReview": "not_performed",
+        "asrModel": "faster-whisper tiny.en, CPU int8, no prompt text",
+        "asrLimitations": "Minor recognition errors remain; source PDF controls wording. Automatic word times are approximate.",
+        "packetCopy": {
+          "status": "passed",
+          "exactCompressedAudioSequencePreserved": true,
+          "actualSourcePacketStartSeconds": 8.698775510204081
+        }
+      },
+      "answerEvidence": [
+        {
+          "itemId": "c21-t1-listening-06",
+          "sourceStartSeconds": 19.52,
+          "sourceEndSeconds": 42.34,
+          "excerptStartSeconds": 10.82,
+          "excerptEndSeconds": 33.64,
+          "timingStatus": "approximate_automatic_alignment_reviewed_against_pdf"
+        },
+        {
+          "itemId": "c21-t1-listening-07",
+          "sourceStartSeconds": 83.6,
+          "sourceEndSeconds": 109.94,
+          "excerptStartSeconds": 74.9,
+          "excerptEndSeconds": 101.24,
+          "timingStatus": "approximate_automatic_alignment_reviewed_against_pdf"
+        },
+        {
+          "itemId": "c21-t1-listening-08",
+          "sourceStartSeconds": 127.82,
+          "sourceEndSeconds": 141.8,
+          "excerptStartSeconds": 119.12,
+          "excerptEndSeconds": 133.1,
+          "timingStatus": "approximate_automatic_alignment_reviewed_against_pdf"
+        }
+      ],
+      "boundaryQuantisation": "MP3 packet-copy boundaries; decoded duration measured independently. No speed change."
+    },
+    {
+      "id": "c21-t1-rubber",
+      "title": "Constraints on natural rubber supply",
+      "src": "listening/c21-t1-rubber.mp3",
+      "durationSeconds": 145.463923,
+      "bytes": 3486864,
+      "sha256": "5142f567f1a0ed67f29644d8dd88f26fbb1d2c2e49d7ae7096a83248123b21ce",
+      "sourceFilename": "C21T1P4.mp3",
+      "sourceSha256": "b9f88f6031a5cff67f488b43117df7559ccb0b8721bd58c7f46bf983c2a2b4bd",
+      "sourceBook": "User-supplied Cambridge IELTS 21-labelled material",
+      "sourcePdfPage": 102,
+      "sourcePrintedPage": 101,
+      "requestedSourceStartSeconds": 124.55,
+      "requestedSourceEndSeconds": 270.0,
+      "processing": "Audio-stream packet copy only; no speech generation or audio re-encoding.",
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 6414959,
+        "decodedDurationSeconds": 145.463923,
+        "decodedPeakDbfs": -1.261,
+        "decodedRmsDbfs": -18.644,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 1.411,
+        "decodeSucceeded": true
+      },
+      "verification": {
+        "pdfPageVisuallyInspected": true,
+        "sourceFilenameMatchesTestAndPart": true,
+        "localAsrAlignment": "checked_against_supplied_pdf_and_word_timestamps",
+        "browserDecode": {
+          "status": "passed",
+          "browser": "Local Edge/Chromium",
+          "decodedDurationSeconds": 145.46391666666668,
+          "channels": 2,
+          "contextSampleRateHz": 48000,
+          "scope": "Full OfflineAudioContext decode and native player progress; no human perceptual claim."
+        },
+        "humanPerceptualReview": "not_performed",
+        "asrModel": "faster-whisper tiny.en, CPU int8, no prompt text",
+        "asrLimitations": "Minor recognition errors remain; source PDF controls wording. Automatic word times are approximate.",
+        "packetCopy": {
+          "status": "passed",
+          "exactCompressedAudioSequencePreserved": true,
+          "actualSourcePacketStartSeconds": 124.52571428571429
+        }
+      },
+      "answerEvidence": [
+        {
+          "itemId": "c21-t1-listening-09",
+          "sourceStartSeconds": 165.03,
+          "sourceEndSeconds": 198.95,
+          "excerptStartSeconds": 40.48,
+          "excerptEndSeconds": 74.4,
+          "timingStatus": "approximate_automatic_alignment_reviewed_against_pdf"
+        },
+        {
+          "itemId": "c21-t1-listening-10",
+          "sourceStartSeconds": 252.23,
+          "sourceEndSeconds": 269.69,
+          "excerptStartSeconds": 127.68,
+          "excerptEndSeconds": 145.14,
+          "timingStatus": "approximate_automatic_alignment_reviewed_against_pdf"
+        }
+      ],
+      "boundaryQuantisation": "MP3 packet-copy boundaries; decoded duration measured independently. No speed change."
+    }
+  ]
+}
