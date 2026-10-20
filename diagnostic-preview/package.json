@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "start": "node scripts/serve.mjs",
-    "test": "node --test tests/*.test.mjs",
-    "check": "node scripts/check.mjs"
+    "test": "node --test tests/benchmark-*.test.mjs tests/recording-room.test.mjs",
+    "check": "node scripts/benchmark-check.mjs",
+    "test:browser": "node scripts/benchmark-browser-check.mjs",
+    "test:recording": "node scripts/recording-room-check.mjs"
   }
 }

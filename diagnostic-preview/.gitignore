@@ -1,4 +1,6 @@
 node_modules/
 artifacts/
+tmp/
+output/
 *.tar.gz
 .DS_Store
