@@ -1,0 +1,137 @@
+{
+  "sha256": {
+    "snapshots/engine-v2.mjs": "e652685bbe45b00d1976cfe607fee309ce3e5b9be1423ef5dff8ac01ad740f9f",
+    "snapshots/bank-v0.2.mjs": "044af6f49b5d33a98a33cd5be08bff41c3fb4b409d6b31fed754cfaf3669da68"
+  },
+  "result": {
+    "trials": 10000,
+    "seed": 20261021,
+    "responseModel": "independent uniform random option selection",
+    "endpoint": "completed full 30-item attempt only; no interim reporting or early stopping",
+    "anyDomainSupport": {
+      "successes": 2147,
+      "n": 10000,
+      "estimate": 0.2147,
+      "lower": 0.2067624665058814,
+      "upper": 0.22285664296442667,
+      "method": "Wilson 95%, marginal"
+    },
+    "allDomainsSupport": {
+      "successes": 0,
+      "n": 10000,
+      "estimate": 0,
+      "lower": 0,
+      "upper": 0.00038399837067659573,
+      "method": "Wilson 95%, marginal"
+    },
+    "first1000AnyDomain": {
+      "successes": 204,
+      "n": 1000,
+      "estimate": 0.204,
+      "lower": 0.1801790152622816,
+      "upper": 0.23008642576116703,
+      "method": "Wilson 95%, marginal"
+    },
+    "domains": {
+      "language": {
+        "anyLevelSupport": {
+          "successes": 188,
+          "n": 10000,
+          "estimate": 0.0188,
+          "lower": 0.016316898339641,
+          "upper": 0.021652661692298153,
+          "method": "Wilson 95%, marginal"
+        },
+        "b2OrC1Support": {
+          "successes": 1,
+          "n": 10000,
+          "estimate": 0.0001,
+          "lower": 0.00001765267360112231,
+          "upper": 0.0005662688974013381,
+          "method": "Wilson 95%, marginal"
+        },
+        "c1Support": {
+          "successes": 0,
+          "n": 10000,
+          "estimate": 0,
+          "lower": 0,
+          "upper": 0.00038399837067659573,
+          "method": "Wilson 95%, marginal"
+        },
+        "supportedLevelCounts": {
+          "A1": 137,
+          "A2": 39,
+          "B1": 11,
+          "B2": 1,
+          "C1": 0
+        }
+      },
+      "reading": {
+        "anyLevelSupport": {
+          "successes": 1041,
+          "n": 10000,
+          "estimate": 0.1041,
+          "lower": 0.09826570516805093,
+          "upper": 0.11023834474185078,
+          "method": "Wilson 95%, marginal"
+        },
+        "b2OrC1Support": {
+          "successes": 1,
+          "n": 10000,
+          "estimate": 0.0001,
+          "lower": 0.00001765267360112231,
+          "upper": 0.0005662688974013381,
+          "method": "Wilson 95%, marginal"
+        },
+        "c1Support": {
+          "successes": 0,
+          "n": 10000,
+          "estimate": 0,
+          "lower": 0,
+          "upper": 0.00038399837067659573,
+          "method": "Wilson 95%, marginal"
+        },
+        "supportedLevelCounts": {
+          "A1": 424,
+          "A2": 486,
+          "B1": 130,
+          "B2": 1,
+          "C1": 0
+        }
+      },
+      "listening": {
+        "anyLevelSupport": {
+          "successes": 1058,
+          "n": 10000,
+          "estimate": 0.1058,
+          "lower": 0.09992214321648979,
+          "upper": 0.11198060109895164,
+          "method": "Wilson 95%, marginal"
+        },
+        "b2OrC1Support": {
+          "successes": 7,
+          "n": 10000,
+          "estimate": 0.0007,
+          "lower": 0.0003391263316879597,
+          "upper": 0.0014443344412696886,
+          "method": "Wilson 95%, marginal"
+        },
+        "c1Support": {
+          "successes": 0,
+          "n": 10000,
+          "estimate": 0,
+          "lower": 0,
+          "upper": 0.00038399837067659573,
+          "method": "Wilson 95%, marginal"
+        },
+        "supportedLevelCounts": {
+          "A1": 447,
+          "A2": 489,
+          "B1": 115,
+          "B2": 7,
+          "C1": 0
+        }
+      }
+    }
+  }
+}
