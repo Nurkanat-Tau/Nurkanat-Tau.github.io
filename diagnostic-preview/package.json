@@ -4,9 +4,14 @@
   "type": "module",
   "scripts": {
     "start": "node scripts/serve.mjs",
-    "test": "node --test tests/benchmark-*.test.mjs tests/recording-room.test.mjs",
-    "check": "node scripts/benchmark-check.mjs",
-    "test:browser": "node scripts/benchmark-browser-check.mjs",
-    "test:recording": "node scripts/recording-room-check.mjs"
+    "test": "node --test tests/benchmark-*.test.mjs tests/recording-room.test.mjs tests/platform-engine.test.mjs",
+    "check": "node scripts/benchmark-check.mjs && node scripts/platform-bank-check.mjs",
+    "test:browser": "node scripts/platform-browser-check.mjs",
+    "test:sample": "node scripts/cambridge-browser-check.mjs",
+    "test:audio": "node scripts/large-listening-bank-check.mjs && node scripts/platform-audio-browser-check.mjs",
+    "test:recording": "node scripts/recording-room-check.mjs",
+    "test:resilience": "node scripts/platform-resilience-check.mjs",
+    "test:tabs": "node scripts/platform-conflict-check.mjs",
+    "test:release": "node scripts/platform-release-check.mjs"
   }
 }

@@ -1,0 +1,499 @@
+{
+  "schemaVersion": 1,
+  "clips": [
+    {
+      "id": "c21-t1-sailing",
+      "sourceFilename": "C21T1P1.1.mp3",
+      "requestedSourceStartSeconds": 117.4,
+      "requestedSourceEndSeconds": 268.5,
+      "sourcePdfPage": 98,
+      "sourcePrintedPage": 97,
+      "title": "Choosing a sailing course",
+      "type": "dialogue",
+      "topic": "courses",
+      "sourceSha256": "73d44b3aa391e712382c9293de44135c00480592f95ea85059e2b5bbc926c6d0",
+      "sourcePdfPages": [
+        98
+      ]
+    },
+    {
+      "id": "c21-t1-sailing-preparation",
+      "sourceFilename": "C21T1P1.2.mp3",
+      "requestedSourceStartSeconds": 7.9,
+      "requestedSourceEndSeconds": 94.6,
+      "sourcePdfPage": 98,
+      "sourcePrintedPage": 97,
+      "title": "Preparing for the sailing course",
+      "type": "dialogue",
+      "topic": "courses",
+      "sourceSha256": "d8b72ae587f56bfa8a7524cad723b3effedb3156f1212545f64c26e4f4f30b17",
+      "sourcePdfPages": [
+        98,
+        99
+      ]
+    },
+    {
+      "id": "c21-t1-makeup",
+      "sourceFilename": "C21T1P2.1.mp3",
+      "requestedSourceStartSeconds": 76,
+      "requestedSourceEndSeconds": 215.6,
+      "sourcePdfPage": 99,
+      "sourcePrintedPage": 98,
+      "title": "Starting work as a makeup artist",
+      "type": "monologue_with_introduction",
+      "topic": "work",
+      "sourceSha256": "d94a92bd721c4eacf1c15026fe43849a473363d48b35d1cf328d67e006ffa96a",
+      "sourcePdfPages": [
+        99
+      ]
+    },
+    {
+      "id": "c21-t1-makeup-duties",
+      "sourceFilename": "C21T1P2.2.mp3",
+      "requestedSourceStartSeconds": 9.3,
+      "requestedSourceEndSeconds": 98,
+      "sourcePdfPage": 100,
+      "sourcePrintedPage": 99,
+      "title": "A makeup trainee’s responsibilities",
+      "type": "monologue",
+      "topic": "work",
+      "sourceSha256": "03072b155c84760bcb7518550b36ae0b3fdf9ee3cae4755e6fdec580342ab6c4",
+      "sourcePdfPages": [
+        100
+      ]
+    },
+    {
+      "id": "c21-t1-lecture-review",
+      "sourceFilename": "C21T1P3.1.mp3",
+      "requestedSourceStartSeconds": 57.6,
+      "requestedSourceEndSeconds": 185.6,
+      "sourcePdfPage": 100,
+      "sourcePrintedPage": 99,
+      "title": "Discussing a marine biology lecture",
+      "type": "dialogue",
+      "topic": "study",
+      "sourceSha256": "2e045b039fd4c78ac2105d39a3df9d11560294f5b44f3aa999aea3c46de7576f",
+      "sourcePdfPages": [
+        100,
+        101
+      ]
+    },
+    {
+      "id": "c21-t1-resources",
+      "sourceFilename": "C21T1P3.2.mp3",
+      "requestedSourceStartSeconds": 8.7,
+      "requestedSourceEndSeconds": 142.05,
+      "sourcePdfPage": 101,
+      "sourcePrintedPage": 100,
+      "title": "Evaluating study resources",
+      "type": "dialogue",
+      "topic": "study",
+      "sourceSha256": "0669ec852db2b979997f10fc8ac935a5447af505f0b155481c703a5f9c92128a",
+      "sourcePdfPages": [
+        101
+      ]
+    },
+    {
+      "id": "c21-t1-rubber",
+      "sourceFilename": "C21T1P4.mp3",
+      "requestedSourceStartSeconds": 124.55,
+      "requestedSourceEndSeconds": 270,
+      "sourcePdfPage": 102,
+      "sourcePrintedPage": 101,
+      "title": "Constraints on natural rubber production",
+      "type": "academic_monologue",
+      "topic": "industry",
+      "sourceSha256": "b9f88f6031a5cff67f488b43117df7559ccb0b8721bd58c7f46bf983c2a2b4bd",
+      "sourcePdfPages": [
+        102
+      ]
+    },
+    {
+      "id": "c21-t1-rubber-alternatives",
+      "sourceFilename": "C21T1P4.mp3",
+      "requestedSourceStartSeconds": 270.8,
+      "requestedSourceEndSeconds": 452.2,
+      "sourcePdfPage": 102,
+      "sourcePrintedPage": 101,
+      "title": "Threats to rubber supplies and alternatives",
+      "type": "academic_monologue",
+      "topic": "industry",
+      "sourceSha256": "b9f88f6031a5cff67f488b43117df7559ccb0b8721bd58c7f46bf983c2a2b4bd",
+      "sourcePdfPages": [
+        102,
+        103
+      ]
+    },
+    {
+      "id": "c21-t2-courses-food",
+      "sourceFilename": "C21T2P1.mp3",
+      "requestedSourceStartSeconds": 91.4,
+      "requestedSourceEndSeconds": 240.1,
+      "sourcePdfPage": 103,
+      "sourcePrintedPage": 102,
+      "title": "Enquiring about short courses",
+      "type": "dialogue",
+      "topic": "courses",
+      "sourceSha256": "fb0d06b22e2e2fd2c6192634053e86ec45c70f49dbf5a13fd02f67d5a1570887",
+      "sourcePdfPages": [
+        103
+      ]
+    },
+    {
+      "id": "c21-t2-courses-crafts",
+      "sourceFilename": "C21T2P1.mp3",
+      "requestedSourceStartSeconds": 281.5,
+      "requestedSourceEndSeconds": 435.2,
+      "sourcePdfPage": 103,
+      "sourcePrintedPage": 102,
+      "title": "Choosing craft and practical classes",
+      "type": "dialogue",
+      "topic": "courses",
+      "sourceSha256": "fb0d06b22e2e2fd2c6192634053e86ec45c70f49dbf5a13fd02f67d5a1570887",
+      "sourcePdfPages": [
+        103,
+        104
+      ]
+    },
+    {
+      "id": "c21-t2-walks",
+      "sourceFilename": "C21T2P2.1.mp3",
+      "requestedSourceStartSeconds": 45.7,
+      "requestedSourceEndSeconds": 158.1,
+      "sourcePdfPage": 104,
+      "sourcePrintedPage": 103,
+      "title": "Two local walking routes",
+      "type": "monologue",
+      "topic": "travel",
+      "sourceSha256": "63b2b10f9ae8af66fbf9607f0b3b1fb6dcc45bb047b0c2da685f43ba997b336c",
+      "sourcePdfPages": [
+        104
+      ]
+    },
+    {
+      "id": "c21-t2-mine",
+      "sourceFilename": "C21T2P2.2.mp3",
+      "requestedSourceStartSeconds": 8.9,
+      "requestedSourceEndSeconds": 129.1,
+      "sourcePdfPage": 104,
+      "sourcePrintedPage": 103,
+      "title": "Visiting a former coal mine",
+      "type": "monologue",
+      "topic": "travel",
+      "sourceSha256": "f9b1341b39e8b525ac6925321f21379a651f6f08bf5da0e13536190e5353a071",
+      "sourcePdfPages": [
+        104,
+        105
+      ]
+    },
+    {
+      "id": "c21-t2-food-course",
+      "sourceFilename": "C21T2P3.1.mp3",
+      "requestedSourceStartSeconds": 55.3,
+      "requestedSourceEndSeconds": 257.9,
+      "sourcePdfPage": 105,
+      "sourcePrintedPage": 104,
+      "title": "Giving feedback on a food science course",
+      "type": "discussion",
+      "topic": "study",
+      "sourceSha256": "5eb3d2648ea0075fcf3199b879c4b51ef359536413b5de2eaf8ac2634063eb7f",
+      "sourcePdfPages": [
+        105,
+        106
+      ]
+    },
+    {
+      "id": "c21-t2-food-project",
+      "sourceFilename": "C21T2P3.2.mp3",
+      "requestedSourceStartSeconds": 9.5,
+      "requestedSourceEndSeconds": 117.5,
+      "sourcePdfPage": 106,
+      "sourcePrintedPage": 105,
+      "title": "Developing a new snack",
+      "type": "discussion",
+      "topic": "study",
+      "sourceSha256": "5dddc05f05f86175efbae3fb26f2944019d699f564dfd0e2b00933ba16599880",
+      "sourcePdfPages": [
+        106
+      ]
+    },
+    {
+      "id": "c21-t2-cruise-problems",
+      "sourceFilename": "C21T2P4.mp3",
+      "requestedSourceStartSeconds": 74,
+      "requestedSourceEndSeconds": 248.5,
+      "sourcePdfPage": 107,
+      "sourcePrintedPage": 106,
+      "title": "Pressures on cruise destinations and operators",
+      "type": "academic_monologue",
+      "topic": "tourism",
+      "sourceSha256": "98fb6ccffc0e05c2b0fab1aef80254aca92f4ffa0705954076cef1880137fb44",
+      "sourcePdfPages": [
+        107
+      ]
+    },
+    {
+      "id": "c21-t2-cruise-changes",
+      "sourceFilename": "C21T2P4.mp3",
+      "requestedSourceStartSeconds": 248.95,
+      "requestedSourceEndSeconds": 369.4,
+      "sourcePdfPage": 107,
+      "sourcePrintedPage": 106,
+      "title": "Cruise companies adapt to younger customers",
+      "type": "academic_monologue",
+      "topic": "tourism",
+      "sourceSha256": "98fb6ccffc0e05c2b0fab1aef80254aca92f4ffa0705954076cef1880137fb44",
+      "sourcePdfPages": [
+        107,
+        108
+      ]
+    },
+    {
+      "id": "c21-t3-ferry-planning",
+      "sourceFilename": "C21T3P1.mp3",
+      "requestedSourceStartSeconds": 91.9,
+      "requestedSourceEndSeconds": 191.3,
+      "sourcePdfPage": 108,
+      "sourcePrintedPage": 107,
+      "title": "Planning an island ferry trip",
+      "type": "dialogue",
+      "topic": "travel",
+      "sourceSha256": "416f786615d82791775e771123a378883ccfb039802f83e00f72d661487a5a79",
+      "sourcePdfPages": [
+        108
+      ]
+    },
+    {
+      "id": "c21-t3-ferry-practical",
+      "sourceFilename": "C21T3P1.mp3",
+      "requestedSourceStartSeconds": 248.4,
+      "requestedSourceEndSeconds": 363.3,
+      "sourcePdfPage": 108,
+      "sourcePrintedPage": 107,
+      "title": "Practical advice for a family ferry trip",
+      "type": "dialogue",
+      "topic": "travel",
+      "sourceSha256": "416f786615d82791775e771123a378883ccfb039802f83e00f72d661487a5a79",
+      "sourcePdfPages": [
+        108,
+        109
+      ]
+    },
+    {
+      "id": "c21-t3-street-food-start",
+      "sourceFilename": "C21T3P2.1.mp3",
+      "requestedSourceStartSeconds": 43.5,
+      "requestedSourceEndSeconds": 164.6,
+      "sourcePdfPage": 109,
+      "sourcePrintedPage": 108,
+      "title": "Choosing where to sell street food",
+      "type": "monologue",
+      "topic": "business",
+      "sourceSha256": "684c9ad297e3e4dce54950cea583fbd5851a6e831836a89d8ede281f591069b5",
+      "sourcePdfPages": [
+        109
+      ]
+    },
+    {
+      "id": "c21-t3-street-food-problems",
+      "sourceFilename": "C21T3P2.2.mp3",
+      "requestedSourceStartSeconds": 10.6,
+      "requestedSourceEndSeconds": 162.6,
+      "sourcePdfPage": 109,
+      "sourcePrintedPage": 108,
+      "title": "Lessons from street food businesses",
+      "type": "monologue",
+      "topic": "business",
+      "sourceSha256": "b90c5fd1f8e4bcdf169de77fa4ed9dca1dadff2167342241d13fbb71eec52245",
+      "sourcePdfPages": [
+        109,
+        110
+      ]
+    },
+    {
+      "id": "c21-t3-fashion-values",
+      "sourceFilename": "C21T3P3.1.mp3",
+      "requestedSourceStartSeconds": 45.5,
+      "requestedSourceEndSeconds": 157.45,
+      "sourcePdfPage": 110,
+      "sourcePrintedPage": 109,
+      "title": "Evaluating fashion claims",
+      "type": "dialogue",
+      "topic": "environment",
+      "sourceSha256": "b8921207fb23d04c7d61a84083ea3ff4c3b716b1422fcc41d207f10fd4c8f305",
+      "sourcePdfPages": [
+        110
+      ]
+    },
+    {
+      "id": "c21-t3-fashion-fabrics",
+      "sourceFilename": "C21T3P3.2.mp3",
+      "requestedSourceStartSeconds": 11.4,
+      "requestedSourceEndSeconds": 153.45,
+      "sourcePdfPage": 111,
+      "sourcePrintedPage": 110,
+      "title": "Comparing fabric production methods",
+      "type": "dialogue",
+      "topic": "environment",
+      "sourceSha256": "cb57a6829e51b746747370a10b4ee52d5f67e85c7c1abed94ea1e622e61fc944",
+      "sourcePdfPages": [
+        111
+      ]
+    },
+    {
+      "id": "c21-t3-invasive-causes",
+      "sourceFilename": "C21T3P4.mp3",
+      "requestedSourceStartSeconds": 73.5,
+      "requestedSourceEndSeconds": 216.3,
+      "sourcePdfPage": 111,
+      "sourcePrintedPage": 110,
+      "title": "How invasive species cause problems and spread",
+      "type": "academic_monologue",
+      "topic": "ecology",
+      "sourceSha256": "3c2ca30363eecec365d2a182848418133ab5c81978210af94200a859cc213585",
+      "sourcePdfPages": [
+        111,
+        112
+      ]
+    },
+    {
+      "id": "c21-t3-invasive-control",
+      "sourceFilename": "C21T3P4.mp3",
+      "requestedSourceStartSeconds": 290.25,
+      "requestedSourceEndSeconds": 471.7,
+      "sourcePdfPage": 112,
+      "sourcePrintedPage": 111,
+      "title": "Invasive species in the UK and monitoring",
+      "type": "academic_monologue",
+      "topic": "ecology",
+      "sourceSha256": "3c2ca30363eecec365d2a182848418133ab5c81978210af94200a859cc213585",
+      "sourcePdfPages": [
+        112
+      ]
+    },
+    {
+      "id": "c21-t4-shopping-errands",
+      "sourceFilename": "C21T4P1.mp3",
+      "requestedSourceStartSeconds": 101,
+      "requestedSourceEndSeconds": 217.1,
+      "sourcePdfPage": 113,
+      "sourcePrintedPage": 112,
+      "title": "A shopper describes his visit to town",
+      "type": "dialogue",
+      "topic": "daily-life",
+      "sourceSha256": "b68d69b421351d881516ba6c4ddc2f6938a3d58864b7bcdb8593ef416cad250f",
+      "sourcePdfPages": [
+        113
+      ]
+    },
+    {
+      "id": "c21-t4-shopping-opinions",
+      "sourceFilename": "C21T4P1.mp3",
+      "requestedSourceStartSeconds": 264.9,
+      "requestedSourceEndSeconds": 357.45,
+      "sourcePdfPage": 113,
+      "sourcePrintedPage": 112,
+      "title": "Views on local shopping facilities",
+      "type": "dialogue",
+      "topic": "daily-life",
+      "sourceSha256": "b68d69b421351d881516ba6c4ddc2f6938a3d58864b7bcdb8593ef416cad250f",
+      "sourcePdfPages": [
+        113,
+        114
+      ]
+    },
+    {
+      "id": "c21-t4-exhibition-benefits",
+      "sourceFilename": "C21T4P2.1.mp3",
+      "requestedSourceStartSeconds": 42.7,
+      "requestedSourceEndSeconds": 171.3,
+      "sourcePdfPage": 114,
+      "sourcePrintedPage": 113,
+      "title": "An exhibitor’s experience and benefits",
+      "type": "monologue",
+      "topic": "business",
+      "sourceSha256": "7d74e442ac5c38cc4844c85b54420d855d41e11f3a8aa14986e86f035deb7d7e",
+      "sourcePdfPages": [
+        114
+      ]
+    },
+    {
+      "id": "c21-t4-exhibition-speakers",
+      "sourceFilename": "C21T4P2.2.mp3",
+      "requestedSourceStartSeconds": 9.2,
+      "requestedSourceEndSeconds": 179.5,
+      "sourcePdfPage": 114,
+      "sourcePrintedPage": 113,
+      "title": "Choosing a business exhibition talk",
+      "type": "monologue",
+      "topic": "business",
+      "sourceSha256": "04a9091b8482281eec84d230f7cc8b734508c813c9e66f65f1d0918af4ab5ad9",
+      "sourcePdfPages": [
+        114,
+        115
+      ]
+    },
+    {
+      "id": "c21-t4-future-housing",
+      "sourceFilename": "C21T4P3.1.mp3",
+      "requestedSourceStartSeconds": 49.9,
+      "requestedSourceEndSeconds": 145.2,
+      "sourcePdfPage": 115,
+      "sourcePrintedPage": 114,
+      "title": "Planning a housing presentation",
+      "type": "dialogue",
+      "topic": "study",
+      "sourceSha256": "ef73054aa6ee9336dc916ec15815c8d8aa07bec45fbca1ae436b51b87208a68d",
+      "sourcePdfPages": [
+        115
+      ]
+    },
+    {
+      "id": "c21-t4-housing-features",
+      "sourceFilename": "C21T4P3.2.mp3",
+      "requestedSourceStartSeconds": 9.1,
+      "requestedSourceEndSeconds": 157.8,
+      "sourcePdfPage": 115,
+      "sourcePrintedPage": 114,
+      "title": "Evaluating future housing features",
+      "type": "dialogue",
+      "topic": "design",
+      "sourceSha256": "ab7cda9a1954767be49c67b92b03b7c56c7b967d28b8ddbc89feae6f490735fd",
+      "sourcePdfPages": [
+        115,
+        116
+      ]
+    },
+    {
+      "id": "c21-t4-music-recovery",
+      "sourceFilename": "C21T4P4.mp3",
+      "requestedSourceStartSeconds": 75.1,
+      "requestedSourceEndSeconds": 231.3,
+      "sourcePdfPage": 116,
+      "sourcePrintedPage": 115,
+      "title": "A review of music in surgical recovery",
+      "type": "academic_monologue",
+      "topic": "research",
+      "sourceSha256": "2c3077e251447dfa6a8bd8b3b79f9872f41780b7773dfcb77e9164a2f10078bc",
+      "sourcePdfPages": [
+        116,
+        117
+      ]
+    },
+    {
+      "id": "c21-t4-music-evidence",
+      "sourceFilename": "C21T4P4.mp3",
+      "requestedSourceStartSeconds": 235.7,
+      "requestedSourceEndSeconds": 356.45,
+      "sourcePdfPage": 117,
+      "sourcePrintedPage": 116,
+      "title": "Interpreting music research findings",
+      "type": "academic_monologue",
+      "topic": "research",
+      "sourceSha256": "2c3077e251447dfa6a8bd8b3b79f9872f41780b7773dfcb77e9164a2f10078bc",
+      "sourcePdfPages": [
+        117
+      ]
+    }
+  ]
+}

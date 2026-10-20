@@ -1,5 +1,36 @@
 # Validation status and blinded pilot plan
 
+## Current platform: 600-question pilot bank
+
+The active application uses `pilot-bank-600-v1`: 240 language-use questions, 240 reading questions across 48 passages, and 120 listening questions across 32 clips from 16 underlying conversations/talks. Learners receive one of eight focused 120-question forms. The retained 30-question demonstration is a separate route.
+
+**There are zero real learner calibration records. No validated CEFR level, sublevel, accuracy percentage, reliability coefficient, or Gallup-equivalence claim is available.** The active platform deliberately returns no automated CEFR classification. The level thresholds and simulation results in the historical section below are not used by the current application.
+
+The personal report now explains actual responses and proposes practice. Its evidence rules are descriptive safeguards, not calibrated measurements. Repeated questions from one passage, or two clips from one conversation, are not treated as independent confirmations. First committed responses are retained separately from later corrections. Familiar recordings and technical failures are excluded from fresh item-performance evidence in the pilot inspector. That inspector starts empty and only analyses explicitly imported records; imported identity and independence are not authenticated.
+
+### Evidence needed before charging for precise placement
+
+1. **Define the decision.** Specify course placement for adults/students 16+, separate skills, conditions, accommodations, and the cost of over-placement and under-placement. Beginning/middle/end of a CEFR band are additional proposed claims requiring additional evidence.
+2. **Independent human review.** Language-assessment specialists review every item, key, alternative, passage and recording. Run human listening checks for boundaries, intelligibility and naturalness. Separate-agent editorial reviews and ASR checks are useful preparation but are not independent human validation.
+3. **Complete coverage and rights.** Produce or license original audio, including genuinely accessible beginner conversations. The current academic IELTS sources do not demonstrate balanced A1–C1 listening coverage, and possession of the supplied recordings does not establish paid/public redistribution rights.
+4. **Cognitive and usability pilot.** A proposed initial 20–30 diverse learners can reveal misunderstood questions, answer strategies, fatigue and accessibility problems. This is a planning starting point, not a validation sample-size standard. Observe why learners choose answers, including correct answers reached through unintended clues.
+5. **Plan calibration around exposure.** Have a psychometrician design recruitment and linked forms, including per-item coverage, source dependence, relevant groups and desired precision. With 120 of 600 items per attempt, 500 balanced complete attempts average only 100 responses per item; common anchors will receive more and some items less. A large overall participant count alone is insufficient. Do not pool unequal forms as if their raw scores were interchangeable.
+6. **Pre-register development and evaluation.** Freeze versions, exclusions, primary metrics, fairness analyses and acceptable decision risks before evaluating outcomes. Split by learner, keeping a genuinely untouched evaluation sample. Avoid tuning on the same learners used to report accuracy.
+7. **External references and standard setting.** Use independent, suitably aligned reading/listening reference evidence; productive-skill ratings cannot be treated as ground truth for receptive skills. Train experts on CEFR descriptors and set boundaries through a documented procedure, then test the boundaries empirically. Report uncertainty and unresolved cases rather than forcing every learner into a narrow category.
+8. **Teacher reliability.** Collect two blind ratings on a prespecified subset of writing and speaking. Preserve both original ratings before adjudication. Check agreement and systematic severity differences; do not treat one teacher's judgement as infallible.
+9. **Evaluate the claims.** Examine item difficulty, distractor function, discrimination, passage/source-family dependence, dimensionality, missingness, completion and dropout, retest/alternate-form stability, and fairness where sample sizes permit. Report confusion matrices, serious over/under-placement, intervals and abstention rates on held-out learners. Alpha alone does not establish validity or accurate level boundaries.
+10. **Operational release.** Implement authenticated accounts, server-side protected bank/scoring, verified payment notifications, consent/retention/deletion, teacher scheduling, results delivery and an appeal/review process. The current static pilot has none of those commercial entitlements. Publish a technical manual and monitor drift after launch.
+
+### Sources informing this process
+
+- [Council of Europe: relating examinations to the CEFR](https://www.coe.int/en/web/common-european-framework-reference-languages/relating-examinations-to-the-cefr): a transparent, cumulative linking argument rather than automatic approval from using descriptors.
+- [Cambridge English assessment development cycle](https://www.cambridgeenglish.org/english-research-group/validity-and-validation/testcycle.aspx): specifications, trials, expert judgement, pretesting and continuing evaluation.
+- [ILTA Guidelines for Practice 2024](https://www.iltaonline.com/page/ILTAGuidelinesforPractice2024): evidence appropriate to intended use, transparent interpretation, fairness and quality assurance.
+
+These sources inform the development process; they do not endorse this platform. The early pilot can provide useful practice and a teacher-supported discussion. Charging for an independently reviewed teacher service would be a different promise from selling an established precise automated level. No price or “50,000-tenge value” claim can be substantiated by question count or software QA alone.
+
+## Historical prototype record — superseded, not active scoring
+
 Updated: 21 October 2026, Asia/Qyzylorda. Engine version: **2**. Content bank: **preview-0.2.0-draft**, 80 items. This document describes a local working prototype, not a validated commercial assessment.
 
 ## Current conclusion

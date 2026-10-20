@@ -1,0 +1,2007 @@
+{
+  "schemaVersion": 1,
+  "status": "private_source_based_uncalibrated_bank",
+  "sourceBook": "User-supplied Cambridge IELTS21-labelled material",
+  "sourceTests": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "syntheticSpeechUsed": false,
+  "publicRedistributionPermissionEstablished": false,
+  "paidUsePermissionEstablished": false,
+  "publisherAuthenticityIndependentlyVerified": false,
+  "timingMethod": "Local tiny.en automatic word alignment checked against the supplied book transcript. Approximate review navigation, not human perceptual certification.",
+  "limitations": [
+    "Original project questions are not publisher-authored questions.",
+    "These questions have no calibrated CEFR or IELTS score interpretation.",
+    "Shared-recording answers are dependent observations.",
+    "Published-recording familiarity and repeat exposure can affect results.",
+    "Supplying local files does not establish public or commercial rights."
+  ],
+  "clips": [
+    {
+      "id": "c21-t1-sailing",
+      "sourceFilename": "C21T1P1.1.mp3",
+      "requestedSourceStartSeconds": 117.4,
+      "requestedSourceEndSeconds": 268.5,
+      "sourcePdfPage": 98,
+      "sourcePrintedPage": 97,
+      "title": "Choosing a sailing course",
+      "type": "dialogue",
+      "topic": "courses",
+      "src": "listening-bank/c21-t1-sailing.mp3",
+      "sha256": "1cda1dc2716061ad6c2ee1bae0402c5d95939ab63ca194c9e27c26a16e0d108e",
+      "sourceSha256": "73d44b3aa391e712382c9293de44135c00480592f95ea85059e2b5bbc926c6d0",
+      "bytes": 3627511,
+      "durationSeconds": 151.106372,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 6663791,
+        "decodedDurationSeconds": 151.106372,
+        "decodedPeakDbfs": -2.522,
+        "decodedRmsDbfs": -21.043,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 0.755,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "c21-t1-listening-01",
+          "startSeconds": 22.86,
+          "endSeconds": 34.72,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "c21-t1-listening-02",
+          "startSeconds": 71.2,
+          "endSeconds": 101.3,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "c21-t1-listening-03",
+          "startSeconds": 110.72,
+          "endSeconds": 121.92,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t1-listening-001",
+          "startSeconds": 35.5,
+          "endSeconds": 49.74,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        98
+      ]
+    },
+    {
+      "id": "c21-t1-sailing-preparation",
+      "sourceFilename": "C21T1P1.2.mp3",
+      "requestedSourceStartSeconds": 7.9,
+      "requestedSourceEndSeconds": 94.6,
+      "sourcePdfPage": 98,
+      "sourcePrintedPage": 97,
+      "title": "Preparing for the sailing course",
+      "type": "dialogue",
+      "topic": "courses",
+      "src": "listening-bank/c21-t1-sailing-preparation.mp3",
+      "sha256": "27d4f2d22eb289cab602e3b0a65a841a1c00ac9a575181ed3082ca4f2462aed0",
+      "sourceSha256": "d8b72ae587f56bfa8a7524cad723b3effedb3156f1212545f64c26e4f4f30b17",
+      "bytes": 2082107,
+      "durationSeconds": 86.714535,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 3824111,
+        "decodedDurationSeconds": 86.714535,
+        "decodedPeakDbfs": -2.994,
+        "decodedRmsDbfs": -22.432,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 0.926,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t1-listening-002",
+          "startSeconds": 6.2,
+          "endSeconds": 13,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t1-listening-003",
+          "startSeconds": 14.38,
+          "endSeconds": 30.68,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t1-listening-004",
+          "startSeconds": 45.82,
+          "endSeconds": 66.38,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t1-listening-005",
+          "startSeconds": 69.82,
+          "endSeconds": 82.8,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        98,
+        99
+      ]
+    },
+    {
+      "id": "c21-t1-makeup",
+      "sourceFilename": "C21T1P2.1.mp3",
+      "requestedSourceStartSeconds": 76,
+      "requestedSourceEndSeconds": 215.6,
+      "sourcePdfPage": 99,
+      "sourcePrintedPage": 98,
+      "title": "Starting work as a makeup artist",
+      "type": "monologue_with_introduction",
+      "topic": "work",
+      "src": "listening-bank/c21-t1-makeup.mp3",
+      "sha256": "e2cab663f5ab28868880d6fa3c9a989d6cdaa2fff469e0b622ceb6c5d60a4e31",
+      "sourceSha256": "d94a92bd721c4eacf1c15026fe43849a473363d48b35d1cf328d67e006ffa96a",
+      "bytes": 3351658,
+      "durationSeconds": 139.612494,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 6156911,
+        "decodedDurationSeconds": 139.612494,
+        "decodedPeakDbfs": -1.918,
+        "decodedRmsDbfs": -19.839,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 2.09,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "c21-t1-listening-04",
+          "startSeconds": 29.36,
+          "endSeconds": 50.37,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "c21-t1-listening-05",
+          "startSeconds": 115.17,
+          "endSeconds": 139.09,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t1-listening-006",
+          "startSeconds": 55.15,
+          "endSeconds": 84,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t1-listening-007",
+          "startSeconds": 88.91,
+          "endSeconds": 112.8,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        99
+      ]
+    },
+    {
+      "id": "c21-t1-makeup-duties",
+      "sourceFilename": "C21T1P2.2.mp3",
+      "requestedSourceStartSeconds": 9.3,
+      "requestedSourceEndSeconds": 98,
+      "sourcePdfPage": 100,
+      "sourcePrintedPage": 99,
+      "title": "A makeup trainee’s responsibilities",
+      "type": "monologue",
+      "topic": "work",
+      "src": "listening-bank/c21-t1-makeup-duties.mp3",
+      "sha256": "da8f8a75ab9f6d4a91c0a6c30d2055727cf6db374b606dd83eb8ff1de4f03bbc",
+      "sourceSha256": "03072b155c84760bcb7518550b36ae0b3fdf9ee3cae4755e6fdec580342ab6c4",
+      "bytes": 2129754,
+      "durationSeconds": 88.699841,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 3911663,
+        "decodedDurationSeconds": 88.699841,
+        "decodedPeakDbfs": -2.627,
+        "decodedRmsDbfs": -19.862,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 1.669,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t1-listening-008",
+          "startSeconds": 16.12,
+          "endSeconds": 34.68,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t1-listening-009",
+          "startSeconds": 36.12,
+          "endSeconds": 56.3,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t1-listening-010",
+          "startSeconds": 57.82,
+          "endSeconds": 70.78,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t1-listening-011",
+          "startSeconds": 71.82,
+          "endSeconds": 88.36,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        100
+      ]
+    },
+    {
+      "id": "c21-t1-lecture-review",
+      "sourceFilename": "C21T1P3.1.mp3",
+      "requestedSourceStartSeconds": 57.6,
+      "requestedSourceEndSeconds": 185.6,
+      "sourcePdfPage": 100,
+      "sourcePrintedPage": 99,
+      "title": "Discussing a marine biology lecture",
+      "type": "dialogue",
+      "topic": "study",
+      "src": "listening-bank/c21-t1-lecture-review.mp3",
+      "sha256": "b9d6519099ab9bc441b5a0f95edce62fc2b1fd740b2c8aba5c0d186e0785b43c",
+      "sourceSha256": "2e045b039fd4c78ac2105d39a3df9d11560294f5b44f3aa999aea3c46de7576f",
+      "bytes": 3072670,
+      "durationSeconds": 127.988005,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 5644271,
+        "decodedDurationSeconds": 127.988005,
+        "decodedPeakDbfs": -2.854,
+        "decodedRmsDbfs": -20.485,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 0.755,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t1-listening-012",
+          "startSeconds": 9.67,
+          "endSeconds": 29.01,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t1-listening-013",
+          "startSeconds": 29.01,
+          "endSeconds": 48.75,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t1-listening-014",
+          "startSeconds": 62.11,
+          "endSeconds": 100.39,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t1-listening-015",
+          "startSeconds": 100.99,
+          "endSeconds": 112.2,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        100,
+        101
+      ]
+    },
+    {
+      "id": "c21-t1-resources",
+      "sourceFilename": "C21T1P3.2.mp3",
+      "requestedSourceStartSeconds": 8.7,
+      "requestedSourceEndSeconds": 142.05,
+      "sourcePdfPage": 101,
+      "sourcePrintedPage": 100,
+      "title": "Evaluating study resources",
+      "type": "dialogue",
+      "topic": "study",
+      "src": "listening-bank/c21-t1-resources.mp3",
+      "sha256": "4ee0a005092709c2e7e174131eb4be5b94e03780cb7feb4ff223205bffcc2b75",
+      "sourceSha256": "0669ec852db2b979997f10fc8ac935a5447af505f0b155481c703a5f9c92128a",
+      "bytes": 3201193,
+      "durationSeconds": 133.343107,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 5880431,
+        "decodedDurationSeconds": 133.343107,
+        "decodedPeakDbfs": -2.075,
+        "decodedRmsDbfs": -21.474,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 0.738,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "c21-t1-listening-06",
+          "startSeconds": 10.82,
+          "endSeconds": 33.64,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "c21-t1-listening-07",
+          "startSeconds": 74.9,
+          "endSeconds": 101.24,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "c21-t1-listening-08",
+          "startSeconds": 119.12,
+          "endSeconds": 133.1,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t1-listening-016",
+          "startSeconds": 34.38,
+          "endSeconds": 54.72,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        101
+      ]
+    },
+    {
+      "id": "c21-t1-rubber",
+      "sourceFilename": "C21T1P4.mp3",
+      "requestedSourceStartSeconds": 124.55,
+      "requestedSourceEndSeconds": 270,
+      "sourcePdfPage": 102,
+      "sourcePrintedPage": 101,
+      "title": "Constraints on natural rubber production",
+      "type": "academic_monologue",
+      "topic": "industry",
+      "src": "listening-bank/c21-t1-rubber.mp3",
+      "sha256": "5142f567f1a0ed67f29644d8dd88f26fbb1d2c2e49d7ae7096a83248123b21ce",
+      "sourceSha256": "b9f88f6031a5cff67f488b43117df7559ccb0b8721bd58c7f46bf983c2a2b4bd",
+      "bytes": 3486864,
+      "durationSeconds": 145.463923,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 6414959,
+        "decodedDurationSeconds": 145.463923,
+        "decodedPeakDbfs": -1.261,
+        "decodedRmsDbfs": -18.644,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 1.411,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "c21-t1-listening-09",
+          "startSeconds": 40.48,
+          "endSeconds": 74.4,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "c21-t1-listening-10",
+          "startSeconds": 127.68,
+          "endSeconds": 145.14,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t1-listening-017",
+          "startSeconds": 74.45,
+          "endSeconds": 100.95,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t1-listening-018",
+          "startSeconds": 100.95,
+          "endSeconds": 125.34,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        102
+      ]
+    },
+    {
+      "id": "c21-t1-rubber-alternatives",
+      "sourceFilename": "C21T1P4.mp3",
+      "requestedSourceStartSeconds": 270.8,
+      "requestedSourceEndSeconds": 452.2,
+      "sourcePdfPage": 102,
+      "sourcePrintedPage": 101,
+      "title": "Threats to rubber supplies and alternatives",
+      "type": "academic_monologue",
+      "topic": "industry",
+      "src": "listening-bank/c21-t1-rubber-alternatives.mp3",
+      "sha256": "119a3d4857fecd6f36fe889d35ed24157b9f3333071bcd41001c7cf0ae97382c",
+      "sourceSha256": "b9f88f6031a5cff67f488b43117df7559ccb0b8721bd58c7f46bf983c2a2b4bd",
+      "bytes": 4348240,
+      "durationSeconds": 181.408413,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 8000111,
+        "decodedDurationSeconds": 181.408413,
+        "decodedPeakDbfs": -1.213,
+        "decodedRmsDbfs": -18.973,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 5.219,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t1-listening-019",
+          "startSeconds": 6.83,
+          "endSeconds": 42.21,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t1-listening-020",
+          "startSeconds": 42.21,
+          "endSeconds": 58.23,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t1-listening-021",
+          "startSeconds": 79.12,
+          "endSeconds": 121.6,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t1-listening-022",
+          "startSeconds": 150.6,
+          "endSeconds": 181.02,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        102,
+        103
+      ]
+    },
+    {
+      "id": "c21-t2-courses-food",
+      "sourceFilename": "C21T2P1.mp3",
+      "requestedSourceStartSeconds": 91.4,
+      "requestedSourceEndSeconds": 240.1,
+      "sourcePdfPage": 103,
+      "sourcePrintedPage": 102,
+      "title": "Enquiring about short courses",
+      "type": "dialogue",
+      "topic": "courses",
+      "src": "listening-bank/c21-t2-courses-food.mp3",
+      "sha256": "5fe6766d770086fee1cd723b8c03624ba1366d08efcea0615646c1114a344e54",
+      "sourceSha256": "fb0d06b22e2e2fd2c6192634053e86ec45c70f49dbf5a13fd02f67d5a1570887",
+      "bytes": 3565114,
+      "durationSeconds": 148.729229,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 6558959,
+        "decodedDurationSeconds": 148.729229,
+        "decodedPeakDbfs": -1.44,
+        "decodedRmsDbfs": -21.657,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 0.979,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t2-listening-001",
+          "startSeconds": 5.93,
+          "endSeconds": 24.59,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-002",
+          "startSeconds": 38.29,
+          "endSeconds": 67.67,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-003",
+          "startSeconds": 75.05,
+          "endSeconds": 87.89,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-004",
+          "startSeconds": 130.11,
+          "endSeconds": 147.41,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        103
+      ]
+    },
+    {
+      "id": "c21-t2-courses-crafts",
+      "sourceFilename": "C21T2P1.mp3",
+      "requestedSourceStartSeconds": 281.5,
+      "requestedSourceEndSeconds": 435.2,
+      "sourcePdfPage": 103,
+      "sourcePrintedPage": 102,
+      "title": "Choosing craft and practical classes",
+      "type": "dialogue",
+      "topic": "courses",
+      "src": "listening-bank/c21-t2-courses-crafts.mp3",
+      "sha256": "18abcd93f65ea1646186c820147f2a82c47a3729b174bb20bab0607ebe472af6",
+      "sourceSha256": "fb0d06b22e2e2fd2c6192634053e86ec45c70f49dbf5a13fd02f67d5a1570887",
+      "bytes": 3684054,
+      "durationSeconds": 153.692494,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 6777839,
+        "decodedDurationSeconds": 153.692494,
+        "decodedPeakDbfs": -1.618,
+        "decodedRmsDbfs": -21.598,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 0.991,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t2-listening-005",
+          "startSeconds": 0.32,
+          "endSeconds": 16.74,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-006",
+          "startSeconds": 17.54,
+          "endSeconds": 46.86,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-007",
+          "startSeconds": 78.5,
+          "endSeconds": 96.36,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-008",
+          "startSeconds": 119.32,
+          "endSeconds": 148.62,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        103,
+        104
+      ]
+    },
+    {
+      "id": "c21-t2-walks",
+      "sourceFilename": "C21T2P2.1.mp3",
+      "requestedSourceStartSeconds": 45.7,
+      "requestedSourceEndSeconds": 158.1,
+      "sourcePdfPage": 104,
+      "sourcePrintedPage": 103,
+      "title": "Two local walking routes",
+      "type": "monologue",
+      "topic": "travel",
+      "src": "listening-bank/c21-t2-walks.mp3",
+      "sha256": "bc38b31dcb8f6739958a0bcd8b9e02d277761cd22589196622a8c04f526dc96e",
+      "sourceSha256": "63b2b10f9ae8af66fbf9607f0b3b1fb6dcc45bb047b0c2da685f43ba997b336c",
+      "bytes": 2699015,
+      "durationSeconds": 112.419025,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 4957679,
+        "decodedDurationSeconds": 112.419025,
+        "decodedPeakDbfs": -1.811,
+        "decodedRmsDbfs": -21.938,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 1.05,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t2-listening-009",
+          "startSeconds": 13.8,
+          "endSeconds": 21.78,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-010",
+          "startSeconds": 35.36,
+          "endSeconds": 59.56,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-011",
+          "startSeconds": 66.3,
+          "endSeconds": 93.02,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-012",
+          "startSeconds": 93.28,
+          "endSeconds": 111.96,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        104
+      ]
+    },
+    {
+      "id": "c21-t2-mine",
+      "sourceFilename": "C21T2P2.2.mp3",
+      "requestedSourceStartSeconds": 8.9,
+      "requestedSourceEndSeconds": 129.1,
+      "sourcePdfPage": 104,
+      "sourcePrintedPage": 103,
+      "title": "Visiting a former coal mine",
+      "type": "monologue",
+      "topic": "travel",
+      "src": "listening-bank/c21-t2-mine.mp3",
+      "sha256": "30ea9365897a347dd54aacc8aca2de8453dcafd4f70e6197bea64fb8bdbc84f3",
+      "sourceSha256": "f9b1341b39e8b525ac6925321f21379a651f6f08bf5da0e13536190e5353a071",
+      "bytes": 2886469,
+      "durationSeconds": 120.229637,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 5302127,
+        "decodedDurationSeconds": 120.229637,
+        "decodedPeakDbfs": -1.665,
+        "decodedRmsDbfs": -21.294,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 1.22,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t2-listening-013",
+          "startSeconds": 14.9,
+          "endSeconds": 38.22,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-014",
+          "startSeconds": 39.36,
+          "endSeconds": 55.1,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-015",
+          "startSeconds": 56.42,
+          "endSeconds": 73.5,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-016",
+          "startSeconds": 100.7,
+          "endSeconds": 119.76,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        104,
+        105
+      ]
+    },
+    {
+      "id": "c21-t2-food-course",
+      "sourceFilename": "C21T2P3.1.mp3",
+      "requestedSourceStartSeconds": 55.3,
+      "requestedSourceEndSeconds": 257.9,
+      "sourcePdfPage": 105,
+      "sourcePrintedPage": 104,
+      "title": "Giving feedback on a food science course",
+      "type": "discussion",
+      "topic": "study",
+      "src": "listening-bank/c21-t2-food-course.mp3",
+      "sha256": "455f12654782ffe61c2cc786042d50a27369ff1dabcb4ee5d15f8125c0762223",
+      "sourceSha256": "5eb3d2648ea0075fcf3199b879c4b51ef359536413b5de2eaf8ac2634063eb7f",
+      "bytes": 4863834,
+      "durationSeconds": 202.619841,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 8935535,
+        "decodedDurationSeconds": 202.619841,
+        "decodedPeakDbfs": -1.733,
+        "decodedRmsDbfs": -22.189,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 0.953,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t2-listening-017",
+          "startSeconds": 21,
+          "endSeconds": 52.42,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-018",
+          "startSeconds": 52.42,
+          "endSeconds": 74.1,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-019",
+          "startSeconds": 103.06,
+          "endSeconds": 131.9,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-020",
+          "startSeconds": 182.28,
+          "endSeconds": 202.14,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        105,
+        106
+      ]
+    },
+    {
+      "id": "c21-t2-food-project",
+      "sourceFilename": "C21T2P3.2.mp3",
+      "requestedSourceStartSeconds": 9.5,
+      "requestedSourceEndSeconds": 117.5,
+      "sourcePdfPage": 106,
+      "sourcePrintedPage": 105,
+      "title": "Developing a new snack",
+      "type": "discussion",
+      "topic": "study",
+      "src": "listening-bank/c21-t2-food-project.mp3",
+      "sha256": "df65d00ad2cda5c98e790614ffe52bfa0d65754c25d76cdf12305478aca591c0",
+      "sourceSha256": "5dddc05f05f86175efbae3fb26f2944019d699f564dfd0e2b00933ba16599880",
+      "bytes": 2593689,
+      "durationSeconds": 108.030454,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 4764143,
+        "decodedDurationSeconds": 108.030454,
+        "decodedPeakDbfs": -2,
+        "decodedRmsDbfs": -22.295,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 0.942,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t2-listening-021",
+          "startSeconds": 9.73,
+          "endSeconds": 32.29,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-022",
+          "startSeconds": 32.61,
+          "endSeconds": 45.93,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-023",
+          "startSeconds": 76.29,
+          "endSeconds": 103.77,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        106
+      ]
+    },
+    {
+      "id": "c21-t2-cruise-problems",
+      "sourceFilename": "C21T2P4.mp3",
+      "requestedSourceStartSeconds": 74,
+      "requestedSourceEndSeconds": 248.5,
+      "sourcePdfPage": 107,
+      "sourcePrintedPage": 106,
+      "title": "Pressures on cruise destinations and operators",
+      "type": "academic_monologue",
+      "topic": "tourism",
+      "src": "listening-bank/c21-t2-cruise-problems.mp3",
+      "sha256": "8f673bfd68e1d62cfcb78b9a4ad8fe46766862ee67968f532f764b9aca7f9637",
+      "sourceSha256": "98fb6ccffc0e05c2b0fab1aef80254aca92f4ffa0705954076cef1880137fb44",
+      "bytes": 4182976,
+      "durationSeconds": 174.512086,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 7695983,
+        "decodedDurationSeconds": 174.512086,
+        "decodedPeakDbfs": -2.566,
+        "decodedRmsDbfs": -23.384,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 5.249,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t2-listening-024",
+          "startSeconds": 30.21,
+          "endSeconds": 56.21,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-025",
+          "startSeconds": 56.21,
+          "endSeconds": 73.4,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-026",
+          "startSeconds": 101,
+          "endSeconds": 125.3,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-027",
+          "startSeconds": 142.49,
+          "endSeconds": 174.11,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        107
+      ]
+    },
+    {
+      "id": "c21-t2-cruise-changes",
+      "sourceFilename": "C21T2P4.mp3",
+      "requestedSourceStartSeconds": 248.95,
+      "requestedSourceEndSeconds": 369.4,
+      "sourcePdfPage": 107,
+      "sourcePrintedPage": 106,
+      "title": "Cruise companies adapt to younger customers",
+      "type": "academic_monologue",
+      "topic": "tourism",
+      "src": "listening-bank/c21-t2-cruise-changes.mp3",
+      "sha256": "9f756160904f9f32e8a48506c97c7c97e5bbde22ae2cc740b64d8bb0141e4413",
+      "sourceSha256": "98fb6ccffc0e05c2b0fab1aef80254aca92f4ffa0705954076cef1880137fb44",
+      "bytes": 2887782,
+      "durationSeconds": 120.464739,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 5312495,
+        "decodedDurationSeconds": 120.464739,
+        "decodedPeakDbfs": -3.31,
+        "decodedRmsDbfs": -23.383,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 1.872,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t2-listening-028",
+          "startSeconds": 5.36,
+          "endSeconds": 21.98,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-029",
+          "startSeconds": 71.05,
+          "endSeconds": 92.55,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t2-listening-030",
+          "startSeconds": 92.55,
+          "endSeconds": 120,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        107,
+        108
+      ]
+    },
+    {
+      "id": "c21-t3-ferry-planning",
+      "sourceFilename": "C21T3P1.mp3",
+      "requestedSourceStartSeconds": 91.9,
+      "requestedSourceEndSeconds": 191.3,
+      "sourcePdfPage": 108,
+      "sourcePrintedPage": 107,
+      "title": "Planning an island ferry trip",
+      "type": "dialogue",
+      "topic": "travel",
+      "src": "listening-bank/c21-t3-ferry-planning.mp3",
+      "sha256": "7748c381d7eed7255686710b94518628eac67cc2365b026e23fa431c6379ab7c",
+      "sourceSha256": "416f786615d82791775e771123a378883ccfb039802f83e00f72d661487a5a79",
+      "bytes": 2383226,
+      "durationSeconds": 99.410045,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 4383983,
+        "decodedDurationSeconds": 99.410045,
+        "decodedPeakDbfs": -2.058,
+        "decodedRmsDbfs": -19.462,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 0.896,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t3-listening-001",
+          "startSeconds": 0.36,
+          "endSeconds": 13.52,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-002",
+          "startSeconds": 21.94,
+          "endSeconds": 40.8,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-003",
+          "startSeconds": 48.72,
+          "endSeconds": 72.7,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-004",
+          "startSeconds": 73.82,
+          "endSeconds": 99,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        108
+      ]
+    },
+    {
+      "id": "c21-t3-ferry-practical",
+      "sourceFilename": "C21T3P1.mp3",
+      "requestedSourceStartSeconds": 248.4,
+      "requestedSourceEndSeconds": 363.3,
+      "sourcePdfPage": 108,
+      "sourcePrintedPage": 107,
+      "title": "Practical advice for a family ferry trip",
+      "type": "dialogue",
+      "topic": "travel",
+      "src": "listening-bank/c21-t3-ferry-practical.mp3",
+      "sha256": "c95befcd641e71a314de57d41f501f8bbc5c1c3c8fd874646b3e156b53cbd2c8",
+      "sourceSha256": "416f786615d82791775e771123a378883ccfb039802f83e00f72d661487a5a79",
+      "bytes": 2754444,
+      "durationSeconds": 114.900658,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 5067119,
+        "decodedDurationSeconds": 114.900658,
+        "decodedPeakDbfs": -2.361,
+        "decodedRmsDbfs": -19.807,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 0.823,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t3-listening-005",
+          "startSeconds": 0.34,
+          "endSeconds": 23.4,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-006",
+          "startSeconds": 25.68,
+          "endSeconds": 42.9,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-007",
+          "startSeconds": 42.9,
+          "endSeconds": 57,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-008",
+          "startSeconds": 71.6,
+          "endSeconds": 114.52,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        108,
+        109
+      ]
+    },
+    {
+      "id": "c21-t3-street-food-start",
+      "sourceFilename": "C21T3P2.1.mp3",
+      "requestedSourceStartSeconds": 43.5,
+      "requestedSourceEndSeconds": 164.6,
+      "sourcePdfPage": 109,
+      "sourcePrintedPage": 108,
+      "title": "Choosing where to sell street food",
+      "type": "monologue",
+      "topic": "business",
+      "src": "listening-bank/c21-t3-street-food-start.mp3",
+      "sha256": "7e887386b62c0e5387a13c9d1ffae9c82a09c9899ad89470b1d60eb979c0210a",
+      "sourceSha256": "684c9ad297e3e4dce54950cea583fbd5851a6e831836a89d8ede281f591069b5",
+      "bytes": 2907785,
+      "durationSeconds": 121.1178,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 5341295,
+        "decodedDurationSeconds": 121.1178,
+        "decodedPeakDbfs": -1.362,
+        "decodedRmsDbfs": -20.709,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 1.515,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t3-listening-009",
+          "startSeconds": 31.52,
+          "endSeconds": 71.44,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-010",
+          "startSeconds": 72.96,
+          "endSeconds": 88.7,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-011",
+          "startSeconds": 86.5,
+          "endSeconds": 106.38,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-012",
+          "startSeconds": 106.38,
+          "endSeconds": 120.64,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        109
+      ]
+    },
+    {
+      "id": "c21-t3-street-food-problems",
+      "sourceFilename": "C21T3P2.2.mp3",
+      "requestedSourceStartSeconds": 10.6,
+      "requestedSourceEndSeconds": 162.6,
+      "sourcePdfPage": 109,
+      "sourcePrintedPage": 108,
+      "title": "Lessons from street food businesses",
+      "type": "monologue",
+      "topic": "business",
+      "src": "listening-bank/c21-t3-street-food-problems.mp3",
+      "sha256": "cc40d2023265a3a90ba38f8ff1c65ba6e7763d971ede45cd213c172b4a7bb409",
+      "sourceSha256": "b90c5fd1f8e4bcdf169de77fa4ed9dca1dadff2167342241d13fbb71eec52245",
+      "bytes": 3649453,
+      "durationSeconds": 152.020658,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 6704111,
+        "decodedDurationSeconds": 152.020658,
+        "decodedPeakDbfs": -2.943,
+        "decodedRmsDbfs": -20.998,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 1.901,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t3-listening-013",
+          "startSeconds": 0.34,
+          "endSeconds": 22.54,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-014",
+          "startSeconds": 37.56,
+          "endSeconds": 57.26,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-015",
+          "startSeconds": 89.3,
+          "endSeconds": 106.26,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-016",
+          "startSeconds": 106.98,
+          "endSeconds": 151.66,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        109,
+        110
+      ]
+    },
+    {
+      "id": "c21-t3-fashion-values",
+      "sourceFilename": "C21T3P3.1.mp3",
+      "requestedSourceStartSeconds": 45.5,
+      "requestedSourceEndSeconds": 157.45,
+      "sourcePdfPage": 110,
+      "sourcePrintedPage": 109,
+      "title": "Evaluating fashion claims",
+      "type": "dialogue",
+      "topic": "environment",
+      "src": "listening-bank/c21-t3-fashion-values.mp3",
+      "sha256": "ae3c1c0f4a6cba1cc4ed7565a631f4d401cba65f953a4baef88d9586ab56ca6e",
+      "sourceSha256": "b8921207fb23d04c7d61a84083ea3ff4c3b716b1422fcc41d207f10fd4c8f305",
+      "bytes": 2688356,
+      "durationSeconds": 111.974943,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 4938095,
+        "decodedDurationSeconds": 111.974943,
+        "decodedPeakDbfs": -2.822,
+        "decodedRmsDbfs": -20.87,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 0.858,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t3-listening-017",
+          "startSeconds": 15.66,
+          "endSeconds": 35.84,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-018",
+          "startSeconds": 35.84,
+          "endSeconds": 57.8,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-019",
+          "startSeconds": 73.9,
+          "endSeconds": 92.8,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-020",
+          "startSeconds": 99.6,
+          "endSeconds": 111.52,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        110
+      ]
+    },
+    {
+      "id": "c21-t3-fashion-fabrics",
+      "sourceFilename": "C21T3P3.2.mp3",
+      "requestedSourceStartSeconds": 11.4,
+      "requestedSourceEndSeconds": 153.45,
+      "sourcePdfPage": 111,
+      "sourcePrintedPage": 110,
+      "title": "Comparing fabric production methods",
+      "type": "dialogue",
+      "topic": "environment",
+      "src": "listening-bank/c21-t3-fashion-fabrics.mp3",
+      "sha256": "b31a835289e9d1ed1b7e565b192843103a9b82c267205c98d2e68643d0911c9f",
+      "sourceSha256": "cb57a6829e51b746747370a10b4ee52d5f67e85c7c1abed94ea1e622e61fc944",
+      "bytes": 3410590,
+      "durationSeconds": 142.068005,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 6265199,
+        "decodedDurationSeconds": 142.068005,
+        "decodedPeakDbfs": -2.911,
+        "decodedRmsDbfs": -21.072,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 0.838,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t3-listening-021",
+          "startSeconds": 6.23,
+          "endSeconds": 24.95,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-022",
+          "startSeconds": 25.49,
+          "endSeconds": 52.89,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-023",
+          "startSeconds": 72.91,
+          "endSeconds": 90.71,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-024",
+          "startSeconds": 120.51,
+          "endSeconds": 141.65,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        111
+      ]
+    },
+    {
+      "id": "c21-t3-invasive-causes",
+      "sourceFilename": "C21T3P4.mp3",
+      "requestedSourceStartSeconds": 73.5,
+      "requestedSourceEndSeconds": 216.3,
+      "sourcePdfPage": 111,
+      "sourcePrintedPage": 110,
+      "title": "How invasive species cause problems and spread",
+      "type": "academic_monologue",
+      "topic": "ecology",
+      "src": "listening-bank/c21-t3-invasive-causes.mp3",
+      "sha256": "a7d5a13a1e949f154da10ba2188fd697f3276420bb164f6951368881ed74d2c6",
+      "sourceSha256": "3c2ca30363eecec365d2a182848418133ab5c81978210af94200a859cc213585",
+      "bytes": 3423638,
+      "durationSeconds": 142.825556,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 6298607,
+        "decodedDurationSeconds": 142.825556,
+        "decodedPeakDbfs": -2.889,
+        "decodedRmsDbfs": -21.436,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 1.864,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t3-listening-025",
+          "startSeconds": 4.69,
+          "endSeconds": 35.6,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-026",
+          "startSeconds": 49.17,
+          "endSeconds": 79.01,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-027",
+          "startSeconds": 89.65,
+          "endSeconds": 142.41,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        111,
+        112
+      ]
+    },
+    {
+      "id": "c21-t3-invasive-control",
+      "sourceFilename": "C21T3P4.mp3",
+      "requestedSourceStartSeconds": 290.25,
+      "requestedSourceEndSeconds": 471.7,
+      "sourcePdfPage": 112,
+      "sourcePrintedPage": 111,
+      "title": "Invasive species in the UK and monitoring",
+      "type": "academic_monologue",
+      "topic": "ecology",
+      "src": "listening-bank/c21-t3-invasive-control.mp3",
+      "sha256": "475b0718a495a5c0538c2050196c594af2708afed1d6aa8dcba24db8bd8c5092",
+      "sourceSha256": "3c2ca30363eecec365d2a182848418133ab5c81978210af94200a859cc213585",
+      "bytes": 4349492,
+      "durationSeconds": 181.460658,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 8002415,
+        "decodedDurationSeconds": 181.460658,
+        "decodedPeakDbfs": -1.317,
+        "decodedRmsDbfs": -20.799,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 1.75,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t3-listening-028",
+          "startSeconds": 15.04,
+          "endSeconds": 63.36,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-029",
+          "startSeconds": 88.22,
+          "endSeconds": 114.28,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t3-listening-030",
+          "startSeconds": 120.32,
+          "endSeconds": 181.04,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        112
+      ]
+    },
+    {
+      "id": "c21-t4-shopping-errands",
+      "sourceFilename": "C21T4P1.mp3",
+      "requestedSourceStartSeconds": 101,
+      "requestedSourceEndSeconds": 217.1,
+      "sourcePdfPage": 113,
+      "sourcePrintedPage": 112,
+      "title": "A shopper describes his visit to town",
+      "type": "dialogue",
+      "topic": "daily-life",
+      "src": "listening-bank/c21-t4-shopping-errands.mp3",
+      "sha256": "3202d9830933d518b8fb83f91e80d80b5cd2115d966de4139e29ef54610f255a",
+      "sourceSha256": "b68d69b421351d881516ba6c4ddc2f6938a3d58864b7bcdb8593ef416cad250f",
+      "bytes": 2783240,
+      "durationSeconds": 116.10229,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 5120111,
+        "decodedDurationSeconds": 116.10229,
+        "decodedPeakDbfs": -1.496,
+        "decodedRmsDbfs": -19.913,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 0.751,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t4-listening-001",
+          "startSeconds": 25.02,
+          "endSeconds": 45.08,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t4-listening-002",
+          "startSeconds": 45.48,
+          "endSeconds": 57.02,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t4-listening-003",
+          "startSeconds": 100.94,
+          "endSeconds": 115.7,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        113
+      ]
+    },
+    {
+      "id": "c21-t4-shopping-opinions",
+      "sourceFilename": "C21T4P1.mp3",
+      "requestedSourceStartSeconds": 264.9,
+      "requestedSourceEndSeconds": 357.45,
+      "sourcePdfPage": 113,
+      "sourcePrintedPage": 112,
+      "title": "Views on local shopping facilities",
+      "type": "dialogue",
+      "topic": "daily-life",
+      "src": "listening-bank/c21-t4-shopping-opinions.mp3",
+      "sha256": "d7e255379c9712224ce39fff56a5279ea5d6ab015d917686100264371ff47973",
+      "sourceSha256": "b68d69b421351d881516ba6c4ddc2f6938a3d58864b7bcdb8593ef416cad250f",
+      "bytes": 2219214,
+      "durationSeconds": 92.565964,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 4082159,
+        "decodedDurationSeconds": 92.565964,
+        "decodedPeakDbfs": -2.184,
+        "decodedRmsDbfs": -20.389,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 1.053,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t4-listening-004",
+          "startSeconds": 7.44,
+          "endSeconds": 25.5,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t4-listening-005",
+          "startSeconds": 32.6,
+          "endSeconds": 54.6,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t4-listening-006",
+          "startSeconds": 63.34,
+          "endSeconds": 76.6,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t4-listening-007",
+          "startSeconds": 79.88,
+          "endSeconds": 89.02,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        113,
+        114
+      ]
+    },
+    {
+      "id": "c21-t4-exhibition-benefits",
+      "sourceFilename": "C21T4P2.1.mp3",
+      "requestedSourceStartSeconds": 42.7,
+      "requestedSourceEndSeconds": 171.3,
+      "sourcePdfPage": 114,
+      "sourcePrintedPage": 113,
+      "title": "An exhibitor’s experience and benefits",
+      "type": "monologue",
+      "topic": "business",
+      "src": "listening-bank/c21-t4-exhibition-benefits.mp3",
+      "sha256": "5e1a334c7d9cd287d839f94aa038ea898a10069957b1d233a6fc1d1f398b01cc",
+      "sourceSha256": "7d74e442ac5c38cc4844c85b54420d855d41e11f3a8aa14986e86f035deb7d7e",
+      "bytes": 3087716,
+      "durationSeconds": 128.614943,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 5671919,
+        "decodedDurationSeconds": 128.614943,
+        "decodedPeakDbfs": -2.413,
+        "decodedRmsDbfs": -21.507,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 1.82,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t4-listening-008",
+          "startSeconds": 29.16,
+          "endSeconds": 47.64,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t4-listening-009",
+          "startSeconds": 48.64,
+          "endSeconds": 76.38,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t4-listening-010",
+          "startSeconds": 91.64,
+          "endSeconds": 128.16,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        114
+      ]
+    },
+    {
+      "id": "c21-t4-exhibition-speakers",
+      "sourceFilename": "C21T4P2.2.mp3",
+      "requestedSourceStartSeconds": 9.2,
+      "requestedSourceEndSeconds": 179.5,
+      "sourcePdfPage": 114,
+      "sourcePrintedPage": 113,
+      "title": "Choosing a business exhibition talk",
+      "type": "monologue",
+      "topic": "business",
+      "src": "listening-bank/c21-t4-exhibition-speakers.mp3",
+      "sha256": "b34dc4d28b6fff20dd47eed4f29cb46d6d2b16d0a95661ff2b02ed6041f32b62",
+      "sourceSha256": "04a9091b8482281eec84d230f7cc8b734508c813c9e66f65f1d0918af4ab5ad9",
+      "bytes": 4088311,
+      "durationSeconds": 170.306372,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 7510511,
+        "decodedDurationSeconds": 170.306372,
+        "decodedPeakDbfs": -1.551,
+        "decodedRmsDbfs": -21.31,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 2.233,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t4-listening-011",
+          "startSeconds": 6.35,
+          "endSeconds": 29.69,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t4-listening-012",
+          "startSeconds": 60.81,
+          "endSeconds": 93.85,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t4-listening-013",
+          "startSeconds": 95.09,
+          "endSeconds": 121.89,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t4-listening-014",
+          "startSeconds": 144.26,
+          "endSeconds": 169.92,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        114,
+        115
+      ]
+    },
+    {
+      "id": "c21-t4-future-housing",
+      "sourceFilename": "C21T4P3.1.mp3",
+      "requestedSourceStartSeconds": 49.9,
+      "requestedSourceEndSeconds": 145.2,
+      "sourcePdfPage": 115,
+      "sourcePrintedPage": 114,
+      "title": "Planning a housing presentation",
+      "type": "dialogue",
+      "topic": "study",
+      "src": "listening-bank/c21-t4-future-housing.mp3",
+      "sha256": "9ef836a9c15040e353cdaa8c2978036613c0dbc0c61b333594ac267efdbf86c4",
+      "sourceSha256": "ef73054aa6ee9336dc916ec15815c8d8aa07bec45fbca1ae436b51b87208a68d",
+      "bytes": 2288369,
+      "durationSeconds": 95.308821,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 4203119,
+        "decodedDurationSeconds": 95.308821,
+        "decodedPeakDbfs": -2.449,
+        "decodedRmsDbfs": -22.609,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 0.794,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t4-listening-015",
+          "startSeconds": 5.72,
+          "endSeconds": 25.16,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t4-listening-016",
+          "startSeconds": 39.92,
+          "endSeconds": 65.9,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t4-listening-017",
+          "startSeconds": 65.9,
+          "endSeconds": 94.84,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        115
+      ]
+    },
+    {
+      "id": "c21-t4-housing-features",
+      "sourceFilename": "C21T4P3.2.mp3",
+      "requestedSourceStartSeconds": 9.1,
+      "requestedSourceEndSeconds": 157.8,
+      "sourcePdfPage": 115,
+      "sourcePrintedPage": 114,
+      "title": "Evaluating future housing features",
+      "type": "dialogue",
+      "topic": "design",
+      "src": "listening-bank/c21-t4-housing-features.mp3",
+      "sha256": "9cb0e3d797ef43f16207cfbb3ed2a5b1205a76fa5cd84c88c67c2181590a5f88",
+      "sourceSha256": "ab7cda9a1954767be49c67b92b03b7c56c7b967d28b8ddbc89feae6f490735fd",
+      "bytes": 3569833,
+      "durationSeconds": 148.703107,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 6557807,
+        "decodedDurationSeconds": 148.703107,
+        "decodedPeakDbfs": -2.785,
+        "decodedRmsDbfs": -22.561,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 0.799,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t4-listening-018",
+          "startSeconds": 26.06,
+          "endSeconds": 49.66,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t4-listening-019",
+          "startSeconds": 49.66,
+          "endSeconds": 74.76,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t4-listening-020",
+          "startSeconds": 74.86,
+          "endSeconds": 93.64,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t4-listening-021",
+          "startSeconds": 113.16,
+          "endSeconds": 131.2,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        115,
+        116
+      ]
+    },
+    {
+      "id": "c21-t4-music-recovery",
+      "sourceFilename": "C21T4P4.mp3",
+      "requestedSourceStartSeconds": 75.1,
+      "requestedSourceEndSeconds": 231.3,
+      "sourcePdfPage": 116,
+      "sourcePrintedPage": 115,
+      "title": "A review of music in surgical recovery",
+      "type": "academic_monologue",
+      "topic": "research",
+      "src": "listening-bank/c21-t4-music-recovery.mp3",
+      "sha256": "7486bbc00dcc4030a6c4a1f33d94e5374454f64ffa504c8c404d3004830ea60b",
+      "sourceSha256": "2c3077e251447dfa6a8bd8b3b79f9872f41780b7773dfcb77e9164a2f10078bc",
+      "bytes": 3744776,
+      "durationSeconds": 156.226372,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 6889583,
+        "decodedDurationSeconds": 156.226372,
+        "decodedPeakDbfs": -2.911,
+        "decodedRmsDbfs": -23.647,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 1.795,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t4-listening-022",
+          "startSeconds": 19.85,
+          "endSeconds": 67.8,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t4-listening-023",
+          "startSeconds": 67.9,
+          "endSeconds": 105.7,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t4-listening-024",
+          "startSeconds": 109.39,
+          "endSeconds": 141.89,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        116,
+        117
+      ]
+    },
+    {
+      "id": "c21-t4-music-evidence",
+      "sourceFilename": "C21T4P4.mp3",
+      "requestedSourceStartSeconds": 235.7,
+      "requestedSourceEndSeconds": 356.45,
+      "sourcePdfPage": 117,
+      "sourcePrintedPage": 116,
+      "title": "Interpreting music research findings",
+      "type": "academic_monologue",
+      "topic": "research",
+      "src": "listening-bank/c21-t4-music-evidence.mp3",
+      "sha256": "a19f6296062a7dab7a78ad70d0698c6a1dc0eb8dabf9b97cf685a7883ee99f32",
+      "sourceSha256": "2c3077e251447dfa6a8bd8b3b79f9872f41780b7773dfcb77e9164a2f10078bc",
+      "bytes": 2895294,
+      "durationSeconds": 120.778209,
+      "measurements": {
+        "codec": "mp3 (mp3float)",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "decodedFrames": 5326319,
+        "decodedDurationSeconds": 120.778209,
+        "decodedPeakDbfs": -5.318,
+        "decodedRmsDbfs": -24.135,
+        "decodedFullScaleSampleCount": 0,
+        "longestDetectedSilenceSeconds": 1.375,
+        "decodeSucceeded": true
+      },
+      "processing": "MP3 audio packet copy; no re-encoding, synthesis, speed or pitch changes.",
+      "verification": {
+        "automaticAlignment": "local_word_times_compared_with_supplied_transcript",
+        "humanPerceptualReview": "not_performed",
+        "browserDecode": "pending"
+      },
+      "answerEvidence": [
+        {
+          "itemId": "large-c21-t4-listening-025",
+          "startSeconds": 0.42,
+          "endSeconds": 33.5,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t4-listening-026",
+          "startSeconds": 33.5,
+          "endSeconds": 52.8,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t4-listening-027",
+          "startSeconds": 52.8,
+          "endSeconds": 78.7,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        },
+        {
+          "itemId": "large-c21-t4-listening-028",
+          "startSeconds": 78.7,
+          "endSeconds": 120.37,
+          "status": "approximate_automatic_alignment_checked_against_supplied_transcript"
+        }
+      ],
+      "sourcePdfPages": [
+        117
+      ]
+    }
+  ]
+}
